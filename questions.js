@@ -1969,5 +1969,135 @@ const QUESTIONS = [
     "part": "C",
     "cat": "Indian Polity & Governance",
     "q": "Critically examine the state of urban governance in India. Has the 74th Constitutional Amendment fulfilled its promise of decentralized, democratic urban self-governance? What structural reforms are needed? (600–800 words)"
+  },
+  {
+    "id": 166,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "A key limitation of the Hyogo Framework for Action (HFA) 2005–2015 that the Sendai Framework sought to address was:",
+    "opts": [
+      "Its failure to include developing countries in DRR planning",
+      "Its exclusive focus on rapid-onset natural hazards",
+      "The absence of measurable targets and a clear accountability mechanism for tracking progress",
+      "Its over-reliance on military structures for disaster response"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 167,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Under India's Disaster Management Act, 2005, which body is responsible for laying down policies, plans and guidelines for disaster management at the national level?",
+    "opts": [
+      "State Disaster Management Authorities (SDMAs)",
+      "National Institute of Disaster Management (NIDM)",
+      "National Disaster Response Force (NDRF)",
+      "National Disaster Management Authority (NDMA)"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 168,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "In disaster risk science, which formulation best captures the relationship between hazard, vulnerability, exposure, and coping capacity?",
+    "opts": [
+      "Risk = Hazard + Exposure − Vulnerability",
+      "Risk = Hazard × Vulnerability × Exposure / Coping Capacity",
+      "Risk = (Hazard + Vulnerability) / Exposure",
+      "Risk = Hazard × Coping Capacity / (Vulnerability × Exposure)"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 169,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "The 'Build Back Better' principle in disaster recovery refers to:",
+    "opts": [
+      "Restoring infrastructure to its exact pre-disaster condition as quickly as possible",
+      "Prioritising donor preferences over community needs in reconstruction",
+      "Using post-disaster reconstruction as an opportunity to reduce future risk and improve resilience",
+      "Permanently relocating all affected populations away from hazard zones"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 170,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "In UNFCCC negotiations, 'Loss and Damage' refers primarily to:",
+    "opts": [
+      "Compensation claims managed under the Warsaw International Mechanism",
+      "Residual negative impacts of climate change that exceed the limits of adaptation",
+      "Legal liability of high-emitting nations for climate-induced disasters",
+      "The economic cost of transitioning away from fossil fuels"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 171,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "The Sendai Framework for Disaster Risk Reduction 2015–2030 identifies four priority areas for action. Which option correctly lists all four?",
+    "opts": [
+      "Prevention, preparedness, response, and recovery",
+      "Understanding disaster risk; strengthening disaster risk governance; investing in DRR for resilience; enhancing disaster preparedness for effective response and to Build Back Better",
+      "Hazard mapping, early warning systems, community training, and insurance",
+      "Climate adaptation, biodiversity conservation, financial risk transfer, and governance reform"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 172,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "According to the United Nations framework, a people-centred early warning system requires four key elements. Which option correctly identifies them?",
+    "opts": [
+      "Risk knowledge, monitoring and warning services, dissemination and communication, and response capability",
+      "Satellite technology, ground sensors, community radio, and evacuation routes",
+      "Government mandates, international funding, scientific research, and public awareness campaigns",
+      "Insurance mechanisms, relocation plans, backup power systems, and trained volunteers"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 173,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "In disaster risk reduction, 'vulnerability' is best defined as:",
+    "opts": [
+      "The probability of a hazardous event occurring in a given area within a specified period",
+      "The number of people directly exposed to a natural hazard in a region",
+      "Conditions determined by physical, social, economic, and environmental factors that increase a community's susceptibility to disaster impacts",
+      "The financial loss caused by a disaster event as a proportion of GDP"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 174,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Which of the following best describes India's evolving policy approach to heat wave risk management?",
+    "opts": [
+      "Heat waves remain excluded from India's State Disaster Response Fund (SDRF) norms",
+      "India has included heat waves as a state-specific disaster eligible for SDRF assistance and several states have developed Heat Action Plans",
+      "Heat wave management in India is handled exclusively by the India Meteorological Department without state-level involvement",
+      "India has banned outdoor work in summer months but has no formal heat action planning framework"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 175,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "The Sendai Framework's priority on 'Strengthening Disaster Risk Governance' primarily involves:",
+    "opts": [
+      "Transferring all DRR responsibilities from national governments to local bodies exclusively",
+      "Establishing military command structures to coordinate disaster response",
+      "Mainstreaming DRR into sectoral and cross-sectoral policies, plans and programmes with clear institutional roles and responsibilities",
+      "Creating a single global disaster management agency under the United Nations"
+    ],
+    "ans": 2
   }
 ];

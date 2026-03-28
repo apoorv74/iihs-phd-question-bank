@@ -1,3 +1,3 @@
 
 
-![UI](assets/ui-demo.png)
+![UI](assets/img/ui-demo.png)

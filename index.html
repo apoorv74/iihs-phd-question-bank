@@ -5,298 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IIHS PhD Admission - Practice Question Bank</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg:           #f6f4f0;
-    --sidebar-bg:   #edeae4;
-    --surface:      #ffffff;
-    --border:       #e0dbd3;
-    --accent:       #7a9e8a;
-    --accent-light: #d6eadd;
-    --text:         #2a2826;
-    --muted:        #8c857c;
-    --correct:      #6a9e78;
-    --wrong:        #c47878;
-    --tag-env:      #daeedd;
-    --tag-env-c:    #2d6e3e;
-    --tag-clim:     #d6e8f5;
-    --tag-clim-c:   #2a5c80;
-    --tag-urb:      #e8d9f5;
-    --tag-urb-c:    #5e3a80;
-    --tag-dev:      #f5e8d0;
-    --tag-dev-c:    #7a5010;
-    --tag-res:      #f5d9ee;
-    --tag-res-c:    #7a2a60;
-    --tag-pol:      #d4f0ee;
-    --tag-pol-c:    #1e6060;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.6; }
-
-  /* HEADER */
-  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
-  .header-inner { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
-  header h1 { font-size: 1.25rem; font-weight: 600; color: var(--text); }
-  header p { color: var(--muted); font-size: 0.82rem; }
-
-  /* APP LAYOUT */
-  .app-layout { display: grid; grid-template-columns: 230px 1fr; min-height: calc(100vh - 57px); }
-
-  /* SIDEBAR */
-  aside {
-    background: var(--sidebar-bg);
-    border-right: 1px solid var(--border);
-    padding: 1.25rem 1rem;
-    position: sticky;
-    top: 0;
-    height: calc(100vh - 57px);
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .sidebar-section-label {
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 0.6rem;
-  }
-
-  /* QUIZ BOX IN SIDEBAR */
-  .quiz-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; }
-  .quiz-box-title { font-weight: 500; font-size: 0.88rem; color: var(--text); margin-bottom: 0.25rem; }
-  .quiz-box-sub { font-size: 0.76rem; color: var(--muted); margin-bottom: 0.8rem; }
-
-  /* FORM ELEMENTS */
-  select, input, .btn { font-family: 'DM Sans', sans-serif; }
-  select {
-    width: 100%;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 7px;
-    color: var(--text);
-    padding: 0.45rem 0.7rem;
-    font-size: 0.83rem;
-    cursor: pointer;
-    outline: none;
-    margin-bottom: 0.6rem;
-  }
-  select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-  input[type="search"] {
-    width: 100%;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--text);
-    padding: 0.55rem 0.9rem;
-    font-size: 0.85rem;
-    outline: none;
-  }
-  input[type="search"]::placeholder { color: var(--muted); }
-  input[type="search"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-  .btn {
-    padding: 0.55rem 1.3rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 0.85rem;
-    font-weight: 500;
-    transition: filter 0.15s, background 0.15s;
-  }
-  .btn:hover { filter: brightness(0.94); }
-  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .btn-primary { background: var(--accent); color: #fff; width: 100%; }
-  .btn-secondary { background: var(--border); color: var(--text); border: 1px solid var(--border); }
-
-  /* PART FILTER PILLS */
-  .pill-group { display: flex; flex-direction: column; gap: 0.35rem; }
-  .pill {
-    background: transparent;
-    border: 1.5px solid var(--border);
-    border-radius: 7px;
-    padding: 0.4rem 0.8rem;
-    font-size: 0.82rem;
-    font-family: 'DM Sans', sans-serif;
-    color: var(--muted);
-    cursor: pointer;
-    text-align: left;
-    transition: all 0.15s;
-  }
-  .pill:hover { border-color: var(--accent); color: var(--text); }
-  .pill.active { background: var(--accent-light); border-color: var(--accent); color: var(--text); font-weight: 500; }
-  .pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-  /* MAIN CONTENT */
-  main { padding: 1.5rem; overflow-y: auto; }
-  .count-label { color: var(--muted); font-size: 0.78rem; margin-bottom: 1rem; }
-
-  /* MOBILE FILTER TOGGLE */
-  .filter-toggle-btn {
-    display: none;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.85rem;
-    color: var(--text);
-    cursor: pointer;
-    margin-bottom: 1rem;
-  }
-  .filter-toggle-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-  /* CATEGORY TAG COLORS */
-  .tag { display: inline-block; font-size: 0.65rem; font-weight: 500; border-radius: 4px; padding: 0.15rem 0.5rem; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 0.3rem; }
-  .tag-part { background: #e8e4de; color: #5a524a; }
-  .tag-Environment { background: var(--tag-env); color: var(--tag-env-c); }
-  .tag-Climate { background: var(--tag-clim); color: var(--tag-clim-c); }
-  .tag-Urban { background: var(--tag-urb); color: var(--tag-urb-c); }
-  .tag-Development, .tag-Social { background: var(--tag-dev); color: var(--tag-dev-c); }
-  .tag-Research, .tag-Statistics { background: var(--tag-res); color: var(--tag-res-c); }
-  .tag-Indian, .tag-Governance { background: var(--tag-pol); color: var(--tag-pol-c); }
-  .tag-default { background: #ece9e4; color: #6a6460; }
-
-  /* QUESTION CARDS */
-  .q-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 0.7rem; overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s; }
-  .q-card:hover { border-color: #c8c2ba; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-  .q-header { padding: 1rem 1.2rem 0.6rem; }
-  .q-meta { margin-bottom: 0.45rem; }
-  .q-num { color: var(--muted); font-size: 0.75rem; margin-right: 0.4rem; }
-  .q-text { color: var(--text); font-size: 0.93rem; line-height: 1.65; }
-  .saq-badge { display: inline-block; font-size: 0.65rem; background: var(--tag-res); color: var(--tag-res-c); border-radius: 4px; padding: 0.2rem 0.6rem; margin-left: 0.5rem; vertical-align: middle; }
-
-  /* OPTIONS */
-  .q-options { padding: 0 1.2rem 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; }
-  .opt-btn {
-    background: transparent;
-    border: 1.5px solid var(--border);
-    border-radius: 7px;
-    padding: 0.55rem 0.9rem;
-    text-align: left;
-    color: var(--text);
-    cursor: pointer;
-    font-size: 0.85rem;
-    font-family: 'DM Sans', sans-serif;
-    transition: all 0.15s;
-    width: 100%;
-  }
-  .opt-btn:hover:not(.disabled) { border-color: var(--accent); background: var(--accent-light); }
-  .opt-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .opt-btn.selected { background: var(--accent-light); border-color: var(--accent); }
-  .opt-btn.correct { background: #ddf0e3; border-color: var(--correct); color: #1e5e2e; }
-  .opt-btn.wrong { background: #f5dede; border-color: var(--wrong); color: #7a2020; }
-  .opt-btn.disabled { cursor: default; }
-  .opt-letter { opacity: 0.45; margin-right: 0.5rem; }
-  .reveal-row { padding: 0 1.2rem 0.9rem; display: flex; gap: 0.5rem; align-items: center; }
-  .reveal-btn {
-    font-size: 0.72rem;
-    background: none;
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    color: var(--muted);
-    cursor: pointer;
-    padding: 0.28rem 0.7rem;
-    font-family: inherit;
-    transition: all 0.15s;
-  }
-  .reveal-btn:hover { border-color: var(--accent); color: var(--accent); }
-  .reveal-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .revealed-text { font-size: 0.72rem; color: var(--correct); }
-
-  /* SAQ CARD */
-  .saq-body { padding: 0.2rem 1.2rem 0.9rem; }
-  .saq-hint { font-size: 0.78rem; color: var(--muted); font-style: italic; border-left: 2px solid var(--border); padding-left: 0.7rem; margin-top: 0.4rem; }
-
-  /* QUIZ SCREEN */
-  #quiz-screen { display: none; min-height: 100vh; background: var(--bg); }
-  #quiz-screen.active { display: block; }
-  #browse-screen.hidden { display: none; }
-  .quiz-wrap { max-width: 680px; margin: 0 auto; padding: 1.5rem; }
-  .quiz-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
-  .quiz-progress-bar { height: 4px; background: var(--border); border-radius: 2px; margin-bottom: 1.5rem; }
-  .quiz-progress-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.3s; }
-  .quiz-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; }
-  .quiz-cat { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.7rem; }
-  .quiz-q { font-size: 1.02rem; color: var(--text); line-height: 1.7; margin-bottom: 1.3rem; }
-  .quiz-opts { display: flex; flex-direction: column; gap: 0.55rem; }
-  .quiz-opt {
-    background: var(--bg);
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    padding: 0.7rem 1rem;
-    text-align: left;
-    color: var(--text);
-    cursor: pointer;
-    font-size: 0.88rem;
-    font-family: inherit;
-    transition: all 0.15s;
-    width: 100%;
-  }
-  .quiz-opt:hover:not(.qdisabled) { border-color: var(--accent); background: var(--accent-light); }
-  .quiz-opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .quiz-opt.qcorrect { background: #ddf0e3; border-color: var(--correct); color: #1e5e2e; }
-  .quiz-opt.qwrong { background: #f5dede; border-color: var(--wrong); color: #7a2020; }
-  .quiz-opt.qdisabled { cursor: default; }
-  .quiz-next-row { display: flex; justify-content: flex-end; }
-
-  /* RESULTS */
-  .results-wrap { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; }
-  .results-score { font-size: 3.5rem; font-weight: 600; margin: 1rem 0 0.3rem; }
-  .results-pct { font-size: 1rem; color: var(--muted); margin-bottom: 2rem; }
-  .results-actions { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
-  .result-item { background: var(--surface); border-radius: 8px; padding: 0.7rem 1rem; margin-bottom: 0.5rem; text-align: left; border-left: 3px solid; }
-  .result-item.ok { border-color: var(--correct); }
-  .result-item.bad { border-color: var(--wrong); }
-  .result-item-q { font-size: 0.82rem; color: var(--text); margin-bottom: 0.25rem; }
-  .result-item-ans { font-size: 0.77rem; color: var(--correct); }
-  .result-tag { font-size: 0.68rem; color: var(--muted); margin-bottom: 0.2rem; }
-
-  /* CATEGORY TAG STRIP */
-  .cat-tag-strip {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-bottom: 1rem;
-  }
-  .cat-tag-btn {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 0.3rem 0.7rem;
-    border: 1.5px solid transparent;
-    cursor: pointer;
-    transition: all 0.15s;
-    opacity: 0.65;
-  }
-  .cat-tag-btn:hover { opacity: 1; }
-  .cat-tag-btn.active { opacity: 1; border-color: currentColor; }
-  .cat-tag-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .cat-tag-btn-all {
-    background: #e8e4de;
-    color: #5a524a;
-  }
-
-  /* EMPTY */
-  .empty { text-align: center; padding: 3rem; color: var(--muted); }
-
-  /* FOOTER */
-  footer { text-align: center; padding: 1.25rem; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--border); margin-top: 1rem; }
-
-  /* MOBILE */
-  @media (max-width: 720px) {
-    .app-layout { grid-template-columns: 1fr; }
-    aside { display: none; position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
-    aside.open { display: flex; }
-    .filter-toggle-btn { display: block; }
-    header h1 { font-size: 1.1rem; }
-    .results-actions { flex-direction: column; align-items: center; }
-  }
-</style>
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
@@ -304,8 +13,14 @@
 <div id="browse-screen">
   <header>
     <div class="header-inner">
-      <h1>IIHS PhD Practice Question Bank</h1>
-      <p>Environment, Climate, Planning, Development, Governance &amp; more</p>
+      <div class="header-titles">
+        <h1>IIHS PhD Practice Question Bank</h1>
+        <p>Environment, Climate, Planning, Development, Governance &amp; more</p>
+      </div>
+      <div class="theme-switcher" role="group" aria-label="Color theme">
+        <button class="theme-opt" id="theme-light" onclick="setTheme('light')" aria-label="Light mode" title="Light">☀️</button>
+        <button class="theme-opt" id="theme-dark"  onclick="setTheme('dark')"  aria-label="Dark mode"  title="Dark">🌙</button>
+      </div>
     </div>
   </header>
 
@@ -367,6 +82,23 @@
 
 <script src="questions.js"></script>
 <script>
+
+// THEME
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+  document.getElementById('theme-light').classList.toggle('active', theme === 'light');
+  document.getElementById('theme-dark').classList.toggle('active', theme === 'dark');
+}
+
+// Apply saved or system preference
+(function() {
+  const saved = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (prefersDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
+  document.addEventListener('DOMContentLoaded', () => setTheme(theme));
+})();
 
 // State
 let userAnswers = {};
@@ -616,20 +348,10 @@ strip.appendChild(allBtn);
 cats.forEach(c => {
   const btn = document.createElement('button');
   const tc = getTagClass(c);
-  btn.className = 'cat-tag-btn';
+  btn.className = 'cat-tag-btn ' + tc;
   btn.setAttribute('role', 'radio');
   btn.setAttribute('aria-checked', 'false');
   btn.textContent = c;
-  // Inherit background/color from the tag class via inline style lookup
-  const dummy = document.createElement('span');
-  dummy.className = 'tag ' + tc;
-  dummy.style.visibility = 'hidden';
-  dummy.style.position = 'absolute';
-  document.body.appendChild(dummy);
-  const cs = getComputedStyle(dummy);
-  btn.style.background = cs.backgroundColor;
-  btn.style.color = cs.color;
-  document.body.removeChild(dummy);
   btn.onclick = () => setCat(btn, c);
   strip.appendChild(btn);
 });

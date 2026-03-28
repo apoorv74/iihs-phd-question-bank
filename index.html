@@ -4,145 +4,297 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IIHS PhD Admission — Practice Question Bank</title>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0e1118;
-    --surface: #161c28;
-    --surface2: #1c2435;
-    --border: #252f42;
-    --accent: #4a8fd4;
-    --accent2: #6ab0a8;
-    --text: #d8e4f0;
-    --muted: #6a7f96;
-    --correct: #4caf7a;
-    --wrong: #e05c5c;
-    --tag-env: #2a4a3a;
-    --tag-env-c: #6abf8a;
-    --tag-clim: #1e3a5a;
-    --tag-clim-c: #6aabda;
-    --tag-urb: #3a2a4a;
-    --tag-urb-c: #a87ad0;
-    --tag-dev: #4a3a1a;
-    --tag-dev-c: #d0a840;
-    --tag-res: #3a1a3a;
-    --tag-res-c: #d07ab0;
-    --tag-pol: #1a3a3a;
-    --tag-pol-c: #6ad0c8;
+    --bg:           #f6f4f0;
+    --sidebar-bg:   #edeae4;
+    --surface:      #ffffff;
+    --border:       #e0dbd3;
+    --accent:       #7a9e8a;
+    --accent-light: #d6eadd;
+    --text:         #2a2826;
+    --muted:        #8c857c;
+    --correct:      #6a9e78;
+    --wrong:        #c47878;
+    --tag-env:      #daeedd;
+    --tag-env-c:    #2d6e3e;
+    --tag-clim:     #d6e8f5;
+    --tag-clim-c:   #2a5c80;
+    --tag-urb:      #e8d9f5;
+    --tag-urb-c:    #5e3a80;
+    --tag-dev:      #f5e8d0;
+    --tag-dev-c:    #7a5010;
+    --tag-res:      #f5d9ee;
+    --tag-res-c:    #7a2a60;
+    --tag-pol:      #d4f0ee;
+    --tag-pol-c:    #1e6060;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Source Sans 3', sans-serif; font-size: 15px; line-height: 1.6; }
+  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.6; }
 
   /* HEADER */
-  header { background: linear-gradient(160deg, #111827 0%, #0e1520 100%); border-bottom: 1px solid var(--border); padding: 2rem 1.5rem 1.5rem; }
-  .header-inner { max-width: 900px; margin: 0 auto; }
-  .header-eyebrow { font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
-  header h1 { font-family: 'Lora', serif; font-weight: 400; font-size: 1.9rem; color: #c0d8f0; margin-bottom: 0.3rem; }
-  header p { color: var(--muted); font-size: 0.88rem; margin-bottom: 1rem; }
-  .stat-chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-  .stat-chip { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.8rem; font-size: 0.72rem; color: #7aa8c8; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+  .header-inner { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  header h1 { font-size: 1.25rem; font-weight: 600; color: var(--text); }
+  header p { color: var(--muted); font-size: 0.82rem; }
 
-  /* MAIN */
-  main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+  /* APP LAYOUT */
+  .app-layout { display: grid; grid-template-columns: 230px 1fr; min-height: calc(100vh - 57px); }
 
-  /* QUIZ BANNER */
-  .quiz-banner { background: linear-gradient(135deg, #1a2e4a, #1e3855); border: 1px solid #2a4a6a; border-radius: 12px; padding: 1rem 1.4rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
-  .quiz-banner-label { font-size: 0.65rem; color: #5a8ab0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.2rem; }
-  .quiz-banner-text { color: #a0c0da; font-size: 0.92rem; }
-  .quiz-controls { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
-  select, .btn { font-family: 'Source Sans 3', sans-serif; }
-  select { background: var(--surface); border: 1px solid var(--border); border-radius: 7px; color: #8aabca; padding: 0.45rem 0.7rem; font-size: 0.83rem; cursor: pointer; outline: none; }
-  .btn { padding: 0.55rem 1.3rem; border: none; border-radius: 8px; cursor: pointer; font-size: 0.88rem; font-weight: 600; transition: filter 0.15s; }
-  .btn:hover { filter: brightness(1.15); }
-  .btn-primary { background: #2a5a9a; color: #fff; }
-  .btn-secondary { background: var(--surface2); color: #8aabca; border: 1px solid var(--border); }
+  /* SIDEBAR */
+  aside {
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--border);
+    padding: 1.25rem 1rem;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 57px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .sidebar-section-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
 
-  /* FILTERS */
-  .filters { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.8rem; }
-  .filters input { flex: 1 1 180px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text); padding: 0.55rem 0.9rem; font-size: 0.85rem; outline: none; font-family: inherit; }
-  .filters input::placeholder { color: var(--muted); }
-  .filter-row2 { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+  /* QUIZ BOX IN SIDEBAR */
+  .quiz-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; }
+  .quiz-box-title { font-weight: 500; font-size: 0.88rem; color: var(--text); margin-bottom: 0.25rem; }
+  .quiz-box-sub { font-size: 0.76rem; color: var(--muted); margin-bottom: 0.8rem; }
+
+  /* FORM ELEMENTS */
+  select, input, .btn { font-family: 'DM Sans', sans-serif; }
+  select {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    color: var(--text);
+    padding: 0.45rem 0.7rem;
+    font-size: 0.83rem;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 0.6rem;
+  }
+  select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  input[type="search"] {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    padding: 0.55rem 0.9rem;
+    font-size: 0.85rem;
+    outline: none;
+  }
+  input[type="search"]::placeholder { color: var(--muted); }
+  input[type="search"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .btn {
+    padding: 0.55rem 1.3rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: filter 0.15s, background 0.15s;
+  }
+  .btn:hover { filter: brightness(0.94); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn-primary { background: var(--accent); color: #fff; width: 100%; }
+  .btn-secondary { background: var(--border); color: var(--text); border: 1px solid var(--border); }
+
+  /* PART FILTER PILLS */
+  .pill-group { display: flex; flex-direction: column; gap: 0.35rem; }
+  .pill {
+    background: transparent;
+    border: 1.5px solid var(--border);
+    border-radius: 7px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.82rem;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--muted);
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.15s;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--text); }
+  .pill.active { background: var(--accent-light); border-color: var(--accent); color: var(--text); font-weight: 500; }
+  .pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* MAIN CONTENT */
+  main { padding: 1.5rem; overflow-y: auto; }
   .count-label { color: var(--muted); font-size: 0.78rem; margin-bottom: 1rem; }
 
+  /* MOBILE FILTER TOGGLE */
+  .filter-toggle-btn {
+    display: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text);
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  .filter-toggle-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
   /* CATEGORY TAG COLORS */
-  .tag { display: inline-block; font-size: 0.65rem; border-radius: 4px; padding: 0.15rem 0.5rem; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 0.3rem; }
-  .tag-part { background: #1a2c3e; color: #5a8ab0; }
+  .tag { display: inline-block; font-size: 0.65rem; font-weight: 500; border-radius: 4px; padding: 0.15rem 0.5rem; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 0.3rem; }
+  .tag-part { background: #e8e4de; color: #5a524a; }
   .tag-Environment { background: var(--tag-env); color: var(--tag-env-c); }
   .tag-Climate { background: var(--tag-clim); color: var(--tag-clim-c); }
   .tag-Urban { background: var(--tag-urb); color: var(--tag-urb-c); }
   .tag-Development, .tag-Social { background: var(--tag-dev); color: var(--tag-dev-c); }
   .tag-Research, .tag-Statistics { background: var(--tag-res); color: var(--tag-res-c); }
   .tag-Indian, .tag-Governance { background: var(--tag-pol); color: var(--tag-pol-c); }
-  .tag-default { background: #2a2a3a; color: #9090b0; }
+  .tag-default { background: #ece9e4; color: #6a6460; }
 
   /* QUESTION CARDS */
-  .q-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 0.7rem; overflow: hidden; transition: border-color 0.2s; }
-  .q-card:hover { border-color: #303d52; }
+  .q-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 0.7rem; overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s; }
+  .q-card:hover { border-color: #c8c2ba; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
   .q-header { padding: 1rem 1.2rem 0.6rem; }
   .q-meta { margin-bottom: 0.45rem; }
   .q-num { color: var(--muted); font-size: 0.75rem; margin-right: 0.4rem; }
-  .q-text { color: #ccdaec; font-size: 0.93rem; line-height: 1.65; font-family: 'Lora', serif; }
-  .saq-badge { display: inline-block; font-size: 0.65rem; background: #2a1e35; color: #9a7ab0; border-radius: 4px; padding: 0.2rem 0.6rem; margin-left: 0.5rem; vertical-align: middle; }
+  .q-text { color: var(--text); font-size: 0.93rem; line-height: 1.65; }
+  .saq-badge { display: inline-block; font-size: 0.65rem; background: var(--tag-res); color: var(--tag-res-c); border-radius: 4px; padding: 0.2rem 0.6rem; margin-left: 0.5rem; vertical-align: middle; }
 
   /* OPTIONS */
   .q-options { padding: 0 1.2rem 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; }
-  .opt-btn { background: transparent; border: 1.5px solid var(--border); border-radius: 7px; padding: 0.55rem 0.9rem; text-align: left; color: #8a9fb5; cursor: pointer; font-size: 0.85rem; font-family: 'Source Sans 3', sans-serif; transition: all 0.15s; width: 100%; }
-  .opt-btn:hover:not(.disabled) { border-color: #3a5a7a; color: #aac4d8; background: var(--surface2); }
-  .opt-btn.selected { background: #1e3050; border-color: var(--accent); color: #8ac0e0; }
-  .opt-btn.correct { background: #162e1c; border-color: #3a7a4a; color: var(--correct); }
-  .opt-btn.wrong { background: #2e1616; border-color: #7a3a3a; color: var(--wrong); }
+  .opt-btn {
+    background: transparent;
+    border: 1.5px solid var(--border);
+    border-radius: 7px;
+    padding: 0.55rem 0.9rem;
+    text-align: left;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.15s;
+    width: 100%;
+  }
+  .opt-btn:hover:not(.disabled) { border-color: var(--accent); background: var(--accent-light); }
+  .opt-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .opt-btn.selected { background: var(--accent-light); border-color: var(--accent); }
+  .opt-btn.correct { background: #ddf0e3; border-color: var(--correct); color: #1e5e2e; }
+  .opt-btn.wrong { background: #f5dede; border-color: var(--wrong); color: #7a2020; }
   .opt-btn.disabled { cursor: default; }
   .opt-letter { opacity: 0.45; margin-right: 0.5rem; }
   .reveal-row { padding: 0 1.2rem 0.9rem; display: flex; gap: 0.5rem; align-items: center; }
-  .reveal-btn { font-size: 0.72rem; background: none; border: 1px solid var(--border); border-radius: 5px; color: var(--muted); cursor: pointer; padding: 0.28rem 0.7rem; font-family: inherit; transition: all 0.15s; }
-  .reveal-btn:hover { border-color: #3a5a7a; color: #7aa8c8; }
-  .revealed-text { font-size: 0.72rem; color: #4a8a5a; }
+  .reveal-btn {
+    font-size: 0.72rem;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0.28rem 0.7rem;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .reveal-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .reveal-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .revealed-text { font-size: 0.72rem; color: var(--correct); }
 
   /* SAQ CARD */
   .saq-body { padding: 0.2rem 1.2rem 0.9rem; }
   .saq-hint { font-size: 0.78rem; color: var(--muted); font-style: italic; border-left: 2px solid var(--border); padding-left: 0.7rem; margin-top: 0.4rem; }
 
   /* QUIZ SCREEN */
-  #quiz-screen { display: none; min-height: 100vh; }
+  #quiz-screen { display: none; min-height: 100vh; background: var(--bg); }
   #quiz-screen.active { display: block; }
   #browse-screen.hidden { display: none; }
   .quiz-wrap { max-width: 680px; margin: 0 auto; padding: 1.5rem; }
   .quiz-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
-  .quiz-progress-bar { height: 4px; background: var(--surface2); border-radius: 2px; margin-bottom: 1.5rem; }
+  .quiz-progress-bar { height: 4px; background: var(--border); border-radius: 2px; margin-bottom: 1.5rem; }
   .quiz-progress-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.3s; }
   .quiz-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; }
   .quiz-cat { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.7rem; }
-  .quiz-q { font-family: 'Lora', serif; font-size: 1.05rem; color: #d0e0f0; line-height: 1.7; margin-bottom: 1.3rem; }
+  .quiz-q { font-size: 1.02rem; color: var(--text); line-height: 1.7; margin-bottom: 1.3rem; }
   .quiz-opts { display: flex; flex-direction: column; gap: 0.55rem; }
-  .quiz-opt { background: var(--surface2); border: 1.5px solid var(--border); border-radius: 8px; padding: 0.7rem 1rem; text-align: left; color: #9ab0c8; cursor: pointer; font-size: 0.88rem; font-family: inherit; transition: all 0.15s; width: 100%; }
-  .quiz-opt:hover:not(.qdisabled) { border-color: #3a5a7a; color: #b8cfe0; }
-  .quiz-opt.qcorrect { background: #162e1c; border-color: #3a7a4a; color: var(--correct); }
-  .quiz-opt.qwrong { background: #2e1616; border-color: #7a3a3a; color: var(--wrong); }
+  .quiz-opt {
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    text-align: left;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.88rem;
+    font-family: inherit;
+    transition: all 0.15s;
+    width: 100%;
+  }
+  .quiz-opt:hover:not(.qdisabled) { border-color: var(--accent); background: var(--accent-light); }
+  .quiz-opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .quiz-opt.qcorrect { background: #ddf0e3; border-color: var(--correct); color: #1e5e2e; }
+  .quiz-opt.qwrong { background: #f5dede; border-color: var(--wrong); color: #7a2020; }
   .quiz-opt.qdisabled { cursor: default; }
   .quiz-next-row { display: flex; justify-content: flex-end; }
-  
+
   /* RESULTS */
   .results-wrap { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; }
-  .results-score { font-size: 3.5rem; font-weight: 700; margin: 1rem 0 0.3rem; }
+  .results-score { font-size: 3.5rem; font-weight: 600; margin: 1rem 0 0.3rem; }
   .results-pct { font-size: 1rem; color: var(--muted); margin-bottom: 2rem; }
   .results-actions { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
   .result-item { background: var(--surface); border-radius: 8px; padding: 0.7rem 1rem; margin-bottom: 0.5rem; text-align: left; border-left: 3px solid; }
   .result-item.ok { border-color: var(--correct); }
   .result-item.bad { border-color: var(--wrong); }
-  .result-item-q { font-size: 0.82rem; color: #b0c0d0; margin-bottom: 0.25rem; }
+  .result-item-q { font-size: 0.82rem; color: var(--text); margin-bottom: 0.25rem; }
   .result-item-ans { font-size: 0.77rem; color: var(--correct); }
   .result-tag { font-size: 0.68rem; color: var(--muted); margin-bottom: 0.2rem; }
+
+  /* CATEGORY TAG STRIP */
+  .cat-tag-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .cat-tag-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: all 0.15s;
+    opacity: 0.65;
+  }
+  .cat-tag-btn:hover { opacity: 1; }
+  .cat-tag-btn.active { opacity: 1; border-color: currentColor; }
+  .cat-tag-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .cat-tag-btn-all {
+    background: #e8e4de;
+    color: #5a524a;
+  }
 
   /* EMPTY */
   .empty { text-align: center; padding: 3rem; color: var(--muted); }
 
   /* FOOTER */
-  footer { text-align: center; padding: 1.5rem; font-size: 0.72rem; color: #2a3a4a; border-top: 1px solid var(--border); margin-top: 1rem; }
+  footer { text-align: center; padding: 1.25rem; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--border); margin-top: 1rem; }
 
-  @media (max-width: 600px) {
-    header h1 { font-size: 1.4rem; }
-    .quiz-banner { flex-direction: column; align-items: flex-start; }
-    .filters { flex-direction: column; }
+  /* MOBILE */
+  @media (max-width: 720px) {
+    .app-layout { grid-template-columns: 1fr; }
+    aside { display: none; position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+    aside.open { display: flex; }
+    .filter-toggle-btn { display: block; }
+    header h1 { font-size: 1.1rem; }
+    .results-actions { flex-direction: column; align-items: center; }
   }
 </style>
 </head>
@@ -152,53 +304,60 @@
 <div id="browse-screen">
   <header>
     <div class="header-inner">
-      <div class="header-eyebrow">IIHS · Doctoral Programme Admission · 2026</div>
-      <h1>Practice Question Bank</h1>
-      <p id="header-desc">205 questions · Environment, Climate, Planning, Development Studies, Governance & more</p>
-      <div class="stat-chips">
-        <span class="stat-chip">180 MCQs (Part A)</span>
-        <span class="stat-chip">20 Short Answer (Part B)</span>
-        <span class="stat-chip">5 Essays (Part C)</span>
-        <span class="stat-chip">Current affairs through 2024</span>
-      </div>
+      <h1>IIHS PhD Practice Question Bank</h1>
+      <p>Environment, Climate, Planning, Development, Governance &amp; more</p>
     </div>
   </header>
 
-  <main>
-    <div class="quiz-banner">
+  <div class="app-layout">
+    <!-- SIDEBAR -->
+    <aside id="sidebar">
+      <!-- Practice quiz -->
       <div>
-        <div class="quiz-banner-label">Practice Mode</div>
-        <div class="quiz-banner-text">Test yourself with randomized MCQs</div>
+        <div class="sidebar-section-label">Practice Quiz</div>
+        <div class="quiz-box">
+          <div class="quiz-box-title">Test yourself</div>
+          <div class="quiz-box-sub">Randomized MCQs from Part A</div>
+          <select id="quiz-size-sel">
+            <option value="10">10 questions</option>
+            <option value="20" selected>20 questions</option>
+            <option value="30">30 questions</option>
+            <option value="50">50 questions</option>
+          </select>
+          <button class="btn btn-primary" onclick="startQuiz()">Start Quiz →</button>
+        </div>
       </div>
-      <div class="quiz-controls">
-        <select id="quiz-size-sel">
-          <option value="10">10 questions</option>
-          <option value="20" selected>20 questions</option>
-          <option value="30">30 questions</option>
-          <option value="50">50 questions</option>
-        </select>
-        <button class="btn btn-primary" onclick="startQuiz()">Start Quiz →</button>
-      </div>
-    </div>
 
-    <div class="filters">
-      <input type="text" id="search-input" placeholder="🔍  Search questions..." oninput="renderQuestions()">
-    </div>
-    <div class="filter-row2">
-      <select id="part-filter" onchange="renderQuestions()">
-        <option value="All">All Parts</option>
-        <option value="A">Part A (MCQ)</option>
-        <option value="B">Part B (Short Answer)</option>
-        <option value="C">Part C (Essay)</option>
-      </select>
-      <select id="cat-filter" onchange="renderQuestions()">
-        <option value="All">All Categories</option>
-      </select>
-    </div>
-    <div class="count-label" id="count-label"></div>
-    <div id="q-list"></div>
-    <footer>Based on IIHS PhD Admission Sample Question Paper 2026 · For practice purposes only</footer>
-  </main>
+      <!-- Search -->
+      <div>
+        <div class="sidebar-section-label">Search</div>
+        <input type="search" id="search-input" placeholder="Search questions…" aria-label="Search questions" oninput="renderQuestions()">
+      </div>
+
+      <!-- Part filter -->
+      <div>
+        <div class="sidebar-section-label">Part</div>
+        <div class="pill-group" role="radiogroup" aria-label="Filter by part">
+          <button class="pill active" role="radio" aria-checked="true"  onclick="setPart(this,'All')">All Parts</button>
+          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'A')">Part A — MCQ</button>
+          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'B')">Part B — Short Answer</button>
+          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'C')">Part C — Essay</button>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+      <button class="filter-toggle-btn" onclick="toggleSidebar()" aria-expanded="false" aria-controls="sidebar" id="filter-toggle">
+        Filters ▾
+      </button>
+      <div class="cat-tag-strip" id="cat-tag-strip" role="radiogroup" aria-label="Filter by category"></div>
+      <div class="count-label" id="count-label"></div>
+      <div id="q-list"></div>
+      <footer>Based on IIHS PhD Admission Sample Question Paper 2026 · For practice purposes only</footer>
+    </main>
+  </div>
 </div>
 
 <!-- QUIZ SCREEN -->
@@ -214,8 +373,29 @@ let userAnswers = {};
 let revealed = {};
 let quizQuestions = [];
 let quizIdx = 0;
-let quizUserAnswers = {};
+let quizAnswers = {};
 let quizDone = false;
+let currentPart = 'All';
+let currentCat = 'All';
+
+function setPart(btn, part) {
+  currentPart = part;
+  document.querySelectorAll('.pill-group .pill').forEach(p => {
+    p.classList.remove('active');
+    p.setAttribute('aria-checked', 'false');
+  });
+  btn.classList.add('active');
+  btn.setAttribute('aria-checked', 'true');
+  renderQuestions();
+}
+
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const btn = document.getElementById('filter-toggle');
+  const open = sidebar.classList.toggle('open');
+  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  btn.textContent = open ? 'Filters ▴' : 'Filters ▾';
+}
 
 function getTagClass(cat) {
   if (cat.includes('Environment')) return 'tag-Environment';
@@ -227,13 +407,22 @@ function getTagClass(cat) {
   return 'tag-default';
 }
 
+function setCat(btn, cat) {
+  currentCat = cat;
+  document.querySelectorAll('#cat-tag-strip .cat-tag-btn').forEach(b => {
+    b.classList.remove('active');
+    b.setAttribute('aria-checked', 'false');
+  });
+  btn.classList.add('active');
+  btn.setAttribute('aria-checked', 'true');
+  renderQuestions();
+}
+
 function getFiltered() {
   const search = document.getElementById('search-input').value.toLowerCase();
-  const part = document.getElementById('part-filter').value;
-  const cat = document.getElementById('cat-filter').value;
   return QUESTIONS.filter(q => {
-    const pm = part === 'All' || q.part === part;
-    const cm = cat === 'All' || q.cat === cat;
+    const pm = currentPart === 'All' || q.part === currentPart;
+    const cm = currentCat === 'All' || q.cat === currentCat;
     const sm = !search || q.q.toLowerCase().includes(search) || q.cat.toLowerCase().includes(search);
     return pm && cm && sm;
   });
@@ -277,7 +466,7 @@ function renderCard(q) {
 
   const saqHTML = isSAQ ? `<div class="saq-body"><div class="saq-hint">${isEssay ? 'Essay · 600–800 words' : 'Short answer · ~100 words'} — write your response before reviewing the topic</div></div>` : '';
 
-  return `<div class="q-card" id="qcard-${q.id}">
+  return `<article class="q-card" id="qcard-${q.id}">
     <div class="q-header">
       <div class="q-meta">
         <span class="tag tag-part">Part ${q.part}</span>
@@ -287,7 +476,7 @@ function renderCard(q) {
       <p class="q-text"><span class="q-num">#${q.id}</span>${q.q}</p>
     </div>
     ${optHTML}${saqHTML}
-  </div>`;
+  </article>`;
 }
 
 function selectOpt(qid, idx) {
@@ -295,7 +484,6 @@ function selectOpt(qid, idx) {
   userAnswers[qid] = idx;
   const card = document.getElementById('qcard-'+qid);
   if (!card) return;
-  const q = QUESTIONS.find(x => x.id === qid);
   card.querySelectorAll('.opt-btn').forEach((btn, i) => {
     btn.className = 'opt-btn' + (i === idx ? ' selected' : '');
   });
@@ -321,7 +509,7 @@ function startQuiz() {
   const size = parseInt(document.getElementById('quiz-size-sel').value);
   const mcqs = QUESTIONS.filter(q => q.part === 'A');
   quizQuestions = [...mcqs].sort(() => Math.random()-0.5).slice(0, size);
-  quizIdx = 0; quizUserAnswers = {}; quizDone = false;
+  quizIdx = 0; quizAnswers = {}; quizDone = false;
   document.getElementById('browse-screen').classList.add('hidden');
   document.getElementById('quiz-screen').classList.add('active');
   renderQuizQuestion();
@@ -331,7 +519,7 @@ function renderQuizQuestion() {
   const container = document.getElementById('quiz-inner');
   if (quizDone) { renderResults(); return; }
   const q = quizQuestions[quizIdx];
-  const answered = quizUserAnswers[q.id] !== undefined;
+  const answered = quizAnswers[q.id] !== undefined;
   const progress = (quizIdx / quizQuestions.length) * 100;
 
   container.innerHTML = `
@@ -339,7 +527,9 @@ function renderQuizQuestion() {
       <button class="btn btn-secondary" onclick="exitQuiz()">✕ Exit</button>
       <span style="color:var(--muted);font-size:0.88rem;">${quizIdx+1} / ${quizQuestions.length}</span>
     </div>
-    <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${progress}%"></div></div>
+    <div class="quiz-progress-bar" role="progressbar" aria-valuenow="${Math.round(progress)}" aria-valuemin="0" aria-valuemax="100">
+      <div class="quiz-progress-fill" style="width:${progress}%"></div>
+    </div>
     <div class="quiz-card">
       <div class="quiz-cat">${q.cat}</div>
       <div class="quiz-q">${q.q}</div>
@@ -349,7 +539,7 @@ function renderQuizQuestion() {
           if (answered) {
             cls += ' qdisabled';
             if (i === q.ans) cls += ' qcorrect';
-            else if (quizUserAnswers[q.id] === i) cls += ' qwrong';
+            else if (quizAnswers[q.id] === i) cls += ' qwrong';
           }
           return `<button class="${cls}" onclick="quizAnswer(${q.id},${i})">
             <span style="opacity:0.4;margin-right:0.5rem">${String.fromCharCode(65+i)}.</span>${opt}
@@ -359,14 +549,14 @@ function renderQuizQuestion() {
       </div>
     </div>
     ${answered ? `<div class="quiz-next-row">
-      <button class="btn btn-primary" onclick="quizNext()">${quizIdx+1 >= quizQuestions.length ? 'See Results' : 'Next →'}</button>
+      <button class="btn btn-primary" style="width:auto" onclick="quizNext()">${quizIdx+1 >= quizQuestions.length ? 'See Results' : 'Next →'}</button>
     </div>` : ''}
   `;
 }
 
 function quizAnswer(qid, idx) {
-  if (quizUserAnswers[qid] !== undefined) return;
-  quizUserAnswers[qid] = idx;
+  if (quizAnswers[qid] !== undefined) return;
+  quizAnswers[qid] = idx;
   renderQuizQuestion();
 }
 
@@ -377,23 +567,23 @@ function quizNext() {
 }
 
 function renderResults() {
-  const score = quizQuestions.reduce((a, q) => a + (quizUserAnswers[q.id] === q.ans ? 1 : 0), 0);
+  const score = quizQuestions.reduce((a, q) => a + (quizAnswers[q.id] === q.ans ? 1 : 0), 0);
   const pct = Math.round(score / quizQuestions.length * 100);
-  const color = pct >= 70 ? '#4caf7a' : pct >= 50 ? '#f0c050' : '#e05c5c';
+  const color = pct >= 70 ? 'var(--correct)' : pct >= 50 ? '#c8963c' : 'var(--wrong)';
   const container = document.getElementById('quiz-inner');
   container.innerHTML = `
     <div class="results-wrap">
       <div style="font-size:3rem;margin-bottom:0.5rem">📋</div>
-      <h2 style="font-family:'Lora',serif;font-weight:400;color:#a8c5da;font-size:1.7rem;">Quiz Complete</h2>
+      <h2 style="font-weight:500;color:var(--text);font-size:1.7rem;">Quiz Complete</h2>
       <div class="results-score" style="color:${color}">${score} / ${quizQuestions.length}</div>
       <div class="results-pct">${pct}% correct</div>
       <div class="results-actions">
         <button class="btn btn-secondary" onclick="exitQuiz()">← Back to Browse</button>
-        <button class="btn btn-primary" onclick="startQuiz()">Try Again</button>
+        <button class="btn btn-primary" style="width:auto" onclick="startQuiz()">Try Again</button>
       </div>
       <div style="text-align:left">
         ${quizQuestions.map((q,i) => {
-          const ok = quizUserAnswers[q.id] === q.ans;
+          const ok = quizAnswers[q.id] === q.ans;
           return `<div class="result-item ${ok?'ok':'bad'}">
             <div class="result-tag">${ok?'✓':'✗'} Q${i+1} · ${q.cat}</div>
             <div class="result-item-q">${q.q}</div>
@@ -412,8 +602,38 @@ function exitQuiz() {
 
 // Init
 const cats = [...new Set(QUESTIONS.map(q => q.cat))];
-const catSel = document.getElementById('cat-filter');
-cats.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; catSel.appendChild(o); });
+const strip = document.getElementById('cat-tag-strip');
+
+// "All" pill
+const allBtn = document.createElement('button');
+allBtn.className = 'cat-tag-btn cat-tag-btn-all active';
+allBtn.setAttribute('role', 'radio');
+allBtn.setAttribute('aria-checked', 'true');
+allBtn.textContent = 'All';
+allBtn.onclick = () => setCat(allBtn, 'All');
+strip.appendChild(allBtn);
+
+cats.forEach(c => {
+  const btn = document.createElement('button');
+  const tc = getTagClass(c);
+  btn.className = 'cat-tag-btn';
+  btn.setAttribute('role', 'radio');
+  btn.setAttribute('aria-checked', 'false');
+  btn.textContent = c;
+  // Inherit background/color from the tag class via inline style lookup
+  const dummy = document.createElement('span');
+  dummy.className = 'tag ' + tc;
+  dummy.style.visibility = 'hidden';
+  dummy.style.position = 'absolute';
+  document.body.appendChild(dummy);
+  const cs = getComputedStyle(dummy);
+  btn.style.background = cs.backgroundColor;
+  btn.style.color = cs.color;
+  document.body.removeChild(dummy);
+  btn.onclick = () => setCat(btn, c);
+  strip.appendChild(btn);
+});
+
 renderQuestions();
 </script>
 </body>

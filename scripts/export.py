@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export questions from questions.db to questions_part*.js + questions.js.
+Export questions from questions.db to questions.js.
 
 Run from the repo root:
     python scripts/export.py
@@ -14,7 +14,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DB_FILE = ROOT / "questions.db"
-PART_SIZE = 55
 
 
 def load_questions(conn):
@@ -44,18 +43,13 @@ def print_stats(conn):
 
 
 def write_js(questions, root):
-    parts = [questions[i:i+PART_SIZE] for i in range(0, len(questions), PART_SIZE)]
-    for idx, part in enumerate(parts, 1):
-        js = f"// questions_part{idx}.js — auto-generated\n"
-        js += f"// Part {idx} of {len(parts)} · questions {part[0]['id']}–{part[-1]['id']}\n"
-        js += "(window._QUESTIONS_PARTS = window._QUESTIONS_PARTS || []).push(\n"
-        js += json.dumps(part, ensure_ascii=False, indent=2)
-        js += "\n);\n"
-        (root / f"questions_part{idx}.js").write_text(js, encoding="utf-8")
-    loader = "// Auto-generated — do not edit manually.\n"
-    loader += "const QUESTIONS = (window._QUESTIONS_PARTS || []).flat();\n"
-    (root / "questions.js").write_text(loader, encoding="utf-8")
-    print(f"Wrote {len(questions)} questions across {len(parts)} part files")
+    out = root / "questions.js"
+    out.write_text(
+        "// Auto-generated — do not edit manually.\n"
+        "const QUESTIONS = " + json.dumps(questions, ensure_ascii=False, indent=2) + ";\n",
+        encoding="utf-8",
+    )
+    print(f"Wrote {len(questions)} questions to {out.name}")
 
 
 def main():

@@ -1,4 +1,4 @@
-// Auto-generated — do not edit manually.
+// Auto-generated - do not edit manually.
 const QUESTIONS = [
   {
     "id": 1,
@@ -161,7 +161,7 @@ const QUESTIONS = [
     "q": "The 'albedo effect' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The reflectivity of surfaces — how much solar energy is reflected back into space",
+      "The reflectivity of surfaces - how much solar energy is reflected back into space",
       "The urban heat island effect caused by dark rooftops",
       "The greenhouse effect intensified by water vapour in clouds",
       "The ability of dark surfaces to absorb solar radiation"
@@ -595,7 +595,7 @@ const QUESTIONS = [
     "q": "The New Urban Agenda, adopted at Habitat III in Quito (2016), primarily focuses on:",
     "date_added": "2026-03-28",
     "opts": [
-      "A shared vision of sustainable urban development — cities that are inclusive, safe, resilient, and sustainable",
+      "A shared vision of sustainable urban development - cities that are inclusive, safe, resilient, and sustainable",
       "Reducing urban populations through planned decentralisation",
       "Privatizing urban infrastructure to attract foreign investment",
       "Setting binding density standards for cities in developing nations"
@@ -974,7 +974,7 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Violent conflicts arising from competition over natural resources",
-      "Harm embedded in social structures, institutions, and systems — such as poverty, inequality, and discrimination — that prevents people from meeting their basic needs",
+      "Harm embedded in social structures, institutions, and systems - such as poverty, inequality, and discrimination - that prevents people from meeting their basic needs",
       "Physical violence caused by armed groups and state military forces",
       "Violence perpetrated by marginalized groups against dominant groups as a form of resistance"
     ],
@@ -1842,7 +1842,7 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Create an international fund to clean up ocean plastic pollution",
-      "Address the full lifecycle of plastics — from production to disposal — through a legally binding international agreement",
+      "Address the full lifecycle of plastics - from production to disposal - through a legally binding international agreement",
       "Ban all single-use plastics globally by 2030",
       "Regulate only plastic waste trade between developed and developing nations"
     ],
@@ -1942,7 +1942,7 @@ const QUESTIONS = [
       "The crisis of multilateralism and decline of international institutions",
       "Economic crises affecting several sectors of an economy simultaneously",
       "Political crises occurring simultaneously in multiple countries",
-      "Multiple global crises — climate change, geopolitical conflict, food insecurity, and economic instability — interacting and compounding each other's effects"
+      "Multiple global crises - climate change, geopolitical conflict, food insecurity, and economic instability - interacting and compounding each other's effects"
     ],
     "ans": 3
   },
@@ -2272,7 +2272,7 @@ const QUESTIONS = [
     "id": 179,
     "part": "C",
     "cat": "Current Affairs & Global Events",
-    "q": "The post-2020 global order has been characterised by simultaneous crises — climate breakdown, geopolitical conflicts, pandemic recovery, and democratic backsliding. Critically examine how these overlapping crises challenge multilateral institutions and what reforms are needed to build a more resilient global governance architecture.",
+    "q": "The post-2020 global order has been characterised by simultaneous crises - climate breakdown, geopolitical conflicts, pandemic recovery, and democratic backsliding. Critically examine how these overlapping crises challenge multilateral institutions and what reforms are needed to build a more resilient global governance architecture.",
     "date_added": "2026-03-28"
   },
   {
@@ -2328,7 +2328,7 @@ const QUESTIONS = [
     "id": 187,
     "part": "C",
     "cat": "Economics & Finance",
-    "q": "The tension between economic growth and environmental sustainability is a central debate in development economics. Critically examine the Environmental Kuznets Curve (EKC) hypothesis — its theoretical basis, empirical validity, and policy implications. What alternative frameworks better capture the relationship between growth, inequality, and ecological limits, and what do they suggest for India's development trajectory?",
+    "q": "The tension between economic growth and environmental sustainability is a central debate in development economics. Critically examine the Environmental Kuznets Curve (EKC) hypothesis - its theoretical basis, empirical validity, and policy implications. What alternative frameworks better capture the relationship between growth, inequality, and ecological limits, and what do they suggest for India's development trajectory?",
     "date_added": "2026-03-28"
   },
   {
@@ -2356,7 +2356,7 @@ const QUESTIONS = [
     "id": 191,
     "part": "C",
     "cat": "Environmental Economics & Policy",
-    "q": "Environmental economics offers several market-based instruments — carbon taxes, emissions trading schemes, and payment for ecosystem services — as alternatives to command-and-control regulation. Critically evaluate the effectiveness of these instruments in the Indian context, considering issues of political economy, institutional capacity, equity concerns, and the fundamental limits of monetising nature. What combination of regulatory and economic approaches is best suited to India's environmental governance challenges?",
+    "q": "Environmental economics offers several market-based instruments - carbon taxes, emissions trading schemes, and payment for ecosystem services - as alternatives to command-and-control regulation. Critically evaluate the effectiveness of these instruments in the Indian context, considering issues of political economy, institutional capacity, equity concerns, and the fundamental limits of monetising nature. What combination of regulatory and economic approaches is best suited to India's environmental governance challenges?",
     "date_added": "2026-03-28"
   },
   {
@@ -2370,7 +2370,7 @@ const QUESTIONS = [
     "id": 193,
     "part": "B",
     "cat": "Health & Well-being",
-    "q": "How do social determinants of health — such as income, education, housing, and caste — explain health disparities across population groups in India? Illustrate with examples.",
+    "q": "How do social determinants of health - such as income, education, housing, and caste - explain health disparities across population groups in India? Illustrate with examples.",
     "date_added": "2026-03-28"
   },
   {
@@ -2398,21 +2398,21 @@ const QUESTIONS = [
     "id": 197,
     "part": "C",
     "cat": "Land, Agriculture & Rural Development",
-    "q": "Land in India is simultaneously a productive asset, a source of social identity, and a site of historical injustice and political contestation. Critically examine the tensions between land acquisition for industrialisation and infrastructure development on the one hand, and the protection of agrarian livelihoods and Adivasi rights on the other. How have legal frameworks — including the Right to Fair Compensation and Transparency in Land Acquisition Act 2013 and the Scheduled Tribes and Other Traditional Forest Dwellers Act 2006 — attempted to balance these competing claims, and where do they fall short?",
+    "q": "Land in India is simultaneously a productive asset, a source of social identity, and a site of historical injustice and political contestation. Critically examine the tensions between land acquisition for industrialisation and infrastructure development on the one hand, and the protection of agrarian livelihoods and Adivasi rights on the other. How have legal frameworks - including the Right to Fair Compensation and Transparency in Land Acquisition Act 2013 and the Scheduled Tribes and Other Traditional Forest Dwellers Act 2006 - attempted to balance these competing claims, and where do they fall short?",
     "date_added": "2026-03-28"
   },
   {
     "id": 198,
     "part": "C",
     "cat": "Research Methods & Statistics",
-    "q": "Mixed methods research is increasingly advocated in social science as a way to overcome the limitations of purely quantitative or qualitative approaches. Critically examine the epistemological tensions inherent in combining positivist and interpretivist traditions within a single study. Drawing on examples from urban, development, or environmental research, discuss when and how mixed methods designs can strengthen causal inference, contextual understanding, and policy relevance — and what risks of incoherence must be managed.",
+    "q": "Mixed methods research is increasingly advocated in social science as a way to overcome the limitations of purely quantitative or qualitative approaches. Critically examine the epistemological tensions inherent in combining positivist and interpretivist traditions within a single study. Drawing on examples from urban, development, or environmental research, discuss when and how mixed methods designs can strengthen causal inference, contextual understanding, and policy relevance - and what risks of incoherence must be managed.",
     "date_added": "2026-03-28"
   },
   {
     "id": 199,
     "part": "C",
     "cat": "Water, Energy & Natural Resources",
-    "q": "India faces simultaneous crises of water scarcity, energy transition, and food insecurity — challenges that are deeply interlinked through the water-food-energy nexus. Critically examine how competing demands across these three sectors generate policy contradictions, with particular reference to groundwater depletion driven by agricultural electricity subsidies, conflicts over hydropower development, and inter-state river basin disputes. What institutional and policy reforms are needed to enable integrated natural resource management in India?",
+    "q": "India faces simultaneous crises of water scarcity, energy transition, and food insecurity - challenges that are deeply interlinked through the water-food-energy nexus. Critically examine how competing demands across these three sectors generate policy contradictions, with particular reference to groundwater depletion driven by agricultural electricity subsidies, conflicts over hydropower development, and inter-state river basin disputes. What institutional and policy reforms are needed to enable integrated natural resource management in India?",
     "date_added": "2026-03-28"
   },
   {

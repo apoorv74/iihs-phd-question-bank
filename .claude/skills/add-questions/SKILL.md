@@ -13,7 +13,7 @@ Parse `$ARGUMENTS` as: `[category] [count] [part]`
 
 - **category**: The question category (string, may be quoted). If omitted, ask the user interactively.
 - **count**: Number of questions to generate (default: 5)
-- **part**: Exam part — `A` (MCQ), `B` (short answer), or `C` (essay). Default: `A`
+- **part**: Exam part - `A` (MCQ), `B` (short answer), or `C` (essay). Default: `A`
 
 Examples:
 - `/add-questions` → ask for category interactively
@@ -75,7 +75,7 @@ Generate exactly `count` questions for the specified part. Requirements:
 
 ### 4b. Check for intent-level duplicates
 
-For each generated question, compare its **core intent** against every existing question in the database — regardless of category or phrasing.
+For each generated question, compare its **core intent** against every existing question in the database - regardless of category or phrasing.
 
 Two questions are intent-duplicates if they are testing the same underlying fact, concept, or analytical point, even if worded differently. Examples:
 - "What is the Gini coefficient?" and "Which index measures income inequality?" → same intent
@@ -90,7 +90,7 @@ Only proceed to Step 5 once all questions in the batch have distinct intent from
 
 ### 5. Balance answer positions (Part A only)
 
-Before inserting, ensure the correct answers are evenly distributed across all four positions (0, 1, 2, 3). Do **not** rely on where the correct answer naturally falls in your generated questions — actively rotate positions.
+Before inserting, ensure the correct answers are evenly distributed across all four positions (0, 1, 2, 3). Do **not** rely on where the correct answer naturally falls in your generated questions - actively rotate positions.
 
 **Check the current distribution in the DB:**
 ```bash
@@ -104,7 +104,7 @@ For example, if generating 8 new Part A questions and positions 2 and 3 are unde
 **For each question in the batch:**
 - Decide the target `ans` position for that question (based on the balanced assignment above)
 - Rotate the options array so the correct answer sits at the target index
-- The content of the correct answer must not change — only its position in the array
+- The content of the correct answer must not change - only its position in the array
 
 ### 6. Insert questions into the database
 
@@ -165,7 +165,7 @@ sqlite3 questions.db "SELECT ans, COUNT(*) as count FROM questions WHERE part='A
 - Disaster Risk & Resilience
 - Health & Well-being
 
-New categories are also valid — they will be created automatically on insert.
+New categories are also valid - they will be created automatically on insert.
 
 ## DB Schema Reference
 

@@ -33,7 +33,7 @@ CREATE TABLE questions (
 ```
 
 **Part types:**
-- `A` = Multiple Choice Questions (MCQ) — has `opts` and `ans`
+- `A` = Multiple Choice Questions (MCQ) - has `opts` and `ans`
 - `B` = Short Answer (~100 words)
 - `C` = Essay (600–800 words)
 
@@ -43,7 +43,7 @@ CREATE TABLE questions (
 
 Based on the user's question (or if no question given, run all overview queries), execute the appropriate `sqlite3` queries against `questions.db`.
 
-**Always useful — run these for any overview or when unsure:**
+**Always useful - run these for any overview or when unsure:**
 
 ```bash
 # Total questions and categories

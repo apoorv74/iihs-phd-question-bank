@@ -21,4 +21,4 @@ uv run scripts/export.py          # export to questions.js + print stats
 uv run scripts/export.py --stats  # print stats only, no file written
 ```
 
-Requires `questions.db` to exist — run `migrate.py` first if it doesn't.
+Requires `questions.db` to exist - run `migrate.py` first if it doesn't.

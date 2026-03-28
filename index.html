@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IIHS PhD Admission — Practice Question Bank</title>
+<title>IIHS PhD Admission - Practice Question Bank</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -339,9 +339,9 @@
         <div class="sidebar-section-label">Part</div>
         <div class="pill-group" role="radiogroup" aria-label="Filter by part">
           <button class="pill active" role="radio" aria-checked="true"  onclick="setPart(this,'All')">All Parts</button>
-          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'A')">Part A — MCQ</button>
-          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'B')">Part B — Short Answer</button>
-          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'C')">Part C — Essay</button>
+          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'A')">Part A - MCQ</button>
+          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'B')">Part B - Short Answer</button>
+          <button class="pill"        role="radio" aria-checked="false" onclick="setPart(this,'C')">Part C - Essay</button>
         </div>
       </div>
 
@@ -464,7 +464,7 @@ function renderCard(q) {
     optHTML += revRow;
   }
 
-  const saqHTML = isSAQ ? `<div class="saq-body"><div class="saq-hint">${isEssay ? 'Essay · 600–800 words' : 'Short answer · ~100 words'} — write your response before reviewing the topic</div></div>` : '';
+  const saqHTML = isSAQ ? `<div class="saq-body"><div class="saq-hint">${isEssay ? 'Essay · 600–800 words' : 'Short answer · ~100 words'} - write your response before reviewing the topic</div></div>` : '';
 
   return `<article class="q-card" id="qcard-${q.id}">
     <div class="q-header">

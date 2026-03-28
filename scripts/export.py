@@ -44,11 +44,11 @@ def print_stats(conn):
 
 def write_js(questions, root):
     out = root / "questions.js"
-    out.write_text(
-        "// Auto-generated — do not edit manually.\n"
-        "const QUESTIONS = " + json.dumps(questions, ensure_ascii=False, indent=2) + ";\n",
-        encoding="utf-8",
-    )
+    content = (
+        "// Auto-generated - do not edit manually.\n"
+        "const QUESTIONS = " + json.dumps(questions, ensure_ascii=False, indent=2) + ";\n"
+    ).replace("\u2014", "-")
+    out.write_text(content, encoding="utf-8")
     print(f"Wrote {len(questions)} questions to {out.name}")
 
 

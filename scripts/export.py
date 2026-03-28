@@ -18,11 +18,11 @@ DB_FILE = ROOT / "questions.db"
 
 def load_questions(conn):
     cursor = conn.execute(
-        "SELECT id, part, cat, question, opts, ans FROM questions ORDER BY id"
+        "SELECT id, part, cat, question, opts, ans, date_added FROM questions ORDER BY id"
     )
     questions = []
     for row in cursor:
-        q = {"id": row[0], "part": row[1], "cat": row[2], "q": row[3]}
+        q = {"id": row[0], "part": row[1], "cat": row[2], "q": row[3], "date_added": row[6]}
         if row[4] is not None:
             q["opts"] = json.loads(row[4])
             q["ans"] = row[5]

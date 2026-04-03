@@ -2442,5 +2442,1573 @@ const QUESTIONS = [
       "Post-disaster budget allocations informed by scientific damage projections"
     ],
     "ans": 1
+  },
+  {
+    "id": 202,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "The Disability-Adjusted Life Year (DALY) is a summary measure of population health that combines:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Healthcare expenditure and disease prevalence per capita",
+      "Hospital admission rates and outpatient visit costs",
+      "Mortality rates and morbidity across age groups as reported by hospitals",
+      "Years of life lost to premature death and years lived with disability"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 203,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "India's Maternal Mortality Ratio (MMR) is defined as:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Number of maternal deaths per 100,000 live births",
+      "Number of maternal deaths per 1,000 women aged 15–49",
+      "Total maternal deaths per year as a proportion of total female deaths",
+      "Percentage of births unattended by skilled health personnel that result in death"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 204,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "Universal Health Coverage (UHC), as defined by the WHO, means:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Free healthcare for all citizens fully funded by the government",
+      "All people have access to the health services they need without suffering financial hardship",
+      "Coverage of all diseases under government-mandated insurance schemes",
+      "Provision of essential medicines and vaccines to all populations globally"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 205,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "POSHAN Abhiyaan (National Nutrition Mission), launched in 2018, primarily targets:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Providing free school meals to all children up to age 14",
+      "Reducing anaemia among women through universal iron supplementation programmes",
+      "Reducing stunting, wasting, low birth weight, and anaemia through convergent multi-sectoral action",
+      "Ensuring 100% institutional delivery across all Indian states"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 206,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "India's National Health Policy 2017 set a target of increasing government expenditure on health to what proportion of GDP?",
+    "date_added": "2026-04-03",
+    "opts": [
+      "1.5%",
+      "3.5%",
+      "5.0%",
+      "2.5%"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 207,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "The WHO Mental Health Action Plan 2013–2030 emphasizes which core principle as its foundation?",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Mental health is a human right and an integral component of overall health",
+      "Mental health treatment should be primarily hospital-based and pharmacological",
+      "Governments must mandate community-based mental health coverage through insurance",
+      "Suicide prevention is the primary indicator of mental health system performance"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 208,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "According to NFHS-5 (2019–21), India's Total Fertility Rate (TFR) is notable because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It has increased to 2.5, requiring an urgent national population programme",
+      "It has fallen below the replacement level of 2.1 for the first time nationally",
+      "It remains static at 2.5 across all major states since NFHS-4",
+      "It is still above 3.0 in most high-fertility states despite national decline"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 209,
+    "part": "A",
+    "cat": "Health & Well-being",
+    "q": "According to India's State-Level Disease Burden Initiative data, the primary shift in India's disease burden since the 1990s has been:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A resurgence of communicable diseases such as tuberculosis and malaria",
+      "A rise in injuries and road traffic accidents as the top contributor to DALYs",
+      "A transition where non-communicable diseases now account for the majority of DALYs",
+      "A stable burden with no major epidemiological transition observed"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 210,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "The Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW) is often called the 'international bill of rights for women' because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It provides the first internationally agreed definition of discrimination against women and a framework for achieving equality",
+      "It is the only international treaty that criminalizes domestic violence between intimate partners",
+      "It mandates 50% female representation in all national parliaments of signatory states",
+      "It establishes a permanent international court to prosecute gender-based crimes"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 211,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "The Constitution (One Hundred and Sixth Amendment) Act, 2023 (Nari Shakti Vandan Adhiniyam) provides for:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "50% reservation for women in all central government services",
+      "33% reservation for women in the Lok Sabha, state legislative assemblies, and the NCT of Delhi assembly",
+      "25% reservation for women in the Rajya Sabha and legislative councils",
+      "Reservation for women in the Supreme Court collegium and High Court appointments"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 212,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "The Protection of Women from Domestic Violence Act (PWDVA), 2005 was landmark legislation because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It was the first law in India to criminalize marital rape with imprisonment",
+      "It mandated compulsory FIR registration in all domestic violence complaints",
+      "It extended legal protection to women in live-in and other domestic relationships and recognized non-physical forms of abuse",
+      "It created dedicated fast-track courts for domestic violence cases in every district"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 213,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "The Supreme Court of India introduced the 'creamy layer' principle for OBC reservations to ensure:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "That OBC communities most affected by historical atrocities receive proportional benefits",
+      "A constitutional upper limit of 50% on total reservations in any state",
+      "That only the first generation of OBC beneficiaries can access reservation benefits",
+      "That relatively affluent OBC individuals who are no longer socially and educationally backward are excluded from reservation benefits"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 214,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Amendment Act, 2015 strengthened the original 1989 Act primarily by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Adding new offences and removing the requirement for prior approval before arresting accused persons",
+      "Extending protections to all minority communities including religious minorities",
+      "Creating permanent special courts exclusively for SC/ST atrocity cases in every district",
+      "Mandating death penalty for all offences listed under the Act"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 215,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "Gender-responsive budgeting (GRB) as a policy approach refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Allocating 50% of all government expenditure equally between programmes for men and women",
+      "Analysing government budgets through a gender lens to assess and address differential impacts on women, men, and gender-diverse persons",
+      "Creating a separate dedicated budget exclusively for women's welfare and development programmes",
+      "Mandating equal per capita public spending on women as on men in every ministry"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 216,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "The Transgender Persons (Protection of Rights) Act, 2019 has been criticized by transgender rights activists primarily because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It fails to provide any form of legal recognition or identity documents to transgender persons",
+      "It explicitly prohibits transgender persons from contesting elections or holding public office",
+      "It requires transgender persons to obtain a certificate from a District Magistrate, undermining self-identified gender recognition",
+      "It criminalizes gender-affirming surgical procedures without government approval"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 217,
+    "part": "A",
+    "cat": "Gender, Caste & Social Justice",
+    "q": "Kimberlé Crenshaw's concept of intersectionality, as applied to caste and gender in India, argues that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Caste-based oppression is more fundamental than gender discrimination and must be addressed first",
+      "Gender and caste discrimination can be analysed through entirely separate legal frameworks",
+      "Economic class is the primary determinant of social exclusion, with caste and gender as secondary factors",
+      "The overlapping systems of caste, gender, class, and other hierarchies produce unique and compounded forms of disadvantage"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 218,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "Purchasing Power Parity (PPP) is used to compare GDP across countries because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It adjusts for the relative purchasing power of currencies, enabling more accurate cross-country comparisons than market exchange rates",
+      "It measures the trade surplus or deficit between two countries",
+      "It standardizes all economies to the US dollar at the official exchange rate",
+      "It captures income inequality within countries that nominal GDP ignores"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 219,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "When the Reserve Bank of India (RBI) raises the repo rate, the intended effect on the economy is:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Increasing government expenditure to stimulate economic growth",
+      "Reducing borrowing and spending to control inflation",
+      "Encouraging banks to lend more to boost economic activity",
+      "Lowering foreign exchange reserves to stabilize the rupee"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 220,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "Public goods in economics are characterized by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Goods that are owned and provided exclusively by the government",
+      "Goods that are free at the point of delivery but paid for through taxes",
+      "Non-excludability and non-rivalry, meaning no one can be excluded from use and one person's use does not diminish availability for others",
+      "Goods with positive externalities that justify government subsidies"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 221,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "India's Goods and Services Tax (GST), implemented in 2017, replaced:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Only the central excise duty and service tax at the national level",
+      "Only state-level VAT and entry tax across Indian states",
+      "The income tax structure for businesses with turnover below ₹1 crore",
+      "A complex system of central and state indirect taxes including VAT, excise duty, service tax, and several cesses"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 222,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "The Pradhan Mantri Jan Dhan Yojana (PMJDY), launched in 2014, is primarily aimed at:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Achieving universal financial inclusion by providing bank accounts, insurance, and credit access to unbanked households",
+      "Providing direct cash transfers to farmers in lieu of agricultural subsidies",
+      "Establishing new public sector banks in rural and semi-urban areas",
+      "Offering zero-interest crop loans to small and marginal farmers"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 223,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "A high debt-to-GDP ratio in a developing country is considered fiscally risky primarily because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It automatically triggers International Monetary Fund (IMF) structural adjustment conditions",
+      "It limits fiscal space for public investment and makes the country vulnerable to debt distress during economic downturns",
+      "It prevents the country from joining multilateral trade agreements",
+      "It causes hyperinflation regardless of monetary policy measures adopted"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 224,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "Cost-push inflation differs from demand-pull inflation in that it is caused by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Excessive money supply growth leading to too much money chasing too few goods",
+      "Rising consumer demand outstripping the productive capacity of the economy",
+      "Rising production costs such as wages or raw material prices that firms pass on to consumers",
+      "Speculative investment bubbles in asset markets driving up the general price level"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 225,
+    "part": "A",
+    "cat": "Economics & Finance",
+    "q": "The concept of Universal Basic Income (UBI) proposes:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A means-tested cash transfer targeted at households below the poverty line",
+      "A lump-sum grant paid once to all citizens upon reaching adulthood",
+      "A negative income tax that automatically supplements incomes falling below a threshold",
+      "An unconditional periodic cash payment to all citizens regardless of employment or income status"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 226,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "The Coase Theorem in environmental economics argues that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "In the absence of transaction costs, private parties can negotiate an efficient solution to externalities regardless of the initial assignment of property rights",
+      "Governments should always tax polluters because market negotiations always fail for environmental problems",
+      "Private property rights inevitably lead to the overexploitation of natural resources",
+      "Environmental regulations are always more efficient than market-based instruments in correcting externalities"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 227,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "In a cap-and-trade emissions trading system:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The government sets a maximum price for carbon and allows unlimited emissions below that price",
+      "A ceiling is placed on total emissions and firms can buy and sell permits, incentivizing the cheapest emission reductions first",
+      "Carbon taxes are set at the marginal social cost of emissions and adjusted annually",
+      "Firms pay a fixed penalty per tonne of emissions regardless of total sector emissions"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 228,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "REDD+ under the UNFCCC refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A global fund for renewable energy development in developing countries",
+      "An international mechanism to reduce ocean acidification through afforestation",
+      "A framework for reducing emissions from deforestation and forest degradation while supporting sustainable forest management and carbon stocks in developing countries",
+      "A protocol mandating reforestation of all degraded lands in signatory nations"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 229,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "The Total Economic Value (TEV) framework in environmental economics classifies ecosystem values into:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Market value, subsistence value, and intrinsic value",
+      "Direct use value and non-use value only",
+      "Carbon value, biodiversity value, and cultural heritage value",
+      "Use values (direct, indirect, option) and non-use values (existence, bequest)"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 230,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "The Environmental Kuznets Curve (EKC) hypothesis predicts that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Environmental degradation first increases and then decreases as per capita income rises, following an inverted-U relationship",
+      "Environmental quality and economic growth are always positively correlated once industrialization begins",
+      "Developing countries have lower environmental degradation because of lower industrial output",
+      "Environmental damage is directly proportional to GDP growth regardless of development stage"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 231,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "Extended Producer Responsibility (EPR) as an environmental policy instrument requires:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Government agencies to manage and finance the end-of-life disposal of all manufactured products",
+      "Producers to take financial or physical responsibility for the end-of-life management of their products, incentivizing eco-design",
+      "Retailers to collect and sort consumer waste before handing it to municipal authorities",
+      "International manufacturers to pay carbon tariffs on goods exported to high-income countries"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 232,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "The contingent valuation method (CVM) estimates the economic value of environmental goods by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Calculating the restoration cost of a damaged ecosystem to its original state",
+      "Observing market prices of substitute goods that people purchase to protect themselves from pollution",
+      "Surveying people about their willingness to pay for a hypothetical improvement or accept compensation for a hypothetical environmental loss",
+      "Tracking changes in property values near environmental amenities or disamenities"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 233,
+    "part": "A",
+    "cat": "Environmental Economics & Policy",
+    "q": "Article 6 of the Paris Agreement is significant because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It sets binding emission reduction targets for all Annex I countries",
+      "It establishes the Green Climate Fund and its annual financing commitments",
+      "It defines the global temperature goal of limiting warming to 1.5°C above pre-industrial levels",
+      "It establishes frameworks for voluntary cooperation between countries on climate action, including international carbon markets"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 234,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "The Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS) guarantees:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "100 days of wage employment per year to every rural household whose adult members volunteer to do unskilled manual work",
+      "A minimum monthly pension to all rural workers above 60 years of age",
+      "Free seeds, fertilizers, and irrigation access to all small and marginal farmers",
+      "150 days of employment to households below the poverty line in drought-affected districts"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 235,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "The Electronic National Agriculture Market (e-NAM) platform was launched with the primary objective of:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Providing direct cash transfers to farmers as a substitute for agricultural subsidies",
+      "Creating a unified national market for agricultural commodities to enable transparent price discovery and reduce intermediary costs",
+      "Digitizing all land records and providing farmers with tamper-proof title deeds",
+      "Linking farmers directly to food processing companies through government-brokered contracts"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 236,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "Land ceiling legislation in post-independence India aimed to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Fix the maximum price at which agricultural land could be sold to prevent speculative investment",
+      "Regulate the conversion of agricultural land to non-agricultural uses in peri-urban areas",
+      "Impose an upper limit on landholding size and redistribute surplus land to landless and poor farmers",
+      "Consolidate fragmented landholdings through government-mediated land exchange programmes"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 237,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme provides:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A one-time grant of ₹1 lakh to farmers who adopt organic farming practices",
+      "Subsidized crop insurance coverage for all landholding farmers at concessional premium rates",
+      "Guaranteed minimum support price for 23 crops through direct purchase by the Food Corporation of India",
+      "An annual income support of ₹6,000 in three equal instalments to all landholding farmer families"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 238,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "Agroecology as an approach to food systems emphasizes:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The application of ecological principles to design sustainable agricultural systems integrating biodiversity, local knowledge, and social equity",
+      "The exclusive use of traditional seed varieties and prohibition of all synthetic inputs",
+      "Maximizing agricultural output through high-yield varieties, chemical inputs, and mechanization",
+      "Segregating agricultural land from natural ecosystems to prevent biodiversity encroachment"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 239,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "The AMUL cooperative model, developed in Anand, Gujarat, is significant as a development model because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It demonstrated how government price controls can eliminate market distortions in dairy farming",
+      "It showed how producer-owned cooperatives can give smallholders bargaining power, fair prices, and access to national value chains",
+      "It proved that large-scale mechanized dairy farming is more efficient than small-scale household production",
+      "It provided evidence that foreign direct investment is essential for agricultural value chain development"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 240,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "India's Soil Health Card Scheme, launched in 2015, aims to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Compensate farmers for soil degradation caused by industrial pollution on their landholdings",
+      "Map all agricultural soils in India using satellite remote sensing for land use planning",
+      "Provide farmers with crop- and field-specific nutrient management recommendations to improve soil health and reduce input costs",
+      "Certify organic status for farms that meet national soil health standards under the PGS-India system"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 241,
+    "part": "A",
+    "cat": "Land, Agriculture & Rural Development",
+    "q": "Contract farming in agriculture refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Government-brokered agreements under which mandis purchase produce at legally guaranteed prices",
+      "Inter-state agreements that allocate river water resources for irrigation in shared river basins",
+      "Cooperative farming arrangements where land is pooled and cultivated collectively by village members",
+      "Pre-harvest agreements between farmers and buyers specifying price, quantity, quality, and sometimes inputs, shifting market risk from farmer to buyer"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 242,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "The Jal Jeevan Mission, launched in 2019, aims to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Provide piped potable water supply to every rural household through functional household tap connections",
+      "Construct 1,000 new check dams and water harvesting structures in drought-prone districts",
+      "Declare all rivers above 50 km in length as national waterways with navigation rights",
+      "Ensure zero open defecation across India by providing sanitation in all rural households"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 243,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "The Indus Waters Treaty (1960) between India and Pakistan, brokered by the World Bank, allocated:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "All six rivers of the Indus basin equally between the two nations",
+      "The eastern rivers (Ravi, Beas, Sutlej) to India and the western rivers (Indus, Jhelum, Chenab) primarily to Pakistan",
+      "All Himalayan rivers to India and all plains rivers to Pakistan",
+      "The entire Indus basin for joint development under a bilateral commission with equal representation"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 244,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "The water-food-energy nexus approach to resource governance recognizes that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Water, food, and energy sectors must be governed by a single unified ministry to eliminate duplication",
+      "Competition for water between agriculture and energy sectors is primarily a problem of developing countries",
+      "These three systems are deeply interdependent, requiring integrated management to avoid trade-offs and cross-sectoral inefficiencies",
+      "Food security is achievable without addressing water or energy scarcity if crop yields are sufficiently maximized"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 245,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "India's Namami Gange Programme (National Mission for Clean Ganga) integrates:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "River conservation exclusively through legal prohibition of industrial discharge",
+      "Wastewater treatment only, with natural wetland restoration handled separately",
+      "Only surface water quality monitoring without addressing groundwater recharge",
+      "Sewage treatment, industrial effluent control, riverfront development, biodiversity conservation, and public awareness"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 246,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "India's updated NDC (2022) sets a target of achieving how much cumulative non-fossil fuel-based electricity installed capacity by 2030?",
+    "date_added": "2026-04-03",
+    "opts": [
+      "500 GW",
+      "300 GW",
+      "450 GW",
+      "750 GW"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 247,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "India's continued significant reliance on coal for electricity generation is primarily explained by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Coal's superior energy density compared to all renewable alternatives",
+      "Energy security, affordability, and the employment dependency of coal communities, even as renewables are rapidly scaled up",
+      "International agreements that exempt developing countries from coal phase-down until 2050",
+      "The inability of India's grid infrastructure to accommodate intermittent renewable energy sources at any scale"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 248,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "The Central Ground Water Authority (CGWA) in India is empowered to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Drill new irrigation wells in water-scarce districts to meet agricultural demand",
+      "Negotiate international agreements on shared aquifers with neighbouring countries",
+      "Regulate and control the development and management of groundwater resources, including restricting extraction in over-exploited areas",
+      "Determine river water allocations between states through an inter-state tribunal mechanism"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 249,
+    "part": "A",
+    "cat": "Water, Energy & Natural Resources",
+    "q": "A 'just energy transition' in coal-dependent economies refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A rapid, technology-driven shift to renewables without consideration of economic disruption",
+      "Energy transition exclusively funded by international climate finance from developed nations",
+      "A legally mandated phase-out of fossil fuels within a fixed time-frame prescribed by the Paris Agreement",
+      "A managed shift away from fossil fuels that addresses the socio-economic impacts on workers, communities, and regions dependent on fossil fuel industries"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 250,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "The Right to Information Act (RTI), 2005 empowers citizens to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Request information from any public authority, which must respond within 30 days, promoting transparency and accountability in governance",
+      "File complaints against public officials directly in the Supreme Court without prior notice",
+      "Access all government documents including those classified as cabinet secrets and national security files",
+      "Demand explanations from elected representatives about their voting record in the legislature"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 251,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "The Comptroller and Auditor General (CAG) of India's primary constitutional role is:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Advising the Finance Ministry on public expenditure and fiscal deficit management",
+      "Auditing the receipts and expenditure of the Union and state governments to ensure accountability to Parliament and state legislatures",
+      "Approving all government contracts above a specified threshold before execution",
+      "Preparing the Union Budget in consultation with NITI Aayog and the Finance Commission"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 252,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "Public Interest Litigation (PIL) expanded access to justice in India primarily because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It allowed private corporations to sue the government for regulatory overreach",
+      "It replaced the original writ jurisdiction of the Supreme Court with a simplified procedure",
+      "It permitted any citizen to approach the Supreme Court or High Courts on behalf of disadvantaged groups unable to access courts directly",
+      "It mandated the appointment of a public advocate in every case involving fundamental rights"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 253,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "Subjects on the Concurrent List of India's Seventh Schedule are significant because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "They are exclusively the domain of state legislatures, with Parliament having no legislative role",
+      "They are exclusively the domain of Parliament, with states having no legislative power",
+      "States have exclusive jurisdiction in peacetime but Parliament takes over during a national emergency",
+      "Both Parliament and state legislatures can legislate on them, but in case of conflict, central law prevails"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 254,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "Article 324 of the Constitution gives the Election Commission of India the power of:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Superintendence, direction, and control of the preparation of electoral rolls and the conduct of all elections to Parliament and state legislatures",
+      "Disqualifying elected members who violate party whips on confidence motions",
+      "Conducting simultaneous elections to Parliament and all state assemblies on a fixed schedule",
+      "Exclusive jurisdiction over electoral disputes, bypassing the jurisdiction of courts"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 255,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "Article 356 (President's Rule) has been constitutionally controversial primarily because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It requires a two-thirds majority in Parliament before President's Rule can be imposed in any state",
+      "Historical misuse allowed the central government to dismiss state governments for political reasons, until the S.R. Bommai case (1994) imposed judicial scrutiny",
+      "It permanently removes the state legislature and transfers all governance powers to the Governor",
+      "It can only be invoked during declared national emergencies and not in peacetime"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 256,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "The concept of 'constitutional morality' as applied in landmark Supreme Court judgments (Navtej Johar, Sabarimala) refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The moral code derived from ancient Indian scriptures and traditions recognized in preamble values",
+      "The moral consensus of the majority of Indian citizens as expressed through public opinion",
+      "Adherence to the transformative values of the Constitution-dignity, equality, liberty-even when at odds with popular or social morality",
+      "The ethical principles binding on elected representatives under the anti-defection law"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 257,
+    "part": "A",
+    "cat": "Indian Polity & Governance",
+    "q": "The National Human Rights Commission (NHRC) of India was established under:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The Fundamental Rights chapter of the Constitution via a Presidential Order",
+      "The United Nations Human Rights Council's Paris Principles through bilateral commitment",
+      "A Supreme Court directive following the Vishakha case on workplace sexual harassment",
+      "The Protection of Human Rights Act, 1993, to inquire into violations of human rights by state and non-state actors"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 258,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "COP29, held in Baku, Azerbaijan in November 2024, was primarily significant for:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Establishing a new collective quantified goal (NCQG) on climate finance, setting a target of 00 billion per year by 2035 for developing countries",
+      "Agreeing to phase out all fossil fuel subsidies globally by 2030",
+      "Mandating all countries to submit updated NDCs with at least 60% emission reduction targets",
+      "Establishing a permanent Loss and Damage Fund with binding annual contribution schedules"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 259,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "India's Chandrayaan-3 mission (August 2023) was a landmark achievement because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It was the first spacecraft to orbit the Moon for more than six months continuously",
+      "It successfully landed near the lunar south pole, making India the fourth country to achieve a soft lunar landing and the first near the south pole",
+      "It discovered liquid water beneath the lunar regolith for the first time using ground-penetrating radar",
+      "It deployed a rover that transmitted scientific data for over two years from the lunar surface"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 260,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "The Bletchley Declaration (2023), signed at the AI Safety Summit in the UK, addressed:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Regulation of generative AI tools in consumer products across G7 countries",
+      "Mandatory AI impact assessments for all government procurement of AI systems",
+      "The risks of frontier AI models that could cause catastrophic or existential harm, and the need for international cooperation on AI safety",
+      "Copyright protections for artists and authors whose work was used to train commercial AI models"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 261,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "At the BRICS Summit in Johannesburg (August 2023), six new countries were invited to join in 2024. Which option correctly identifies them?",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Pakistan, Nigeria, Bangladesh, Mexico, Turkey, and Kazakhstan",
+      "Indonesia, Vietnam, Thailand, Malaysia, Colombia, and Algeria",
+      "Turkey, Mexico, Nigeria, Kenya, Venezuela, and Indonesia",
+      "Saudi Arabia, Iran, Ethiopia, Egypt, Argentina (which later declined), and the UAE"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 262,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "The India-Middle East-Europe Economic Corridor (IMEC), announced at the G20 Summit in New Delhi (2023), is primarily significant because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It aims to create a rail and shipping corridor connecting India through the Gulf to Europe, positioning it as an alternative to China's Belt and Road Initiative",
+      "It establishes a free trade zone across the Indo-Pacific including Japan and South Korea",
+      "It is a military alliance aimed at ensuring security of sea lanes in the Indian Ocean Region",
+      "It provides a legal framework for India's direct access to Central Asian energy resources via Iran"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 263,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "The SDG Summit 2023 midterm review concluded that global progress on the Sustainable Development Goals was:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "On track for most high-income countries but significantly off track for least developed countries",
+      "Severely off track, with less than 15% of SDG targets on course, worsened by the pandemic, conflicts, and climate change",
+      "Better than expected due to digital technology reducing the cost of service delivery in developing countries",
+      "Satisfactory for economic goals (SDGs 1, 8, 9) but lagging for environmental goals (SDGs 13, 14, 15)"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 264,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "The WHO Pandemic Accord (pandemic treaty negotiations ongoing since 2021) aims to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Create a standing global military force for pandemic containment and border enforcement",
+      "Transfer pandemic response authority from national governments to the WHO for future health emergencies",
+      "Establish a legally binding international framework for pandemic prevention, preparedness, and response, including equitable access to health tools",
+      "Mandate universal vaccine coverage targets and penalties for non-compliant WHO member states"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 265,
+    "part": "A",
+    "cat": "Current Affairs & Global Events",
+    "q": "The Russia-Ukraine war (begun February 2022) triggered a global food security crisis primarily because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Both countries are the world's leading producers and exporters of soybeans and rice",
+      "The war disrupted international financial systems and cut off all food aid to Sub-Saharan Africa",
+      "Russia imposed a global grain embargo affecting all UN member states that imposed sanctions",
+      "Ukraine and Russia together account for a major share of global wheat and sunflower oil exports, and the war disrupted supply chains and drove up food prices globally"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 266,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "The Global Multidimensional Poverty Index (MPI), developed by OPHI and UNDP, measures poverty by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Simultaneously measuring deprivations across health, education, and living standards dimensions, capturing both the incidence and intensity of multidimensional poverty",
+      "Combining income poverty with life expectancy to create a composite poverty ranking",
+      "Counting the share of population living below .90 per day in purchasing power parity terms",
+      "Measuring the gap between the income of the poorest 20% and the national average"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 267,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "Robert Putnam's concept of social capital argues that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Economic development in poor communities is primarily constrained by lack of physical infrastructure",
+      "Civic networks, norms of reciprocity, and social trust are resources that enable collective action and improve governance and development outcomes",
+      "Bonding social capital within communities is always more valuable than bridging social capital across groups",
+      "Social capital can substitute entirely for financial capital in driving economic growth"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 268,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "A human rights-based approach (HRBA) to development differs from needs-based approaches by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Focusing exclusively on legal mechanisms and courts to achieve development outcomes",
+      "Prioritizing only civil and political rights over economic, social, and cultural rights",
+      "Framing development as the realization of entitlements, creating duty-bearers (states) and rights-holders (people), emphasizing participation and accountability",
+      "Requiring all development projects to pass through UN human rights mechanisms before implementation"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 269,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "Dependency theory in development economics argues that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Developing countries can achieve growth by emulating the institutional path of Western nations",
+      "Foreign direct investment from developed countries is the most effective mechanism for development",
+      "Free trade and comparative advantage always benefit developing countries in the long run",
+      "Global economic structures perpetuate underdevelopment by extracting surplus from periphery countries to core countries"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 270,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "South-South cooperation in development refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The exchange of knowledge, resources, technical expertise, and technologies between developing countries, as a complement to North-South aid",
+      "A trade agreement between countries in the southern hemisphere reducing tariffs on agricultural products",
+      "The UNDP-led framework for climate adaptation funding exclusively targeting low-income countries",
+      "Joint military cooperation between non-aligned developing nations under the NAM framework"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 271,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "The ILO Social Protection Floors Recommendation (2012) calls for:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Universal basic income as the single most effective mechanism for social protection",
+      "Nationally defined sets of basic social security guarantees ensuring access to essential healthcare and minimum income security for all people",
+      "Privatization of all social insurance schemes to improve efficiency and targeting",
+      "The creation of a global social protection fund financed entirely by international development banks"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 272,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "'Last-mile delivery' challenges in social policy refer to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Logistics bottlenecks in the supply chain for essential goods between production and distribution centers",
+      "Difficulty in identifying and registering intended beneficiaries for poverty reduction programmes",
+      "The persistent gap between policy design and effective implementation at the household level, particularly for the most marginalized populations",
+      "Connectivity issues that prevent rural populations from accessing digital government services"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 273,
+    "part": "A",
+    "cat": "Development Studies & Social Policy",
+    "q": "New Public Management (NPM) as a governance reform approach advocates for:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Strengthening parliamentary oversight of executive agencies through mandatory audit committees",
+      "Decentralizing all public services to local self-government institutions",
+      "State-owned enterprises as the primary mechanism for delivering public goods efficiently",
+      "Introducing private sector management principles such as performance measurement, competition, and efficiency benchmarks into public service delivery"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 274,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "The Sendai Framework 2015–2030 global targets include a commitment to substantially reduce:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Disaster mortality, the number of affected people, direct economic losses, and damage to critical infrastructure and basic services by 2030",
+      "All disaster risk from coastal cities through mandatory relocation of vulnerable communities by 2025",
+      "Disaster-related displacement to zero in all least-developed countries by 2025",
+      "Dependence on international humanitarian aid to zero through domestic preparedness funds"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 275,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Community-Based Disaster Risk Reduction (CBDRR) is premised on the argument that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Technical experts and government authorities are best positioned to assess and manage all disaster risks",
+      "Local communities have contextual knowledge and are the first responders in disasters, making their active participation essential for effective and sustained risk reduction",
+      "Community engagement is only relevant for small-scale localized disasters and not for large-scale catastrophic events",
+      "Disaster risk reduction should be led exclusively by national civil defence agencies with community compliance"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 276,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "'Cascading disasters' in disaster risk science refer to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Disasters that occur simultaneously in multiple countries, requiring coordinated international humanitarian response",
+      "Natural disasters triggered exclusively by climate change-related extreme weather events",
+      "Situations where multiple hazards interact or co-occur, or where a primary disaster triggers secondary hazards, amplifying overall risk and impacts",
+      "Large-scale disasters that unfold over extended time periods rather than as single acute events"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 277,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Risk layering in disaster risk financing involves:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Requiring all governments to hold a disaster reserve equal to at least 2% of annual GDP",
+      "Transferring all residual risk to international reinsurance companies through mandatory sovereign insurance",
+      "Retaining only low-frequency, low-cost risks locally while managing all major risks at the national level",
+      "Matching financial instruments to risk severity-reserves for frequent small losses, contingent credit for moderate losses, and insurance or catastrophe bonds for catastrophic events"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 278,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Climate change is expected to increase disaster risk primarily by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Increasing the frequency and intensity of hydrometeorological hazards, shifting hazard patterns, and interacting with existing social vulnerabilities to compound risk",
+      "Generating entirely new categories of natural hazards that were previously unknown to science",
+      "Causing geophysical disasters such as earthquakes and volcanic eruptions to occur more frequently",
+      "Eliminating seasonal weather patterns, making all forms of disaster forecasting unreliable"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 279,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "A Post-Disaster Needs Assessment (PDNA) is a government-led process that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Investigates the causes and contributing factors of disasters for legal liability and prosecution purposes",
+      "Estimates the value of damage and economic loss and identifies recovery needs to inform government and donor response strategies",
+      "Validates insurance claims and calculates compensation for disaster-affected businesses",
+      "Assesses the adequacy of early warning systems and emergency response plans after each disaster event"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 280,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Indigenous and local knowledge is advocated for inclusion in disaster risk reduction because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Indigenous communities never experienced disasters before modernization, making their knowledge reliable",
+      "International law requires indigenous consultation for all national disaster management plans",
+      "Indigenous and local knowledge systems encode generations of observations about hazard patterns and adaptive strategies that complement scientific approaches",
+      "Indigenous knowledge is the only reliable information source in areas lacking formal meteorological infrastructure"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 281,
+    "part": "A",
+    "cat": "Disaster Risk & Resilience",
+    "q": "Effective disaster risk governance at the national level is generally characterized by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Centralized national authority to ensure standardized risk reduction across all territories",
+      "Exclusive delegation of disaster management to technical agencies insulated from political interference",
+      "International agencies taking the lead in disaster governance in developing countries with limited capacity",
+      "Coherent policy frameworks, institutional mechanisms, and coordination across multiple levels of government and sectors, with clear roles and adequate resources"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 282,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "Mixed methods research is characterized by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The systematic integration of quantitative and qualitative data collection and analysis to develop a more complete understanding of a research question",
+      "Using quantitative data for hypothesis testing and qualitative data solely for illustrating numerical findings",
+      "Conducting quantitative and qualitative studies independently and reporting them separately without synthesis",
+      "Applying statistical algorithms to analyze qualitative textual data through automated coding systems"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 283,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "Instrumental variables (IV) regression is used in causal inference when:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Multiple regression models produce unstable estimates due to high multicollinearity among predictors",
+      "The treatment variable is endogenous (correlated with the error term), and a valid instrument provides exogenous variation in treatment assignment",
+      "The researcher wants to estimate the causal effect of a continuous variable using only binary outcome data",
+      "A randomized experiment is available but has high rates of non-compliance among participants"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 284,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "Triangulation in research methodology involves:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Using three separate research teams to independently collect data on the same phenomenon",
+      "Conducting exactly three rounds of data collection in longitudinal qualitative studies",
+      "Using multiple data sources, methods, investigators, or theoretical perspectives to cross-check findings and enhance validity",
+      "Dividing the study population into three equal groups for comparative analysis"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 285,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "A Regression Discontinuity (RD) design exploits:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Random assignment of treatment to estimate its average effect on a continuous outcome variable",
+      "Naturally occurring variation in exposure due to geographic proximity to a treatment center",
+      "Matched pairs of treated and control units with similar pre-treatment characteristics",
+      "A threshold rule that assigns treatment based on a cutoff value, allowing comparison of units just above and below the cut-off to estimate causal effects"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 286,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "Action research as a research approach is characterized by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A cyclical process in which researchers and practitioners collaboratively identify problems, implement interventions, and reflect on outcomes to generate knowledge and create change simultaneously",
+      "Research conducted by government agencies to evaluate the effectiveness of policy interventions in real settings",
+      "Randomized experiments carried out in real-world settings to test the practical effectiveness of theories",
+      "Long-term observation studies where researchers are embedded in communities for multiple years without intervention"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 287,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "Propensity score matching (PSM) is used in observational studies to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Randomly assign participants to treatment and control groups when true randomization is infeasible",
+      "Balance the distribution of observed covariates between treatment and control groups to reduce selection bias in estimating treatment effects",
+      "Weight responses from hard-to-reach populations to make survey samples more nationally representative",
+      "Adjust for measurement error in self-reported data by matching survey responses to administrative records"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 288,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "A Likert scale in survey research is designed to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Rank respondents along a single dimension from most to least extreme attitude",
+      "Force respondents to choose between exactly two options for each attitude statement",
+      "Measure the degree of agreement or disagreement with a series of statements, typically on a five- or seven-point scale, to capture attitude intensity",
+      "Assign a monetary value to respondents' preferences through contingent ranking exercises"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 289,
+    "part": "A",
+    "cat": "Research Methods & Statistics",
+    "q": "Statistical power in hypothesis testing refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The probability of incorrectly rejecting a true null hypothesis, also known as the Type I error rate",
+      "The minimum sample size required to detect any statistically significant effect regardless of magnitude",
+      "The precision of a point estimate as measured by its standard error or confidence interval width",
+      "The probability that a study will detect a true effect of a given size if one exists, equal to 1 minus the Type II error rate"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 290,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "Slum upgrading as a policy approach, in contrast to slum clearance, involves:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "In-situ improvement of informal settlements by providing security of tenure, basic services, and infrastructure while allowing residents to remain in place",
+      "Demolishing informal settlements and relocating residents to planned townships at the urban periphery",
+      "Legalizing all unauthorized structures through blanket regularization irrespective of land ownership status",
+      "Providing cash compensation to slum dwellers to purchase housing in the formal real estate market"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 291,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "The 'compact city' concept in urban planning advocates for:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Concentrating all urban growth within existing city limits through strict growth boundaries that prohibit all peripheral development",
+      "Higher density mixed-use development that reduces car dependence, shortens commutes, and supports walkability and public transport",
+      "The consolidation of multiple adjacent municipalities into a single integrated metropolitan governance unit",
+      "Restricting housing development in green-field areas by mandating brown-field redevelopment first in all cities"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 292,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "Urban climate resilience planning typically involves:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Relocating all urban populations from flood-prone and coastal cities to safer inland zones",
+      "Replacing all grey infrastructure with green infrastructure in all cities within a fixed decade-long schedule",
+      "Identifying climate hazard exposure, assessing vulnerabilities, and integrating adaptation measures into urban planning, infrastructure investment, and governance",
+      "Mandating that all new urban buildings meet net-zero energy standards before receiving occupancy certificates"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 293,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "Universal design in architecture and urban planning refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "A design approach that maximizes efficiency of space utilization in high-density urban areas",
+      "The standardization of building codes across all states to ensure minimum housing quality nationwide",
+      "Design that minimizes construction cost by using widely available and interchangeable materials",
+      "The design of environments, products, and services usable by all people regardless of age, disability, or other characteristics, without requiring specialized adaptation"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 294,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "'Urban informality' in planning theory primarily refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The practices, spaces, and economies that exist outside formal regulatory frameworks, which represent a significant share of housing and livelihoods in Global South cities",
+      "The underground or shadow economy in cities that avoids taxation and formal business registration",
+      "Illegal land subdivision and unauthorized construction by middle and upper-income groups on the urban fringe",
+      "Informal social networks that govern community life in slums in the absence of formal institutions"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 295,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "Participatory planning as an approach to urban development emphasizes:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Empowering planning professionals to make technically optimal decisions without interference from community interests",
+      "The meaningful involvement of communities-especially marginalized groups-in decisions about urban development and planning that affect their lives",
+      "Delegating all planning decisions to ward committees without any technical expert input or oversight",
+      "Replacing master plans with incremental project-by-project approvals based on community petitions and protests"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 296,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "Green infrastructure in urban planning refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Public investment in renewable energy and electric vehicle charging networks within city administrative boundaries",
+      "All parks and open spaces within cities that are managed by municipal authorities under parks and gardens departments",
+      "A network of natural and semi-natural features-parks, urban forests, wetlands, green roofs-that provide multiple ecosystem services and enhance urban resilience",
+      "Buildings and structures designed to achieve green building certifications such as GRIHA or LEED"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 297,
+    "part": "A",
+    "cat": "Urban Planning & Development",
+    "q": "The UNESCO World Heritage Convention (1972) is significant for urban planning because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "It mandates that all historic buildings above 100 years old in signatory countries be preserved without any modification",
+      "It provides a mechanism for cities to access global funds for demolishing unsafe heritage structures safely",
+      "It requires all signatory nations to obtain UNESCO approval before any construction near listed heritage sites",
+      "It establishes an international framework for identifying, protecting, and transmitting natural and cultural heritage of outstanding universal value to future generations"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 298,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "Climate tipping points refer to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Thresholds in the Earth system where a small perturbation can trigger an abrupt, self-sustaining, and potentially irreversible change-such as collapse of the West Antarctic Ice Sheet or Amazon dieback",
+      "The maximum global temperature increase that international agreements have agreed to prevent",
+      "The moment at which global emissions peak before beginning to decline on a pathway to net zero",
+      "Points at which climate change impacts become socially impossible to ignore, triggering mandatory policy action"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 299,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "Climate attribution science as applied to extreme weather events aims to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Assign legal liability to specific greenhouse gas emitters for costs of extreme weather events",
+      "Determine the degree to which human-induced climate change altered the probability or intensity of a specific extreme weather event",
+      "Predict future occurrence of extreme weather events using ensemble climate model simulations",
+      "Calculate economic damages caused by extreme weather events for insurance and reinsurance purposes"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 300,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "Stratospheric Aerosol Injection (SAI), a proposed form of solar geoengineering, involves:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Growing salt-spray clouds over oceans to increase surface albedo through marine cloud brightening",
+      "Fertilizing the ocean with iron to stimulate phytoplankton that absorb atmospheric CO₂",
+      "Injecting reflective particles into the stratosphere to partially offset warming by reducing incoming solar radiation without reducing greenhouse gas concentrations",
+      "Deploying large space-based reflectors to deflect sunlight before it reaches Earth's atmosphere"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 301,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "The Green Climate Fund (GCF) was established under the UNFCCC to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Provide research grants to climate scientists in developed countries",
+      "Finance the phase-out of fossil fuel subsidies in low-income countries through direct budget support",
+      "Fund renewable energy projects exclusively in countries with per capita income below ,000",
+      "Support developing countries' efforts to address climate change by financing both mitigation and adaptation activities"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 302,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "Climate-induced displacement and migration is a complex policy challenge because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Climate factors rarely act alone; they interact with socio-economic vulnerability, governance failures, and other stressors, making attribution difficult and requiring integrated responses",
+      "Climate migrants are fully covered under the 1951 Refugee Convention, which provides clear international legal protections",
+      "Climate migration is exclusively an international phenomenon with no significant internal displacement",
+      "Climate migration affects only small island developing states and not large continental countries like India or Bangladesh"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 303,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "Carbon Dioxide Removal (CDR) technologies such as direct air capture and BECCS are important in climate scenarios because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "They allow countries to increase current emissions without breaching their NDC targets",
+      "Most IPCC 1.5°C pathways require net negative emissions in the second half of the century, making CDR necessary to offset residual emissions that are hard to eliminate",
+      "They are already cost-competitive with renewable energy and can replace the need for immediate emission cuts",
+      "They remove all air pollutants simultaneously, providing major co-benefits for public health"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 304,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "In climate negotiations, 'loss and damage' is differentiated from 'adaptation' because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Loss and damage covers only economic damages while adaptation covers social and environmental impacts",
+      "Adaptation is managed by developed countries while loss and damage is the exclusive responsibility of developing nations",
+      "Loss and damage refers to impacts that cannot be or were not avoided through mitigation or adaptation, raising questions of responsibility and compensation",
+      "Loss and damage applies only to sudden-onset events like cyclones while adaptation addresses slow-onset processes"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 305,
+    "part": "A",
+    "cat": "Climate Change",
+    "q": "The IPCC Sixth Assessment Report (AR6) comprises contributions from three Working Groups. Which correctly identifies their mandates?",
+    "date_added": "2026-04-03",
+    "opts": [
+      "WGI (adaptation), WGII (mitigation), WGIII (impacts and vulnerability)",
+      "WGI (observations), WGII (future projections), WGIII (solutions and policy)",
+      "WGI (developed countries), WGII (developing countries), WGIII (global synthesis)",
+      "WGI (physical science basis of climate change), WGII (impacts, adaptation, and vulnerability), WGIII (mitigation of climate change)"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 306,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "The Millennium Ecosystem Assessment (2005) classified ecosystem services into four categories:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Provisioning, regulating, cultural, and supporting services",
+      "Production, maintenance, cultural, and biodiversity services",
+      "Direct, indirect, option, and non-use services",
+      "Economic, social, ecological, and spiritual services"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 307,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "Biodiversity hotspots as defined by Norman Myers are regions that:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Have the greatest total number of plant and animal species anywhere in the world",
+      "Contain at least 1,500 endemic vascular plant species and have lost at least 70% of their original habitat, signaling high endemism and severe threat",
+      "Are entirely protected under national or international conservation law",
+      "Have the highest current extinction rate and require emergency conservation funding"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 308,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) works by:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Prohibiting all international trade in wildlife products to protect endangered species globally",
+      "Funding conservation programmes in range states for all IUCN Red List threatened species",
+      "Regulating international trade in wild plant and animal species through a permit system, with trade levels calibrated to conservation status",
+      "Establishing protected area networks in each signatory nation covering at least 10% of territory"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 309,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "Invasive alien species are recognized as a major driver of biodiversity loss because:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "They improve ecosystem productivity by increasing species richness in recipient environments",
+      "They are deliberately introduced to control native pest species that cause agricultural damage",
+      "They are native species that have expanded their range due to climate change",
+      "They can outcompete, prey upon, or alter the habitats of native species, disrupt ecosystem functions, and drive extinctions"
+    ],
+    "ans": 3
+  },
+  {
+    "id": 310,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "Biomagnification refers to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "The progressive increase in concentration of persistent pollutants such as DDT or mercury at each successive trophic level, resulting in highest concentrations in apex predators",
+      "The increase in population size of organisms that benefit from the elimination of their natural predators",
+      "The process by which organisms at lower trophic levels absorb more toxins than those at higher levels",
+      "The amplification of biodiversity as ecosystems become more structurally complex over time"
+    ],
+    "ans": 0
+  },
+  {
+    "id": 311,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "The 30x30 target under the Kunming-Montreal Global Biodiversity Framework (2022) commits to:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Reducing global biodiversity loss by 30% from 2010 baseline levels by 2030",
+      "Protecting at least 30% of the world's terrestrial, inland water, coastal, and marine areas by 2030",
+      "Restoring 30% of all degraded terrestrial and aquatic ecosystems globally by 2030",
+      "Reducing invasive alien species impacts and pollution-driven habitat loss by 30% by 2030"
+    ],
+    "ans": 1
+  },
+  {
+    "id": 312,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "Coral bleaching occurs when:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Sediment runoff from coastal development physically smothers coral reef ecosystems",
+      "Excess nutrients from agricultural runoff cause algal blooms that block sunlight from corals",
+      "Elevated sea temperatures cause corals to expel their symbiotic algae (zooxanthellae), turning them white and potentially leading to mortality if thermal stress persists",
+      "Ocean acidification weakens coral carbonate skeletons and causes widespread discoloration"
+    ],
+    "ans": 2
+  },
+  {
+    "id": 313,
+    "part": "A",
+    "cat": "Environment & Ecology",
+    "q": "Environmental DNA (eDNA) as a biodiversity monitoring tool involves:",
+    "date_added": "2026-04-03",
+    "opts": [
+      "Genetically modifying native species to produce biological signals indicating ecosystem health",
+      "Extracting DNA from museum specimens to reconstruct historical biodiversity baselines",
+      "Using satellite remote sensing to detect genetic signatures of plant communities from space",
+      "Collecting and analyzing genetic material shed by organisms into their environment (water, soil, air) to detect species presence without direct observation"
+    ],
+    "ans": 3
   }
 ];

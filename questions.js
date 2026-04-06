@@ -8,9 +8,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Thresholds that define a safe operating space for humanity with respect to Earth system processes",
-      "Legal limits on industrial pollution set by international treaties",
-      "Boundaries between protected wildlife corridors",
-      "National emission targets under the Paris Agreement"
+      "Legally defined pollution ceilings for industrial sectors negotiated through multilateral environmental agreements",
+      "Demarcated buffer zones around protected areas that restrict human activity to prevent habitat fragmentation",
+      "Nationally determined emission reduction targets submitted by countries to the UNFCCC under the Paris Agreement"
     ],
     "ans": 0
   },
@@ -21,10 +21,10 @@ const QUESTIONS = [
     "q": "The term 'trophic cascade' in ecology refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The flow of nutrients from land into water bodies",
+      "The directional flow of energy and nutrients from primary producers to higher consumers through sequential feeding levels",
       "Indirect effects caused by a predator that alter the abundance and behavior of species two or more trophic levels below",
-      "The sequential loss of species up the food chain due to habitat loss",
-      "A method of measuring biodiversity across trophic levels"
+      "The progressive disappearance of predator species from ecosystems as a result of sustained overhunting and habitat loss",
+      "A quantitative method for measuring biomass transfer and energy flow efficiency between different feeding levels"
     ],
     "ans": 1
   },
@@ -35,10 +35,10 @@ const QUESTIONS = [
     "q": "Which international agreement specifically addresses the conservation and sustainable use of biological diversity?",
     "date_added": "2026-03-28",
     "opts": [
-      "CITES",
+      "Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)",
       "Convention on Biological Diversity (CBD)",
-      "Kyoto Protocol",
-      "Stockholm Convention"
+      "United Nations Framework Convention on Climate Change (UNFCCC)",
+      "Stockholm Convention on Persistent Organic Pollutants (POPs), 2001"
     ],
     "ans": 1
   },
@@ -50,9 +50,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Incorporating nature and natural elements into built environments to improve human well-being",
-      "Designing wildlife corridors within urban areas",
-      "Designing cities to minimize carbon emissions",
-      "Using only biodegradable materials in construction"
+      "Creating dedicated wildlife movement corridors within urban areas to support biodiversity between fragmented habitats",
+      "Designing urban infrastructure and buildings to minimize energy consumption and operational carbon emissions",
+      "Using only sustainably sourced, biodegradable, or recycled materials across all stages of building construction"
     ],
     "ans": 0
   },
@@ -63,10 +63,10 @@ const QUESTIONS = [
     "q": "The IPBES is often referred to as the 'IPCC for biodiversity' because:",
     "date_added": "2026-03-28",
     "opts": [
-      "Both have the same membership and governance structure",
-      "Both were established by the same international treaty",
+      "Both share identical membership structures and are funded through the same UN intergovernmental contribution formula",
+      "Both were created through the same multilateral treaty process at the 1992 Earth Summit in Rio de Janeiro",
       "Both provide policy-relevant scientific assessments to governments on global environmental challenges",
-      "Both bodies are agencies of the UN Environment Programme"
+      "Both operate as specialized agencies under UN Environment Programme with overlapping secretariat and governance functions"
     ],
     "ans": 2
   },
@@ -77,10 +77,10 @@ const QUESTIONS = [
     "q": "Agroforestry is considered a sustainable land use practice primarily because:",
     "date_added": "2026-03-28",
     "opts": [
-      "It eliminates the need for chemical fertilizers entirely",
+      "It converts all existing monoculture croplands to multi-species forest systems to maximize ecosystem service delivery",
       "It integrates trees with crops or livestock, improving biodiversity, soil health, and carbon sequestration",
-      "It maximizes crop yield per hectare through monoculture",
-      "It relies exclusively on rainwater without irrigation"
+      "It maximizes crop yields per hectare through genetically improved varieties combined with precision fertilizer application",
+      "It relies exclusively on traditional farming knowledge and prohibits all externally developed synthetic agricultural inputs"
     ],
     "ans": 1
   },
@@ -91,9 +91,9 @@ const QUESTIONS = [
     "q": "Which of the following is an example of a 'blue carbon' ecosystem?",
     "date_added": "2026-03-28",
     "opts": [
-      "Temperate deciduous forests",
-      "Alpine meadows",
-      "Tropical rainforests",
+      "Temperate conifer and boreal forest biomes of the northern hemisphere",
+      "Alpine meadows and high-altitude grassland ecosystems",
+      "Tropical montane cloud forest ecosystems",
       "Mangroves and seagrass beds"
     ],
     "ans": 3
@@ -105,10 +105,10 @@ const QUESTIONS = [
     "q": "The concept of 'One Health' recognizes that:",
     "date_added": "2026-03-28",
     "opts": [
-      "One standardized diet is optimal for all human populations",
+      "Individual behavioural change is the most effective single driver of improved population health outcomes globally",
       "Human, animal, and ecosystem health are deeply interconnected and must be addressed together",
-      "A single global health authority should coordinate all pandemic responses",
-      "Universal healthcare is a fundamental human right"
+      "A single global health authority should oversee surveillance and response for all zoonotic disease outbreaks",
+      "Universal access to healthcare services is the foundational requirement for achieving optimal human health outcomes"
     ],
     "ans": 1
   },
@@ -120,9 +120,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Excess nutrient runoff (especially nitrogen and phosphorus) causing algal blooms that deplete oxygen",
-      "Thermal pollution from industrial cooling systems",
-      "Dumping of heavy metals in water bodies",
-      "Acid rain increasing pH levels"
+      "Thermal discharges from industrial cooling systems that raise ambient water temperature and reduce dissolved oxygen",
+      "Accumulation of heavy metals from mining and industrial operations that poison aquatic organisms and alter chemistry",
+      "Increased atmospheric acidity from fossil fuel combustion that lowers water pH and disrupts aquatic biology"
     ],
     "ans": 0
   },
@@ -133,10 +133,10 @@ const QUESTIONS = [
     "q": "The concept of 'rewilding' in conservation refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Removing invasive species from protected natural areas",
+      "Implementing strict exclusion zones around all protected areas to prevent human access and extractive activity",
       "Large-scale restoration of ecosystems, including reintroduction of apex predators to allow natural processes to resume",
-      "Converting agricultural land back to forest through planting programs",
-      "Reintroducing domesticated animals into the wild"
+      "Converting degraded agricultural land to native forest cover through government-funded tree planting programmes",
+      "Reintroducing domesticated livestock breeds into national parks to replace ecologically equivalent wild herbivores"
     ],
     "ans": 1
   },
@@ -148,9 +148,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "The use of living organisms, particularly microorganisms, to degrade or neutralize environmental pollutants",
-      "Medical treatment of pollution-related diseases using natural remedies",
-      "Laboratory cultivation of biological specimens for research",
-      "Restoration of degraded biological corridors in forests"
+      "Clinical treatment of health conditions caused by environmental pollution using plant-derived natural remedies",
+      "Laboratory cultivation of biological specimens from contaminated sites for toxicological research and testing",
+      "Legal restoration of degraded habitats through court-ordered corporate liability and compensation schemes"
     ],
     "ans": 0
   },
@@ -162,9 +162,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "The reflectivity of surfaces - how much solar energy is reflected back into space",
-      "The urban heat island effect caused by dark rooftops",
-      "The greenhouse effect intensified by water vapour in clouds",
-      "The ability of dark surfaces to absorb solar radiation"
+      "The intensification of urban heat through dark rooftop surfaces that absorb and retain incoming solar radiation",
+      "The enhancement of the greenhouse effect by water vapour and clouds absorbing outgoing infrared radiation",
+      "The capacity of dark urban surfaces to absorb solar radiation and release it as heat during the night"
     ],
     "ans": 0
   },
@@ -189,10 +189,10 @@ const QUESTIONS = [
     "q": "The concept of 'ecological succession' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The inheritance of ecological management responsibilities from one generation to the next",
-      "Species migration in response to seasonal changes in climate",
+      "The transfer of ecological stewardship and land management responsibilities from one generation to the next",
+      "The seasonal movement of animal species between distinct geographic habitats in response to climate variation",
       "The process by which communities of plants and animals change over time following disturbance, leading towards a climax community",
-      "Competition for ecological niches between invasive and native species"
+      "The competition between invasive and native species for ecological niches following habitat disturbance"
     ],
     "ans": 2
   },
@@ -203,10 +203,10 @@ const QUESTIONS = [
     "q": "India's National Green Tribunal (NGT) was established under which Act?",
     "date_added": "2026-03-28",
     "opts": [
-      "Forest Conservation Act, 1980",
-      "Environment Protection Act, 1986",
-      "National Green Tribunal Act, 2010",
-      "Wildlife Protection Act, 1972"
+      "The Environment (Protection) Act, 1986, through a Presidential Notification issued under Section 3 to establish a specialized environmental tribunal",
+      "The National Green Tribunal Act, 2010",
+      "The Wildlife (Protection) Act, 1972, as comprehensively amended in 2006 to include provisions for adjudication of wildlife-related disputes",
+      "The Forest (Conservation) Act, 1980, following a Supreme Court directive issued in the Godavarman case on forest governance"
     ],
     "ans": 2
   },
@@ -217,10 +217,10 @@ const QUESTIONS = [
     "q": "The concept of 'ecological footprint' measures:",
     "date_added": "2026-03-28",
     "opts": [
-      "Physical damage caused to ecosystems by human settlements",
-      "The proportion of national territory under protected area status",
+      "The cumulative physical damage inflicted on ecosystems by human settlements, agriculture, and industrial activity",
+      "The proportion of a country's total territory designated as protected area under national conservation law",
       "The biologically productive land and sea area required to produce the resources consumed by a population and absorb its waste",
-      "The carbon emissions per unit of GDP"
+      "The volume of carbon dioxide emissions produced per unit of economic output across different industrial sectors"
     ],
     "ans": 2
   },
@@ -231,10 +231,10 @@ const QUESTIONS = [
     "q": "Under the Environment Protection Act 1986, the first Environment Impact Assessment (EIA) notification was issued in:",
     "date_added": "2026-03-28",
     "opts": [
+      "1986, simultaneously with the enactment of the Environment Protection Act, as part of its original implementation framework",
       "1994",
-      "2006",
-      "2020",
-      "1986"
+      "2006, following the Supreme Court's landmark ruling on environmental clearances in the Narmada Bachao Andolan case",
+      "2000, as part of India's implementation of commitments made at the Rio Earth Summit and the Agenda 21 framework"
     ],
     "ans": 0
   },
@@ -245,9 +245,9 @@ const QUESTIONS = [
     "q": "The term 'anthropocene' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "International law governing human impacts on the environment",
-      "The century of greatest human-caused species extinction",
-      "The current era of global cooperation on environmental protection",
+      "The body of international environmental law governing human-caused impacts on Earth's ecological systems",
+      "The contemporary era of accelerating human-caused species extinction, also called the sixth mass extinction",
+      "The current period of intensified global cooperation on environmental governance and multilateral treaty-making",
       "The proposed geological epoch characterized by dominant human influence on the Earth's geology and ecosystems"
     ],
     "ans": 3
@@ -260,9 +260,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "A participatory approach where local communities and the Forest Department jointly manage forest resources, with communities sharing in benefits",
-      "Corporate-government partnerships for commercial forestry",
-      "Management of forests jointly by central and state governments",
-      "International agreements for managing transboundary forests"
+      "A public-private model in which corporations fund reforestation activities in exchange for regulated timber rights",
+      "The concurrent legislative jurisdiction of central and state governments over forest areas under the Seventh Schedule",
+      "An international framework for collaborative management of transboundary forest ecosystems shared between nations"
     ],
     "ans": 0
   },
@@ -273,10 +273,10 @@ const QUESTIONS = [
     "q": "'Net zero' emissions means:",
     "date_added": "2026-03-28",
     "opts": [
-      "Emissions from industry are offset by household-level reductions",
-      "A country produces no greenhouse gas emissions at all",
+      "Industrial sector emissions are fully offset by household-level energy savings and behavioural change commitments",
+      "A country eliminates all anthropogenic greenhouse gas sources across energy, industry, agriculture, and transport",
       "Greenhouse gas emissions are balanced by removals from the atmosphere, resulting in no net addition",
-      "Only CO₂ emissions are reduced to zero while other gases are permitted"
+      "Only carbon dioxide is reduced to zero while non-CO₂ gases such as methane and nitrous oxide are still permitted"
     ],
     "ans": 2
   },
@@ -287,10 +287,10 @@ const QUESTIONS = [
     "q": "The IPCC Sixth Assessment Report (AR6) concluded that global surface temperature has increased by approximately how much since pre-industrial times (1850–1900)?",
     "date_added": "2026-03-28",
     "opts": [
-      "2.0°C",
-      "1.5°C",
+      "0.5°C, based on the lower bound of the IPCC AR5 (2014) temperature attribution range for the period 1880 to 2012",
       "1.1°C",
-      "0.5°C"
+      "1.5°C, which represents the aspirational limit established by the Paris Agreement for long-term global temperature stabilization",
+      "2.0°C, which represents the upper limit of the Paris Agreement temperature goal, considered the threshold of dangerous climate change"
     ],
     "ans": 2
   },
@@ -301,10 +301,10 @@ const QUESTIONS = [
     "q": "Which greenhouse gas has the highest global warming potential over a 100-year period?",
     "date_added": "2026-03-28",
     "opts": [
-      "Sulphur hexafluoride (SF₆)",
-      "Nitrous oxide (N₂O)",
-      "Methane (CH₄)",
-      "Carbon dioxide (CO₂)"
+      "Sulphur hexafluoride (SF₆), with a GWP of approximately 23,500 over 100 years",
+      "Nitrous oxide (N₂O), with a GWP of approximately 273 over 100 years",
+      "Methane (CH₄), with a GWP of approximately 30 over 100 years",
+      "Carbon dioxide (CO₂), the reference greenhouse gas with a defined GWP of 1"
     ],
     "ans": 0
   },
@@ -315,9 +315,9 @@ const QUESTIONS = [
     "q": "The 'carbon budget' concept refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "A government's annual spending on climate-related programs",
-      "A company's internal accounting of its Scope 1, 2, and 3 emissions",
-      "The cost of transitioning an economy to net-zero",
+      "The annual government spending allocated to climate mitigation, adaptation, and clean energy research programmes",
+      "A company's internal accounting framework for measuring Scope 1, 2, and 3 greenhouse gas emissions",
+      "The estimated total cost of transitioning a national economy to a net-zero emission pathway by mid-century",
       "The cumulative amount of CO₂ emissions permitted to remain within a given temperature limit"
     ],
     "ans": 3
@@ -330,9 +330,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Negative impacts of climate change that cannot be adapted to or mitigated, including economic and non-economic losses",
-      "Damage caused by climate migrants in host countries",
-      "Physical infrastructure damaged by extreme weather events only",
-      "Financial penalties imposed on countries that miss emission targets"
+      "Property costs and fiscal burdens generated by climate migrants relocating to host countries and communities",
+      "Physical destruction of built infrastructure by extreme weather events as quantified by insurance assessments",
+      "Financial penalties imposed on countries whose emissions exceed their nationally determined contribution targets"
     ],
     "ans": 0
   },
@@ -343,10 +343,10 @@ const QUESTIONS = [
     "q": "Which of the following best describes 'climate justice'?",
     "date_added": "2026-03-28",
     "opts": [
-      "A branch of environmental law focused on carbon pricing",
-      "Equal reduction of emissions by all countries regardless of development status",
+      "A branch of international environmental law focused on liability and redress mechanisms for carbon emission harms",
+      "A framework mandating equal absolute emission reductions from all countries regardless of historical responsibility",
       "The principle that the burdens and benefits of climate action should be distributed fairly, accounting for historical responsibility and vulnerability",
-      "Legal action against polluting corporations"
+      "Legal proceedings initiated by climate-vulnerable communities against fossil fuel corporations in national courts"
     ],
     "ans": 2
   },
@@ -357,9 +357,9 @@ const QUESTIONS = [
     "q": "What is the primary driver of Arctic amplification?",
     "date_added": "2026-03-28",
     "opts": [
-      "Higher concentrations of black carbon aerosols near the poles",
-      "Shifting ocean currents bringing warm water northward",
-      "Increased methane emissions from permafrost only",
+      "Elevated concentrations of black carbon aerosols depositing on polar snow surfaces and reducing their reflectivity",
+      "Strengthened ocean circulation pathways delivering warm equatorial water northward into Arctic basin regions",
+      "Intensified release of biogenic methane from increasingly ice-free Arctic permafrost and shallow shelf sediments",
       "Reduced sea ice causes less sunlight to be reflected, leading to disproportionate warming in the Arctic"
     ],
     "ans": 3
@@ -372,9 +372,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Each country's self-defined climate action plans, submitted and updated every five years",
-      "Contributions made by developed nations to the Green Climate Fund",
-      "National biodiversity strategies submitted to the CBD",
-      "Binding emission reduction targets enforced by an international court"
+      "Financial contributions pledged by developed nations to the Green Climate Fund for developing country programmes",
+      "National biodiversity strategies and action plans submitted to the Convention on Biological Diversity secretariat",
+      "Binding emission reduction commitments verified and enforced by an international compliance committee under UNFCCC"
     ],
     "ans": 0
   },
@@ -385,10 +385,10 @@ const QUESTIONS = [
     "q": "Which sector is the largest contributor to global greenhouse gas emissions?",
     "date_added": "2026-03-28",
     "opts": [
-      "Industrial processes",
-      "Agriculture",
+      "Industry (manufacturing processes and industrial combustion across all sectors)",
+      "Agriculture (livestock, rice cultivation, and land-use change emissions)",
       "Energy (electricity and heat production)",
-      "Transportation"
+      "Transport (road vehicles, aviation, and maritime shipping combined)"
     ],
     "ans": 2
   },
@@ -400,9 +400,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Replacement of natural vegetation with impervious surfaces and heat-absorbing materials, along with waste heat from human activities",
-      "Urban populations generating more body heat than rural ones",
-      "Higher levels of air pollution trapping heat",
-      "Taller buildings blocking wind and reducing cooling"
+      "Elevated metabolic body heat generated by dense urban populations compared to equivalent-area rural settlements",
+      "Higher concentrations of particulate air pollution and tropospheric ozone that trap outgoing longwave radiation",
+      "The canyon effect of tall buildings redirecting and concentrating wind, increasing friction-generated warming"
     ],
     "ans": 0
   },
@@ -413,10 +413,10 @@ const QUESTIONS = [
     "q": "COP28 (Dubai, 2023) was significant primarily because:",
     "date_added": "2026-03-28",
     "opts": [
-      "A new international carbon tax mechanism was established",
+      "A new international carbon price floor mechanism was established, setting a minimum rate of $50 per tonne of CO₂",
       "Countries agreed to transition away from fossil fuels and tripling of renewable energy capacity by 2030",
-      "It was the first COP to include binding emission targets for all nations",
-      "The Green Climate Fund reached its $100 billion annual target for the first time"
+      "It became the first COP to adopt legally binding emission reduction targets for all 196 UNFCCC member nations",
+      "The Green Climate Fund announced reaching its $100 billion annual target, seven years behind schedule"
     ],
     "ans": 1
   },
@@ -427,9 +427,9 @@ const QUESTIONS = [
     "q": "The concept of 'stranded assets' in the energy transition refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Renewable energy infrastructure that fails before the end of its planned life",
-      "Abandoned nuclear power plants that require decommissioning",
-      "Energy infrastructure damaged by extreme weather events",
+      "Renewable energy projects that fail to secure financing and remain undeveloped despite government incentives",
+      "Decommissioned nuclear power plants whose remediation costs exceed revenues generated during their operational life",
+      "Energy infrastructure destroyed by climate disasters that cannot be economically insured or rebuilt",
       "Fossil fuel reserves and related infrastructure that may lose value before the end of their expected economic life due to climate policies"
     ],
     "ans": 3
@@ -441,10 +441,10 @@ const QUESTIONS = [
     "q": "Permafrost thaw is a major climate concern because:",
     "date_added": "2026-03-28",
     "opts": [
-      "It contaminates freshwater supplies with heavy metals",
+      "It leaches heavy metals and toxic organic compounds into freshwater systems previously protected by frozen ground",
       "It releases large quantities of methane and CO₂ stored in frozen organic matter, creating a dangerous feedback loop",
-      "It causes coastal flooding in Arctic countries",
-      "It makes Arctic shipping routes permanently impassable"
+      "It triggers coastal erosion and land subsidence in Arctic settlements built on formerly stable permafrost foundations",
+      "It disrupts thermohaline ocean circulation by releasing large volumes of fresh meltwater into Arctic seas"
     ],
     "ans": 1
   },
@@ -455,10 +455,10 @@ const QUESTIONS = [
     "q": "Climate adaptation refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "International financial mechanisms to compensate for climate-related losses",
+      "International financial transfers from historically high-emitting countries to compensate vulnerable nations for climate losses",
       "Adjusting practices, processes, and systems in response to actual or expected climate change and its effects, to moderate harm or exploit opportunities",
-      "Reducing greenhouse gas emissions to slow climate change",
-      "Removing CO₂ from the atmosphere through natural or technological means"
+      "Reducing anthropogenic greenhouse gas emissions across energy, industry, land use, and waste sectors to slow warming",
+      "Removing accumulated CO₂ from the atmosphere through biological sequestration, direct air capture, or ocean alkalinity"
     ],
     "ans": 1
   },
@@ -470,9 +470,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Capturing CO₂ emissions from point sources and injecting them into geological formations for long-term storage",
-      "Using microalgae to absorb CO₂ from power plant emissions",
-      "Planting forests to absorb atmospheric CO₂",
-      "Converting carbon emissions into useful industrial materials"
+      "Cultivating dense microalgae cultures in photo-bioreactors to absorb and convert industrial CO₂ into biofuel",
+      "Establishing large-scale afforestation and reforestation programmes to sequester carbon in biomass and soil",
+      "Processing industrial carbon emissions through chemical reactions to produce synthetic fuels and useful materials"
     ],
     "ans": 0
   },
@@ -484,9 +484,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Actions to protect, restore, or sustainably manage ecosystems that address societal challenges including climate change while providing human well-being and biodiversity benefits",
-      "Solutions developed without any human intervention in natural systems",
-      "Exclusive use of traditional or indigenous knowledge in adaptation planning",
-      "Only technological solutions inspired by natural processes"
+      "Conservation strategies that strictly exclude all human management, allowing ecosystems to recover autonomously",
+      "Applications of traditional ecological knowledge in climate adaptation without integration of modern scientific methods",
+      "Purely technological innovations inspired by biological mechanisms, such as biomimetic engineering in infrastructure"
     ],
     "ans": 0
   },
@@ -497,10 +497,10 @@ const QUESTIONS = [
     "q": "The 'Global Stocktake' under the Paris Agreement is a process to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Take stock of climate finance commitments made by developed nations",
-      "Inventory global fossil fuel reserves to manage the energy transition",
+      "Systematically record and verify climate finance pledges made by developed nations to the Green Climate Fund",
+      "Conduct a comprehensive census of global fossil fuel reserves to plan an orderly and equitable energy transition",
       "Collectively assess progress towards the Paris Agreement's goals every five years and inform the next round of NDCs",
-      "Stock and redistribute global carbon credits between nations"
+      "Redistribute certified carbon credits between countries based on emissions relative to NDC commitments"
     ],
     "ans": 2
   },
@@ -512,9 +512,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Flooded paddy rice cultivation and enteric fermentation from livestock",
-      "Large-scale drip irrigation systems",
-      "Post-harvest burning of agricultural residues",
-      "Use of chemical fertilizers"
+      "Large-scale drip irrigation that creates anaerobic soil conditions favouring methane-producing bacteria",
+      "Post-harvest burning of crop residues that generates methane and black carbon alongside CO₂ emissions",
+      "Application of synthetic nitrogen fertilizers that stimulates methanogenic microbial activity in anaerobic soil layers"
     ],
     "ans": 0
   },
@@ -525,10 +525,10 @@ const QUESTIONS = [
     "q": "Which of the following gases is NOT a direct greenhouse gas?",
     "date_added": "2026-03-28",
     "opts": [
-      "CH₄",
-      "CO₂",
-      "N₂O",
-      "SO₂"
+      "Nitrous oxide (N₂O), a potent long-lived greenhouse gas with a GWP of approximately 265 over 100 years, emitted primarily from agricultural soils and combustion",
+      "Hydrofluorocarbons (HFCs), a class of synthetic greenhouse gases with high GWPs used in refrigeration, air conditioning, and foam-blowing applications",
+      "Sulphur dioxide (SO₂), which reflects solar radiation and can cause short-term cooling",
+      "Perfluorocarbons (PFCs), extremely long-lived synthetic greenhouse gases emitted from aluminium smelting operations and semiconductor manufacturing processes"
     ],
     "ans": 3
   },
@@ -539,10 +539,10 @@ const QUESTIONS = [
     "q": "India's commitment under its updated NDC (2022) includes achieving what percentage of installed electric power capacity from non-fossil fuel sources by 2030?",
     "date_added": "2026-03-28",
     "opts": [
-      "70%",
+      "40%, which was the original NDC target submitted by India in 2015 under the first round of nationally determined contributions",
+      "45%, which was India's interim renewable energy target under the National Action Plan on Climate Change solar and wind missions",
       "50%",
-      "60%",
-      "40%"
+      "60%, which is the long-term aspirational target aligned with India's 2070 net zero commitment under its climate transition roadmap"
     ],
     "ans": 1
   },
@@ -554,9 +554,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Ensuring that the shift to a low-carbon economy is fair and inclusive, particularly for workers and communities dependent on fossil fuel industries",
-      "Legal transition of climate-related liabilities between governments",
-      "A carbon trading mechanism between developed and developing countries",
-      "A rapid and immediate shift away from fossil fuels without delay"
+      "The legal transfer of climate liability obligations between governments and corporations under international law",
+      "A bilateral carbon trading mechanism enabling emission reductions to be offset between developed and developing nations",
+      "A policy of immediate and unconditional shutdown of all fossil fuel industries without compensatory social measures"
     ],
     "ans": 0
   },
@@ -567,9 +567,9 @@ const QUESTIONS = [
     "q": "The 15-minute city concept proposes that:",
     "date_added": "2026-03-28",
     "opts": [
-      "New urban developments require environmental clearance within 15 days",
-      "Urban transit systems should achieve a maximum wait time of 15 minutes",
-      "City master plans should be revised every 15 years",
+      "New urban developments must complete mandatory environmental impact assessments within 15 working days of application",
+      "Urban public transit systems should achieve a maximum passenger waiting time of 15 minutes at any stop",
+      "Municipal master plans should be comprehensively revised and publicly consulted every 15 years",
       "All essential urban services should be accessible within a 15-minute walk or cycle from any residence"
     ],
     "ans": 3
@@ -581,10 +581,10 @@ const QUESTIONS = [
     "q": "Informal settlements are typically characterized by:",
     "date_added": "2026-03-28",
     "opts": [
-      "Low density, planned layouts, and access to all services",
+      "Low-density planned residential areas with complete service coverage but occupied informally by migrant populations",
       "Lack of secure tenure, poor infrastructure, overcrowding, and inadequate access to safe water and sanitation",
-      "Areas inhabited exclusively by migrant workers",
-      "High-rise buildings with unregulated construction"
+      "Housing areas exclusively occupied by recent inter-state migrants who have not obtained urban residency documentation",
+      "High-rise residential buildings constructed without planning permission but with adequate utilities and legal occupancy"
     ],
     "ans": 1
   },
@@ -596,9 +596,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "A shared vision of sustainable urban development - cities that are inclusive, safe, resilient, and sustainable",
-      "Reducing urban populations through planned decentralisation",
-      "Privatizing urban infrastructure to attract foreign investment",
-      "Setting binding density standards for cities in developing nations"
+      "A binding programme for reducing mega-city populations through incentivized rural migration and decentralization",
+      "A framework for privatizing municipal infrastructure to attract foreign direct investment into urban service delivery",
+      "A set of measurable binding density and green space standards for all cities in low- and middle-income nations"
     ],
     "ans": 0
   },
@@ -609,10 +609,10 @@ const QUESTIONS = [
     "q": "Floor Space Index (FSI) or Floor Area Ratio (FAR) regulates:",
     "date_added": "2026-03-28",
     "opts": [
-      "The maximum number of floors permitted in a building",
-      "The proportion of green space required within a housing project",
+      "The maximum permitted building height expressed as a multiple of the street width at the plot frontage",
+      "The minimum proportion of open green or landscaped space required within a residential development project",
       "The ratio of total built-up floor area of a building to the area of the plot on which it stands",
-      "The minimum distance between two adjacent buildings"
+      "The required minimum setback distance from property boundaries and adjacent structures under building bylaws"
     ],
     "ans": 2
   },
@@ -623,9 +623,9 @@ const QUESTIONS = [
     "q": "Smart cities typically emphasize:",
     "date_added": "2026-03-28",
     "opts": [
-      "Building entirely new cities from scratch using advanced technology",
-      "Relocating industries to city peripheries to reduce congestion",
-      "Replacing all government services with AI-driven automation",
+      "Building entirely new greenfield cities from scratch using state-of-the-art infrastructure and digital systems",
+      "Relocating all industrial zones to the urban periphery to reduce congestion and pollution in residential cores",
+      "Replacing all government service delivery with AI-driven automated platforms without human administrative oversight",
       "Using digital technologies and data to improve urban services, governance, sustainability, and quality of life"
     ],
     "ans": 3
@@ -637,10 +637,10 @@ const QUESTIONS = [
     "q": "Gentrification in urban neighborhoods primarily refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Urban decay caused by population decline and disinvestment",
+      "The progressive deterioration of inner-city neighbourhoods through sustained disinvestment and population outmigration",
       "The process by which wealthier residents move into lower-income areas, raising property values and often displacing existing communities",
-      "Government-led renovation of historic districts",
-      "Conversion of industrial land to residential use"
+      "A government-led heritage conservation programme that renovates historic districts for cultural and tourism purposes",
+      "The planned conversion of derelict industrial land to mixed-use residential and commercial development zones"
     ],
     "ans": 1
   },
@@ -652,9 +652,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "The framework that analyzes cities as systems processing flows of energy, materials, water, food, and waste",
-      "The economic productivity of a city measured in GDP per unit area",
-      "The social dynamics of how urban cultures evolve over time",
-      "The rate at which urban populations grow through natural increase"
+      "The economic output of cities measured as gross value added per unit of developed and built-up land area",
+      "The sociological study of how urban cultures, norms, and identities evolve and transform across generational change",
+      "The rate at which urban populations expand through natural increase and net in-migration from rural areas"
     ],
     "ans": 0
   },
@@ -666,9 +666,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Low-density, dispersed expansion of urban areas into surrounding rural or natural land",
-      "Planned satellite towns around major metropolitan areas",
-      "High-density, compact urban development",
-      "The spread of informal settlements within city boundaries"
+      "Planned satellite townships deliberately developed around metropolitan areas to absorb population overflow",
+      "High-density compact urban redevelopment concentrated within existing city boundaries to reduce land consumption",
+      "The spread of informal housing settlements within city boundaries on government and peri-urban land"
     ],
     "ans": 0
   },
@@ -679,10 +679,10 @@ const QUESTIONS = [
     "q": "Mixed-use zoning in urban planning refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Integrating formal and informal sector activities in special economic zones",
-      "Combining urban and agricultural land uses on city peripheries",
+      "Zoning designations that permit coexistence of formal registered businesses with informal vendors and hawkers",
+      "Planning regulations that allow urban farming and food production to be combined with residential land uses",
       "Land use regulations that allow multiple functions (residential, commercial, civic) within the same area or building",
-      "Zoning that mixes high-income and low-income residential areas"
+      "Zoning frameworks that require integration of market-rate and affordable housing within the same residential precinct"
     ],
     "ans": 2
   },
@@ -693,10 +693,10 @@ const QUESTIONS = [
     "q": "'Tactical urbanism' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Strategic long-range masterplanning for cities over 50-year horizons",
+      "Strategic long-range masterplanning processes that sequence urban development over 25 to 50-year time horizons",
       "Small-scale, low-cost, short-term interventions in the built environment to test and catalyze long-term urban change",
-      "Using military-grade surveillance technology in city management",
-      "Competition between cities to attract investment and talent"
+      "Technology-enabled surveillance and predictive analytics deployed to manage safety in urban public spaces",
+      "Competitive inter-city strategies for attracting private investment, skilled labour, and international events"
     ],
     "ans": 1
   },
@@ -707,10 +707,10 @@ const QUESTIONS = [
     "q": "The concept of 'right to the city' as articulated by Henri Lefebvre refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The legal right of citizens to move to any city of their choice",
-      "Property rights in urban areas guaranteed under constitutional law",
+      "The constitutionally protected freedom of movement allowing citizens to settle in any city of their choosing",
+      "Property ownership rights in urban areas legally guaranteed under housing and land titling legislation",
       "The collective right of all urban inhabitants to shape, use, and benefit from the city's resources and spaces",
-      "Equal access to urban amenities regardless of income level"
+      "The principle of equitable access to urban public amenities and services regardless of income or neighbourhood"
     ],
     "ans": 2
   },
@@ -721,10 +721,10 @@ const QUESTIONS = [
     "q": "Complete Streets is a planning approach that aims to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Ensure streets are completed and maintained within specified time deadlines",
-      "Complete the unfinished road network in cities through aggressive expansion",
+      "Mandate that road construction projects are completed within sanctioned budgets and specified contractual time frames",
+      "Extend the urban road network by prioritising construction of missing links in secondary and peripheral city areas",
       "Create streets designed to enable safe, comfortable access for all users including pedestrians, cyclists, motorists, and transit users of all ages and abilities",
-      "Connect all city districts through a hierarchical road grid"
+      "Connect all city districts through a hierarchically organised road grid of arterials, collectors, and local streets"
     ],
     "ans": 2
   },
@@ -735,9 +735,9 @@ const QUESTIONS = [
     "q": "The Pradhan Mantri Awas Yojana – Urban (PMAY-U) mission aims to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Upgrade all urban slums into formal neighbourhoods",
-      "Provide rental housing to urban migrants",
-      "Develop 100 smart cities across India",
+      "Upgrade all existing urban slum settlements into formally planned neighbourhoods through in-situ redevelopment",
+      "Provide subsidized long-term rental housing to inter-state migrant workers through government-owned housing stock",
+      "Develop 100 smart cities across India with integrated digital infrastructure and sustainable planning frameworks",
       "Achieve 'Housing for All' in urban areas by providing financial assistance for construction or purchase of homes"
     ],
     "ans": 3
@@ -749,10 +749,10 @@ const QUESTIONS = [
     "q": "Transit-Oriented Development (TOD) primarily encourages:",
     "date_added": "2026-03-28",
     "opts": [
-      "Promoting car-centric suburbs with single-family homes",
-      "Building high-rise office buildings in city centres",
-      "Constructing wider highways to accommodate more traffic",
-      "High-density, mixed-use development near public transportation hubs"
+      "The construction of new mass rapid transit lines to connect isolated peri-urban residential areas to city centres",
+      "Financing urban transit infrastructure through land value capture mechanisms such as betterment levies and TDRs",
+      "High-density, mixed-use development clustered around transit nodes to maximise ridership and reduce car dependence",
+      "Privatization of urban transit systems to reduce municipal fiscal burden and improve service quality"
     ],
     "ans": 3
   },
@@ -763,10 +763,10 @@ const QUESTIONS = [
     "q": "Which constitutional amendment provided constitutional status to Urban Local Bodies and mandated the creation of Municipalities?",
     "date_added": "2026-03-28",
     "opts": [
-      "76th Amendment",
-      "74th Amendment",
-      "42nd Amendment",
-      "73rd Amendment"
+      "The 71st Constitutional Amendment Act, which added provisions for urban governance to the Seventh Schedule",
+      "The 74th Constitutional Amendment Act (1992)",
+      "The 86th Constitutional Amendment Act, which expanded the role of panchayats to cover peri-urban areas",
+      "The 97th Constitutional Amendment Act, which strengthened cooperative governance structures in urban areas"
     ],
     "ans": 1
   },
@@ -777,10 +777,10 @@ const QUESTIONS = [
     "q": "The Human Development Index (HDI) combines which three dimensions?",
     "date_added": "2026-03-28",
     "opts": [
-      "Health, governance, and economic growth",
-      "Poverty, inequality, and social mobility",
+      "Health service access rates, formal school enrolment ratios, and per capita gross national income",
+      "Poverty headcount ratio, income inequality index, and social mobility indicator combined into a composite",
       "Long and healthy life, knowledge, and a decent standard of living",
-      "Income, employment, and education"
+      "Per capita income, adult literacy rate, and life expectancy at birth measured independently"
     ],
     "ans": 2
   },
@@ -791,10 +791,10 @@ const QUESTIONS = [
     "q": "Amartya Sen's 'capability approach' argues that development should be measured by:",
     "date_added": "2026-03-28",
     "opts": [
-      "Access to formal education and employment",
+      "Access to formal employment and educational institutions as the primary measurable proxies for individual welfare",
       "The expansion of substantive freedoms and capabilities that people have reason to value",
-      "GDP per capita growth",
-      "Reduction in absolute poverty headcount"
+      "Sustained growth in per capita gross domestic product as the aggregate measure of national development progress",
+      "Reduction in the absolute poverty headcount below internationally defined thresholds as the core development metric"
     ],
     "ans": 1
   },
@@ -805,10 +805,10 @@ const QUESTIONS = [
     "q": "The Sustainable Development Goals (SDGs) replaced which framework in 2015?",
     "date_added": "2026-03-28",
     "opts": [
-      "Agenda 21 targets",
-      "World Development Indicators",
-      "Millennium Development Goals (MDGs)",
-      "Human Development Goals"
+      "The Agenda 21 framework agreed at the 1992 Earth Summit in Rio de Janeiro",
+      "The World Development Indicators framework maintained by the World Bank since 1978",
+      "The Millennium Development Goals (MDGs)",
+      "The Human Development Index framework published annually in UNDP Human Development Reports since 1990"
     ],
     "ans": 2
   },
@@ -819,9 +819,9 @@ const QUESTIONS = [
     "q": "'Intersectionality' as a framework refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The interaction between formal and informal sectors in developing economies",
-      "The convergence of global development agendas at international forums",
-      "The overlap between urban and rural economies",
+      "The economic interdependence between formal regulated markets and informal unregulated economies in developing countries",
+      "The alignment of multilateral development agendas across UN agencies, donor governments, and international forums",
+      "The economic and social linkages between urban and rural economies within integrated national development systems",
       "The understanding that social identities such as gender, caste, race, and class intersect to create unique systems of discrimination and privilege"
     ],
     "ans": 3
@@ -833,10 +833,10 @@ const QUESTIONS = [
     "q": "Conditional Cash Transfers (CCTs) provide cash to poor households:",
     "date_added": "2026-03-28",
     "opts": [
-      "In exchange for participation in public works programs",
+      "In exchange for participation in government-organised community public works and infrastructure maintenance",
       "Contingent on behaviors such as school attendance or health check-ups",
-      "Only to female-headed households",
-      "Without any conditions, as a basic income guarantee"
+      "Exclusively to female-headed households identified as the most nutritionally and economically vulnerable",
+      "Unconditionally as a universal social protection floor for all households below the national poverty line"
     ],
     "ans": 1
   },
@@ -847,10 +847,10 @@ const QUESTIONS = [
     "q": "The Gini Coefficient measures:",
     "date_added": "2026-03-28",
     "opts": [
-      "The correlation between education and income levels",
+      "The statistical correlation between educational attainment and household income across socioeconomic groups",
       "The degree of income or wealth inequality within a population (0 = perfect equality, 1 = maximum inequality)",
-      "The poverty gap between urban and rural populations",
-      "The average income of the bottom 40% of a population"
+      "The absolute poverty gap between urban and rural populations measured in household consumption surveys",
+      "The mean income of the bottom 40% of the population as a ratio of the national median income"
     ],
     "ans": 1
   },
@@ -861,10 +861,10 @@ const QUESTIONS = [
     "q": "The Right to Food in India is primarily operationalized through:",
     "date_added": "2026-03-28",
     "opts": [
-      "The Mid-Day Meal Scheme only",
-      "The National Food Security Act, 2013",
-      "The Integrated Child Development Services Scheme only",
-      "The Essential Commodities Act, 1955"
+      "Article 21 of the Constitution, which the Supreme Court's People's Union for Civil Liberties judgment interpreted to include the right to food as an enforceable fundamental right",
+      "The Integrated Child Development Services (ICDS) scheme, which provides nutrition supplementation and supplementary feeding to children under six and pregnant and lactating women",
+      "The National Food Security Act, 2013, which provides subsidized food grains to up to 75% of the rural and 50% of the urban population",
+      "The Public Distribution System, established under the Essential Commodities Act, 1955, which distributes subsidized food grains through a network of fair price shops"
     ],
     "ans": 1
   },
@@ -875,10 +875,10 @@ const QUESTIONS = [
     "q": "'Food sovereignty' is best defined as:",
     "date_added": "2026-03-28",
     "opts": [
-      "A nation's ability to produce 100% of its own food domestically",
+      "A nation's demonstrated capacity to produce sufficient food domestically to meet 100% of caloric needs",
       "The right of peoples to define their own food systems, prioritizing local food production and democratically controlled food policies",
-      "International food trade agreements that guarantee supply to all nations",
-      "The exclusive right of indigenous peoples to traditional seeds and knowledge"
+      "Multilateral international agreements that guarantee uninterrupted food commodity supply to all signatory nations",
+      "The exclusive intellectual property rights of indigenous communities over traditional seeds and food knowledge"
     ],
     "ans": 1
   },
@@ -889,10 +889,10 @@ const QUESTIONS = [
     "q": "'Participatory budgeting' is a method where:",
     "date_added": "2026-03-28",
     "opts": [
-      "Budget preparation is led by private sector participants rather than government",
-      "A World Bank methodology estimates public infrastructure costs",
-      "Parliamentary committees annually review government spending",
-      "Citizens directly decide on allocation of a portion of the public budget"
+      "An independent civil society oversight process in which government budget proposals are reviewed and audited by citizen representatives before parliamentary deliberation",
+      "Citizens directly participate in deciding how a portion of public funds should be allocated to local priorities",
+      "A mechanism in which international development donors and recipient government officials jointly determine the sectoral allocation of aid resources and conditionalities",
+      "A bottom-up process in which local communities prepare and formally submit alternative expenditure proposals to legislative bodies as official budget amendments"
     ],
     "ans": 3
   },
@@ -903,10 +903,10 @@ const QUESTIONS = [
     "q": "The 'demographic dividend' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Financial dividends distributed by governments to citizens based on population size",
+      "Per capita financial dividends distributed by governments to citizens linked to declining family size targets",
       "The economic growth potential created when a large proportion of the population is in the working-age group with lower dependency ratios",
-      "Government revenue generated through population-related taxes",
-      "The benefit of population decline for per capita resource availability"
+      "Government revenue surpluses generated through population-linked tax instruments and social security contributions",
+      "The economic benefit derived from declining total population as per capita resource availability increases"
     ],
     "ans": 1
   },
@@ -917,10 +917,10 @@ const QUESTIONS = [
     "q": "The term 'precariat' as used in contemporary sociology refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Pre-industrial artisanal workers displaced by manufacturing",
+      "Pre-industrial artisanal and craft workers who were displaced and dispossessed by the mechanization of manufacturing",
       "A social class characterized by insecure, unstable employment with few social protections, especially in the informal economy",
-      "People who work in hazardous or precarious physical conditions",
-      "Government employees on temporary or contractual appointments"
+      "Workers employed in physically hazardous occupations such as construction, mining, and heavy manufacturing",
+      "Government employees engaged on fixed-term contractual appointments with limited job security and pension rights"
     ],
     "ans": 1
   },
@@ -931,10 +931,10 @@ const QUESTIONS = [
     "q": "Denotified and Nomadic Tribes (DNTs) in India are communities that:",
     "date_added": "2026-03-28",
     "opts": [
-      "Communities that lost land rights due to forest conservation policies",
-      "Voluntarily gave up sedentary lifestyles after independence",
+      "Communities historically displaced from forests following the creation of reserved forests and national parks",
+      "Sedentary agricultural communities that adopted nomadic pastoralism as a livelihood strategy post-independence",
       "Were criminalized under the Criminal Tribes Act of 1871 by the British; they continue to face stigma and marginalization",
-      "Tribal groups given special status under the Fifth Schedule"
+      "Tribal communities listed under the Fifth Schedule of the Constitution with special governance protections"
     ],
     "ans": 2
   },
@@ -945,9 +945,9 @@ const QUESTIONS = [
     "q": "The 'leaving no one behind' agenda under the SDGs prioritizes:",
     "date_added": "2026-03-28",
     "opts": [
-      "Exclusively absolute poverty reduction rather than relative inequality",
-      "The fastest-growing economies to maximize global development outcomes",
-      "Nations opting out of SDG commitments if development needs conflict",
+      "Prioritizing absolute poverty eradication over relative inequality to focus resources on the most essential needs",
+      "Directing development investments to fastest-growing economies to maximize aggregate global development impact",
+      "Allowing nations facing structural constraints to opt out of specific SDG commitments through a formal waiver process",
       "The most marginalized, vulnerable, and furthest-behind populations benefiting first from development programs"
     ],
     "ans": 3
@@ -959,10 +959,10 @@ const QUESTIONS = [
     "q": "Remittances in development economics refer to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Financial transfers from developed to developing countries through aid programs",
-      "Money sent by migrants back to their home countries or communities",
-      "Taxes remitted to the government by non-resident Indians",
-      "Debt repayments by developing countries to international financial institutions"
+      "Official development assistance transferred from high-income OECD donor countries to low-income developing countries for humanitarian or development purposes",
+      "Scheduled debt service payments made by developing country governments to multilateral creditors such as the International Monetary Fund and the World Bank",
+      "Funds transferred by migrants to their home countries, which often exceed foreign direct investment and official aid in many developing nations",
+      "Philanthropic grants disbursed by diaspora associations and migrant community foundations to non-governmental organisations in origin countries"
     ],
     "ans": 1
   },
@@ -973,10 +973,10 @@ const QUESTIONS = [
     "q": "'Structural violence' as a concept refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Violent conflicts arising from competition over natural resources",
+      "Armed conflicts that arise from competition over scarce natural resources including water, land, and mineral wealth",
       "Harm embedded in social structures, institutions, and systems - such as poverty, inequality, and discrimination - that prevents people from meeting their basic needs",
-      "Physical violence caused by armed groups and state military forces",
-      "Violence perpetrated by marginalized groups against dominant groups as a form of resistance"
+      "Physical violence exercised by state armed forces and security agencies against civilian populations during crises",
+      "Retaliatory violence perpetrated by historically marginalised groups against dominant social and political structures"
     ],
     "ans": 1
   },
@@ -987,10 +987,10 @@ const QUESTIONS = [
     "q": "The 73rd Constitutional Amendment Act (1992) is related to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Abolition of the privy purses of former rulers",
+      "Abolishing the privy purses and special privileges of former princely state rulers post-independence",
       "Granting constitutional status to Panchayati Raj Institutions",
-      "Reservation for women in Parliament",
-      "Creation of the National Commission for Backward Classes"
+      "Providing 33% reservation for women in Parliament and state legislative assemblies",
+      "Establishing the National Commission for Backward Classes as a constitutional body"
     ],
     "ans": 1
   },
@@ -1001,9 +1001,9 @@ const QUESTIONS = [
     "q": "The Forest Rights Act (FRA), 2006 primarily aims to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Expand the area under reserved forests in India",
-      "Transfer forest management from state governments to the central government",
-      "Allow commercial forestry operations under regulated conditions",
+      "Expand the total area under reserved and protected forests through compulsory acquisition of encroached land",
+      "Transfer administrative control of all forest land from state forest departments to the Ministry of Environment",
+      "Permit regulated commercial forestry operations in non-protected forest areas under licensed corporate management",
       "Recognize and vest forest rights in forest-dwelling scheduled tribes and other traditional forest dwellers"
     ],
     "ans": 3
@@ -1016,9 +1016,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Recommend the distribution of tax revenues between the Union and States",
-      "Prepare the Union Budget every year",
-      "Regulate foreign investment in the country",
-      "Oversee the implementation of flagship government schemes"
+      "Prepare the annual Union Budget and advise the government on expenditure priorities and fiscal consolidation",
+      "Regulate inflows of foreign direct investment and monitor compliance with sectoral investment caps",
+      "Oversee implementation and audit flagship government schemes across central and state ministries"
     ],
     "ans": 0
   },
@@ -1029,10 +1029,10 @@ const QUESTIONS = [
     "q": "The Directive Principles of State Policy in the Indian Constitution are:",
     "date_added": "2026-03-28",
     "opts": [
-      "Enforceable rights that citizens can claim in court",
+      "Constitutionally enforceable rights that citizens can directly claim through writ petitions in the High Courts",
       "Non-justiciable guidelines for governance that the state should aim to achieve for the social and economic welfare of citizens",
-      "Policy recommendations from the Planning Commission",
-      "Binding directives issued by the Supreme Court to state governments"
+      "Advisory policy recommendations issued by the erstwhile Planning Commission for five-year development planning",
+      "Mandatory directives issued by the Supreme Court to state governments under its constitutional supervisory jurisdiction"
     ],
     "ans": 1
   },
@@ -1044,9 +1044,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "A wide range of rights including right to livelihood, health, education, environment, and privacy through judicial expansion",
-      "Only the right to not be imprisoned without due process",
-      "Only civil and political liberties as originally intended by the drafters",
-      "Fundamental duties in addition to rights"
+      "Solely the procedural right against arbitrary arrest and detention as expressly stated in the original constitutional text",
+      "Only the classic civil and political liberties that the constituent assembly originally intended when drafting Article 21",
+      "The fundamental duties of citizens under Article 51A in addition to the rights guaranteed under Part III"
     ],
     "ans": 0
   },
@@ -1058,9 +1058,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Balwant Rai Mehta Committee",
-      "Ashok Mehta Committee",
-      "Sarkaria Commission",
-      "Narasimham Committee"
+      "Ashok Mehta Committee on Panchayati Raj (1977)",
+      "L.M. Singhvi Committee on Revitalisation of Panchayati Raj (1986)",
+      "G.V.K. Rao Committee on Administrative Arrangements for Rural Development (1985)"
     ],
     "ans": 0
   },
@@ -1071,10 +1071,10 @@ const QUESTIONS = [
     "q": "India's NITI Aayog replaced the Planning Commission in:",
     "date_added": "2026-03-28",
     "opts": [
-      "2013",
-      "2017",
-      "2019",
-      "2015"
+      "2012, following a mid-term review of the 12th Five Year Plan that concluded the Planning Commission's centralized directive model had become structurally ineffective",
+      "2015",
+      "2019, following a comprehensive review of development governance architecture initiated after the general election mandate of that year",
+      "2017, as part of the post-demonetization economic reform agenda that sought to restructure planning and development institutions"
     ],
     "ans": 3
   },
@@ -1086,9 +1086,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Consent of 70% of affected families for acquiring land for PPP projects and 80% for private companies, along with mandatory social impact assessments",
-      "Compensation equal to twice the market value for all acquisitions",
-      "Prior approval of the Supreme Court for acquisition of more than 1,000 acres",
-      "Automatic land acquisition for any infrastructure project declared as a national priority"
+      "Monetary compensation equal to twice the market value for rural land and thrice the value for irrigated agricultural land",
+      "Prior approval of a parliamentary standing committee for any acquisition exceeding 1,000 acres of agricultural land",
+      "Automatic transfer of land title for any infrastructure project formally declared a national priority by Cabinet"
     ],
     "ans": 0
   },
@@ -1099,10 +1099,10 @@ const QUESTIONS = [
     "q": "The concept of 'cooperative federalism' in India refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "States pooling resources to fund central government flagship schemes",
+      "An arrangement where states pool resources and jointly fund central government flagship social sector schemes",
       "A model of federalism where the Centre and States work together collaboratively rather than in a strictly hierarchical manner",
-      "The Union government taking over State functions during a constitutional emergency",
-      "Joint legislative sessions of Parliament and State Assemblies"
+      "A constitutional provision allowing the Union government to assume direct administrative control of state functions",
+      "Joint sessions of Parliament and state assemblies convened to legislate on subjects in the Concurrent List"
     ],
     "ans": 1
   },
@@ -1113,10 +1113,10 @@ const QUESTIONS = [
     "q": "The National Green Tribunal (NGT) handles cases related to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Urban green spaces and parks management",
-      "Conservation of wildlife and forest areas only",
+      "Management of urban green spaces, city parks, and biodiversity conservation in peri-urban forest areas",
+      "Adjudication of wildlife protection cases and enforcement of hunting bans under the Wildlife Protection Act",
       "Environmental protection, conservation of forests and natural resources, and enforcement of environmental laws",
-      "Agricultural disputes involving green or organic farming"
+      "Settlement of disputes involving organic farming certification, pesticide regulation, and genetically modified crops"
     ],
     "ans": 2
   },
@@ -1127,9 +1127,9 @@ const QUESTIONS = [
     "q": "A randomized controlled trial (RCT) is considered the 'gold standard' for causal inference because:",
     "date_added": "2026-03-28",
     "opts": [
-      "It combines quantitative and qualitative data collection methods",
-      "It is the cheapest and fastest method of data collection",
-      "It uses the largest possible sample sizes",
+      "It integrates quantitative measurement and qualitative observation for a more comprehensive evidence base",
+      "It can be implemented quickly using administrative data without requiring expensive primary data collection",
+      "It uses the largest feasible sample sizes to ensure statistical power and generalizability across diverse contexts",
       "Random assignment to treatment and control groups eliminates selection bias and allows isolation of causal effects"
     ],
     "ans": 3
@@ -1142,9 +1142,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "A high degree of correlation among independent variables, making it difficult to isolate individual effects",
-      "The non-linear relationship between independent and dependent variables",
-      "The use of multiple dependent variables in a single model",
-      "Errors in measurement that are correlated with the independent variable"
+      "A non-linear or curvilinear relationship between an independent variable and the dependent outcome variable",
+      "The simultaneous inclusion of multiple dependent variables in a single integrated regression framework",
+      "Systematic measurement errors in independent variables that are correlated with the regression residuals"
     ],
     "ans": 0
   },
@@ -1155,10 +1155,10 @@ const QUESTIONS = [
     "q": "Ethnography as a qualitative research method is characterized by:",
     "date_added": "2026-03-28",
     "opts": [
-      "Conducting structured surveys with large random samples",
-      "Systematic review and meta-analysis of existing literature",
+      "Administering standardized questionnaires to large probability samples to measure social phenomena quantitatively",
+      "Conducting systematic reviews and meta-analyses to synthesize findings across large bodies of literature",
       "Prolonged immersion in a community or setting to understand culture and social practices from an insider's perspective",
-      "Experimental manipulation of variables to test causal hypotheses"
+      "Experimentally manipulating independent variables and randomly assigning participants to test causal hypotheses"
     ],
     "ans": 2
   },
@@ -1169,10 +1169,10 @@ const QUESTIONS = [
     "q": "A Type II error in hypothesis testing means:",
     "date_added": "2026-03-28",
     "opts": [
-      "Including too many variables in a regression model",
-      "Rejecting a null hypothesis that is actually true",
-      "Using an incorrect statistical test for the data",
-      "Failing to reject a null hypothesis that is actually false"
+      "Incorrectly rejecting a true null hypothesis, producing a statistically significant but spurious finding",
+      "Using a significance threshold that is too strict, causing overly conservative conclusions about treatment effects",
+      "Failing to reject a null hypothesis that is actually false, meaning a true effect was missed",
+      "Reporting a statistically significant result without computing a corresponding confidence interval"
     ],
     "ans": 3
   },
@@ -1183,9 +1183,9 @@ const QUESTIONS = [
     "q": "A p-value of 0.03 in a statistical test means:",
     "date_added": "2026-03-28",
     "opts": [
-      "The result is 97% accurate",
-      "There is a 3% probability that the null hypothesis is true",
-      "The effect size is 3% larger than the control group",
+      "The research instrument and methodology are 97% accurate when applied to the intended target population",
+      "There is a 3% probability that the null hypothesis is actually true given the observed study evidence",
+      "The estimated effect in the treatment group exceeds the control group mean by exactly 3% of the standard deviation",
       "The probability of observing results at least as extreme as those found, if the null hypothesis were true, is 3%"
     ],
     "ans": 3
@@ -1197,10 +1197,10 @@ const QUESTIONS = [
     "q": "Snowball sampling is most appropriate when studying:",
     "date_added": "2026-03-28",
     "opts": [
-      "Cluster-based samples in large geographic areas",
+      "Geographically dispersed cluster-based samples in large-scale national household surveys with multi-stage designs",
       "Hard-to-reach or rare populations where participants recruit further participants",
-      "Stratified samples across different socioeconomic groups",
-      "Simple random sampling of a well-defined population"
+      "Proportionally stratified samples across socioeconomic, regional, or demographic subgroups of a population",
+      "Simple random samples drawn from well-defined population registries such as voter rolls or census enumerations"
     ],
     "ans": 1
   },
@@ -1211,10 +1211,10 @@ const QUESTIONS = [
     "q": "In qualitative research, 'member checking' is a technique to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Ensure every member of a community has an equal chance of being selected",
-      "Check for bias by having multiple researchers code the same data",
-      "Share research findings with participants to confirm accuracy and enhance credibility",
-      "Verify that research participants are genuine members of the target community"
+      "Feed preliminary findings back to participants at the midpoint of the study to validate emerging themes",
+      "Enhance credibility by sharing findings or interpretations with research participants to check for accuracy and resonance",
+      "Maintain strict objectivity and neutrality throughout fieldwork to prevent researcher values from affecting data",
+      "Maintain detailed reflective journals during fieldwork that serve as a primary data source for analysis"
     ],
     "ans": 2
   },
@@ -1225,10 +1225,10 @@ const QUESTIONS = [
     "q": "A confidence interval of 95% means:",
     "date_added": "2026-03-28",
     "opts": [
-      "The probability that the null hypothesis is false is 95%",
+      "There is a 95% probability that the null hypothesis is false and the true effect lies outside the null value",
       "If the study were repeated many times, 95% of the calculated intervals would contain the true population parameter",
-      "The sample represents 95% of the population accurately",
-      "There is a 95% probability that the true parameter falls within the interval"
+      "The sampling methodology ensures that 95% of the target population is accurately represented in the study sample",
+      "The true population parameter is guaranteed to fall within the reported interval with 95% certainty from a single study"
     ],
     "ans": 1
   },
@@ -1239,10 +1239,10 @@ const QUESTIONS = [
     "q": "Reflexivity in qualitative research requires the researcher to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Reflect findings back to participants at the end of the study",
+      "Feed preliminary findings back to study participants at the end of the project to validate conclusions",
       "Critically examine their own position, assumptions, and influence on the research process",
-      "Remain completely neutral and objective throughout the study",
-      "Use reflective journals to record fieldwork experiences for data analysis"
+      "Maintain strict objectivity and neutrality throughout fieldwork to prevent researcher values from affecting data",
+      "Maintain detailed reflective journals during fieldwork as a secondary data source for thematic analysis"
     ],
     "ans": 1
   },
@@ -1253,10 +1253,10 @@ const QUESTIONS = [
     "q": "Difference-in-differences (DiD) is a statistical technique used to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Calculate the statistical difference between two independent samples",
-      "Measure the magnitude of difference between qualitative and quantitative findings",
+      "Compute the mean difference in an outcome between two independent cross-sectional samples at a single time point",
+      "Quantify the magnitude of differences between qualitative and quantitative research findings in mixed-methods studies",
       "Estimate causal effects by comparing the change over time in an outcome for a treatment group versus a control group",
-      "Analyze changes in panel data across multiple time periods"
+      "Decompose total variance in panel data outcomes into within-individual and between-individual components"
     ],
     "ans": 2
   },
@@ -1267,9 +1267,9 @@ const QUESTIONS = [
     "q": "'Grounded theory' in qualitative research is:",
     "date_added": "2026-03-28",
     "opts": [
-      "A theory that has been validated through large-scale quantitative studies",
-      "A theory-driven deductive approach that tests pre-existing hypotheses",
-      "Research conducted in natural or outdoor settings",
+      "An approach that requires all theoretical claims to be grounded in prior peer-reviewed empirical literature",
+      "A theory-driven deductive framework for testing pre-specified hypotheses against empirical observations",
+      "A naturalistic fieldwork tradition requiring all data collection to occur in outdoor or community settings",
       "A methodology for developing theory inductively from data through constant comparison and theoretical sampling"
     ],
     "ans": 3
@@ -1281,10 +1281,10 @@ const QUESTIONS = [
     "q": "'Construct validity' in a research instrument means:",
     "date_added": "2026-03-28",
     "opts": [
-      "The findings from the instrument can be generalized to the wider population",
-      "The instrument was constructed following established scientific protocols",
-      "The instrument produces consistent results across multiple administrations",
-      "The instrument measures what it claims to measure conceptually"
+      "The instrument consistently produces the same results when administered repeatedly under the same conditions",
+      "The instrument's content covers all theoretically relevant aspects of the concept as judged by domain experts",
+      "The instrument actually measures the theoretical construct it claims to measure, supported by convergent evidence",
+      "The instrument's findings can be generalized to the broader population from which the sample was drawn"
     ],
     "ans": 3
   },
@@ -1296,9 +1296,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Follows a defined, reproducible protocol to identify, select, and critically appraise relevant studies",
-      "Focuses only on randomized controlled trials and excludes qualitative studies",
-      "Is conducted by multiple authors working in interdisciplinary teams always",
-      "Uses a wider range of sources, including grey literature"
+      "Focuses exclusively on randomised controlled trials and always excludes qualitative and mixed-methods studies",
+      "Is always conducted by interdisciplinary teams of multiple authors with complementary methodological expertise",
+      "Uses a broader search strategy that deliberately includes grey literature, unpublished reports, and conference papers"
     ],
     "ans": 0
   },
@@ -1309,9 +1309,9 @@ const QUESTIONS = [
     "q": "Content analysis as a research method involves:",
     "date_added": "2026-03-28",
     "opts": [
-      "Statistical analysis of survey content for factor structures",
-      "Assessing the content validity of psychometric instruments",
-      "Analyzing the physical content of soil or water samples",
+      "Statistical factor analysis of structured survey items to identify underlying latent constructs and dimensions",
+      "Psychometric assessment of whether a survey instrument measures the intended construct with sufficient validity",
+      "Chemical or physical analysis of environmental samples such as soil and water to quantify pollutant concentrations",
       "Systematic coding and interpretation of texts, images, or media to identify patterns and meaning"
     ],
     "ans": 3
@@ -1323,10 +1323,10 @@ const QUESTIONS = [
     "q": "In Bayesian statistics, the posterior distribution represents:",
     "date_added": "2026-03-28",
     "opts": [
-      "The updated belief about the parameters after observing data",
-      "The initial belief about the parameters before observing data",
-      "The distribution of the data given the parameter",
-      "The likelihood of observing the data under different models"
+      "The sampling distribution of a test statistic under repeated random sampling from the target population",
+      "The set of parameter values compatible with the observed data under standard frequentist statistical assumptions",
+      "The updated probability distribution of a parameter after combining prior beliefs with the likelihood of observed data",
+      "The distribution of predicted values generated by a model after training on all available observations in the dataset"
     ],
     "ans": 0
   },
@@ -1337,9 +1337,9 @@ const QUESTIONS = [
     "q": "Integrated Water Resources Management (IWRM) promotes:",
     "date_added": "2026-03-28",
     "opts": [
-      "Privatization of water utilities to improve efficiency",
-      "Centralized government control over all water bodies",
-      "Construction of large dams as the primary strategy for water storage",
+      "Market-based allocation of water through privatization of utilities and user-pays pricing to ensure efficiency",
+      "Centralized national government control over all major water bodies and allocation decisions across all sectors",
+      "Large-scale dam and reservoir construction as the primary infrastructure strategy for water storage and flood control",
       "The coordinated development and management of water, land, and related resources to maximize economic and social welfare without compromising ecosystem sustainability"
     ],
     "ans": 3
@@ -1351,10 +1351,10 @@ const QUESTIONS = [
     "q": "'Virtual water' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Water saved through drip irrigation techniques",
-      "Water harvested from fog or air moisture",
+      "Water conserved through efficient drip and micro-irrigation technologies in agricultural production systems",
+      "Water harvested from atmospheric moisture, fog, or precipitation by passive collection systems in arid areas",
       "The volume of water embedded in the production of goods and services",
-      "Digitally simulated water resource modeling"
+      "Computer-simulated water resource modelling used in river basin planning and hydrological impact assessment"
     ],
     "ans": 2
   },
@@ -1365,10 +1365,10 @@ const QUESTIONS = [
     "q": "India's National Action Plan on Climate Change (NAPCC) includes how many national missions?",
     "date_added": "2026-03-28",
     "opts": [
+      "6, covering solar, enhanced energy efficiency, sustainable habitat, water, green India, and sustainable agriculture",
       "8",
-      "10",
-      "6",
-      "12"
+      "10, with the original eight missions expanded to include two additional missions on wind energy and coastal zone management",
+      "12, after states were invited to add additional missions aligned with their specific climate vulnerabilities and development priorities"
     ],
     "ans": 0
   },
@@ -1379,10 +1379,10 @@ const QUESTIONS = [
     "q": "Energy poverty is best defined as:",
     "date_added": "2026-03-28",
     "opts": [
-      "The inability of governments to fund energy infrastructure",
-      "Excessive energy consumption relative to a country's economic output",
+      "The inability of national governments to mobilize sufficient public finance for energy infrastructure investment",
+      "Per capita energy consumption that falls below the global average relative to a country's economic output level",
       "Lack of access to affordable, reliable, sustainable, and modern energy services for cooking, lighting, and productive use",
-      "High dependence on imported fossil fuels"
+      "High structural dependence on imported fossil fuels that creates macroeconomic vulnerability to price shocks"
     ],
     "ans": 2
   },
@@ -1393,9 +1393,9 @@ const QUESTIONS = [
     "q": "The International Solar Alliance (ISA), headquartered in India, was established with the primary goal of:",
     "date_added": "2026-03-28",
     "opts": [
-      "Setting international standards for solar energy infrastructure",
-      "Regulating the international solar panel trade",
-      "Providing solar-powered internet connectivity to rural areas globally",
+      "Setting internationally harmonized technical standards for solar photovoltaic and thermal infrastructure",
+      "Regulating international trade in solar panels and renewable energy equipment to prevent dumping and unfair subsidies",
+      "Providing solar-powered broadband internet connectivity to rural and unserved communities in developing nations",
       "Mobilizing investment and technology to promote solar energy in tropical countries"
     ],
     "ans": 3
@@ -1407,10 +1407,10 @@ const QUESTIONS = [
     "q": "In India, groundwater is primarily regulated through:",
     "date_added": "2026-03-28",
     "opts": [
-      "A comprehensive national groundwater law",
-      "The Water (Prevention and Control of Pollution) Act, 1974",
+      "A comprehensive national groundwater protection law that supersedes state jurisdiction and sets extraction limits",
+      "The Water (Prevention and Control of Pollution) Act, 1974, which covers all forms of water quality management",
       "State-level legislations and the Model Groundwater Bill recommended by the Central Government",
-      "The Environment Protection Act, 1986"
+      "The Environment (Protection) Act, 1986, which grants authority to regulate groundwater as environmental law"
     ],
     "ans": 2
   },
@@ -1421,10 +1421,10 @@ const QUESTIONS = [
     "q": "The National Water Policy (revised 2012) in India recognizes water as a:",
     "date_added": "2026-03-28",
     "opts": [
-      "State subject under the Seventh Schedule, with no central oversight",
+      "A State subject under the Seventh Schedule, with no central legislative or regulatory oversight permitted",
       "National resource held in public trust, with ecological needs taking priority and social equity as a guiding principle",
-      "Shared resource governed exclusively by inter-state river water tribunals",
-      "Private commodity to be managed by market forces"
+      "A shared resource whose inter-state allocation is governed exclusively by water tribunals and the Inter-State River Water Disputes Act",
+      "A tradeable private commodity whose pricing should reflect full cost recovery including infrastructure and scarcity value"
     ],
     "ans": 1
   },
@@ -1435,10 +1435,10 @@ const QUESTIONS = [
     "q": "Land fragmentation in Indian agriculture primarily refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Government acquisition of farmland for industrial use",
-      "The process of consolidating small farms into large corporate holdings",
+      "Government acquisition of productive farmland for industrial corridors and special economic zones",
+      "The consolidation of fragmented small farms into large corporate agricultural holdings through buyouts",
       "The subdivision of landholdings into small, scattered, non-contiguous pieces over generations, reducing agricultural efficiency",
-      "Division of agricultural land along caste lines"
+      "The partitioning of agricultural land between castes through village-level customary allocation practices"
     ],
     "ans": 2
   },
@@ -1449,10 +1449,10 @@ const QUESTIONS = [
     "q": "The Minimum Support Price (MSP) system in India is designed to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Determine the price of agricultural land in rural areas",
-      "Regulate food prices in retail markets",
+      "Determine the officially notified valuation of agricultural land for revenue and stamp duty purposes",
+      "Regulate the maximum retail price of essential food commodities to protect consumers from market exploitation",
       "Provide a guaranteed price to farmers for their produce to protect them from market price fluctuations",
-      "Set the minimum price at which food can be exported"
+      "Set the benchmark export price below which food commodities cannot be sold in international markets"
     ],
     "ans": 2
   },
@@ -1464,9 +1464,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Wheat and rice in Punjab, Haryana, and western UP, through high-yield varieties, irrigation, and chemical inputs",
-      "Cotton and sugarcane in Maharashtra and Gujarat",
-      "Pulses and oilseeds across the Deccan Plateau",
-      "Rice and maize in eastern India"
+      "Cotton and sugarcane in Maharashtra and Gujarat through canal irrigation and hybrid seed technology",
+      "Pulses and oilseeds across the Deccan Plateau through improved dryland varieties and watershed development",
+      "Rice and maize in eastern India through participatory plant breeding and integrated pest management programmes"
     ],
     "ans": 0
   },
@@ -1478,9 +1478,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Zero external inputs, using only naturally available materials including locally available cow-based preparations",
-      "Contract farming arrangements with food processing companies",
-      "High-yield variety seeds and chemical fertilizers for productivity",
-      "Precision agriculture using satellite imagery and sensor technology"
+      "Contract farming arrangements with food processing companies that guarantee minimum prices for quality produce",
+      "High-yield variety seeds combined with chemical fertilizers and irrigation for maximum productivity per hectare",
+      "Precision agriculture using satellite imagery, drone monitoring, and soil sensor technology for input optimization"
     ],
     "ans": 0
   },
@@ -1491,9 +1491,9 @@ const QUESTIONS = [
     "q": "Pradhan Mantri Fasal Bima Yojana (PMFBY) is:",
     "date_added": "2026-03-28",
     "opts": [
-      "A minimum support price guarantee program for all crops",
-      "A scheme to provide farmers with free irrigation infrastructure",
-      "A crop loan guarantee scheme for small farmers",
+      "A minimum support price guarantee scheme providing remunerative prices for 23 notified crops through procurement",
+      "A scheme providing subsidized irrigation infrastructure and water connections to small and marginal farmers",
+      "A crop loan guarantee programme enabling small farmers to access formal credit from commercial banks at low interest",
       "A crop insurance scheme providing financial support to farmers in case of crop failure due to natural calamities, pests, or diseases"
     ],
     "ans": 3
@@ -1505,10 +1505,10 @@ const QUESTIONS = [
     "q": "A carbon tax is an example of which type of environmental policy instrument?",
     "date_added": "2026-03-28",
     "opts": [
-      "Market-based / economic instrument",
-      "Voluntary agreement",
-      "Command-and-control regulation",
-      "Information-based instrument"
+      "Market-based / economic instrument that prices pollution to internalize external costs",
+      "Voluntary agreement where firms self-regulate without direct government enforcement",
+      "Command-and-control regulation that sets legally binding emission limits and standards",
+      "Information-based instrument that requires mandatory disclosure to enable market accountability"
     ],
     "ans": 0
   },
@@ -1519,10 +1519,10 @@ const QUESTIONS = [
     "q": "The 'polluter pays principle' in environmental law means:",
     "date_added": "2026-03-28",
     "opts": [
-      "Industries in polluted areas pay levies to compensate affected communities",
-      "Polluters must pay a fine to the government equal to the pollution they cause",
-      "Governments pay for pollution cleanup and recover costs through taxes on all citizens",
-      "Those responsible for causing pollution bear the costs of managing and remedying its impacts"
+      "Individual consumers and households that generate domestic solid waste bear full legal and financial liability for all downstream environmental damages from improper disposal",
+      "National governments are obligated to pay remediation costs and compensation to communities affected by environmental degradation from industrial or agricultural activities",
+      "Those who cause environmental pollution are responsible for bearing the costs of remediation and damage",
+      "Multinational corporations operating production facilities in developing countries must pay a mandatory pollution surcharge to host government environmental funds"
     ],
     "ans": 3
   },
@@ -1533,10 +1533,10 @@ const QUESTIONS = [
     "q": "Payment for Ecosystem Services (PES) schemes function by:",
     "date_added": "2026-03-28",
     "opts": [
-      "Taxing industries that use ecosystem services without paying for them",
+      "Taxing industries that degrade or consume ecosystem services without contributing to their maintenance",
       "Creating markets or direct payment mechanisms to compensate those who maintain or enhance ecosystem services",
-      "Establishing government-owned enterprises to manage and sell ecosystem services",
-      "Requiring international aid transfers for conservation in developing nations"
+      "Establishing government-owned enterprises to produce, manage, and price ecosystem service delivery",
+      "Requiring international aid transfers from developed nations for biodiversity conservation in developing countries"
     ],
     "ans": 1
   },
@@ -1547,9 +1547,9 @@ const QUESTIONS = [
     "q": "The tragedy of the commons, as described by Garrett Hardin, refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The historical enclosure of common lands in England",
-      "Pollution of urban public spaces due to lack of civic responsibility",
-      "The failure of international environmental agreements to achieve targets",
+      "The historical enclosure of common agricultural lands in England that dispossessed rural peasant communities",
+      "The deterioration of urban public spaces due to insufficient civic responsibility and public maintenance funding",
+      "The failure of international environmental agreements to achieve legally binding emission reduction targets",
       "The tendency for shared resources to be overused and degraded when individuals act in self-interest without collective governance"
     ],
     "ans": 3
@@ -1561,10 +1561,10 @@ const QUESTIONS = [
     "q": "'Green GDP' is best described as:",
     "date_added": "2026-03-28",
     "opts": [
-      "GDP growth attributed to investment in renewable energy",
-      "Economic output measured in carbon intensity per unit of production",
+      "GDP growth attributed exclusively to investment in renewable energy, clean technology, and green industries",
+      "Economic output expressed in terms of carbon intensity or greenhouse gas emissions per unit of production",
       "A measure of economic output that accounts for environmental degradation and depletion of natural resources",
-      "GDP calculated using only income from green industries"
+      "GDP calculated using only the income generated by formally certified green industries and sustainable enterprises"
     ],
     "ans": 2
   },
@@ -1575,10 +1575,10 @@ const QUESTIONS = [
     "q": "The Gender Development Index (GDI) measures:",
     "date_added": "2026-03-28",
     "opts": [
-      "The proportion of women who have experienced gender-based violence",
+      "The proportion of women who have experienced gender-based violence across different age and income groups",
       "Gender inequalities in health, education, and command over economic resources relative to the HDI",
-      "The wage gap between men and women in the formal sector",
-      "The proportion of women in senior government positions"
+      "The gap between men and women in formal sector wages and labour force participation rates",
+      "The proportion of women represented in senior government, corporate, and judicial positions"
     ],
     "ans": 1
   },
@@ -1589,10 +1589,10 @@ const QUESTIONS = [
     "q": "Article 17 of the Indian Constitution and the Protection of Civil Rights Act, 1955 together:",
     "date_added": "2026-03-28",
     "opts": [
-      "Establish the National Commission for Scheduled Castes",
-      "Provide reservations for Scheduled Castes in government employment",
-      "Guarantee political representation for marginalized communities",
-      "Abolish untouchability and make its practice a punishable offence"
+      "Constitutionally reserve seats for Scheduled Castes in the Parliament, state legislative assemblies, and local self-government bodies to ensure political representation",
+      "Mandate proportional reservations in public educational institutions and government employment for persons who have historically experienced untouchability",
+      "Abolish untouchability and make its practice a criminal offence punishable under law",
+      "Establish fast-track special courts with dedicated public prosecutors for the speedy trial of caste-based discrimination and atrocity cases in every district"
     ],
     "ans": 3
   },
@@ -1603,10 +1603,10 @@ const QUESTIONS = [
     "q": "The 'feminisation of poverty' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Poverty caused exclusively by the breakdown of traditional family structures",
-      "The increasing feminization of academic research on poverty",
+      "Poverty caused by the structural breakdown of traditional family units and community support networks",
+      "The increasing share of women in academic poverty research and development policy institutions",
       "The disproportionate representation of women among the world's poor, driven by gender-based inequalities in access to resources, education, and employment",
-      "Government programs targeting poverty specifically through women's self-help groups"
+      "Government welfare programmes that target poverty reduction specifically through women's self-help groups and microfinance"
     ],
     "ans": 2
   },
@@ -1617,10 +1617,10 @@ const QUESTIONS = [
     "q": "'Patriarchy' in sociology refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Legal restrictions on women's voting rights",
-      "Inheritance of property exclusively through the paternal line",
+      "Legal systems in which women are explicitly prohibited from voting, owning property, or seeking employment",
+      "Cultural inheritance norms that transfer property, surnames, and lineage exclusively through the paternal line",
       "A social and political system in which men hold primary power, dominating in roles of political leadership, moral authority, and social privilege",
-      "A system where elder males in a family hold legal authority over all family members"
+      "Religious doctrine and customary law that assigns legally enforced and hierarchical roles to men over women"
     ],
     "ans": 2
   },
@@ -1632,9 +1632,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Goes beyond treating individuals identically to actually achieving equal outcomes, recognizing that treating unequals equally can perpetuate inequality",
-      "Requires identical treatment of all individuals regardless of social background",
-      "Applies only to gender and not to caste or religion",
-      "Is enshrined in international law but not in Indian constitutional jurisprudence"
+      "Requires identical legal and procedural treatment of all individuals regardless of social background or historical disadvantage",
+      "Applies exclusively to gender-based discrimination and has no application to caste, religion, or disability",
+      "Is recognized in international human rights law but has not yet been incorporated into Indian constitutional jurisprudence"
     ],
     "ans": 0
   },
@@ -1645,9 +1645,9 @@ const QUESTIONS = [
     "q": "'Emotional labour' as described by Arlie Hochschild refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Physical labour performed primarily by women in the informal sector",
-      "Unpaid domestic and care work performed within households",
-      "Labour organizing and collective action driven by emotional solidarity",
+      "Physical and domestic labour performed primarily by women in the informal sector without wage recognition",
+      "Unpaid reproductive and care work performed within households that is excluded from national income accounting",
+      "Labour organizing and collective solidarity action driven by shared emotional bonds within trade union movements",
       "The management of feelings to fulfil the emotional requirements of a job, predominantly expected of workers in service industries and disproportionately from women"
     ],
     "ans": 3
@@ -1659,10 +1659,10 @@ const QUESTIONS = [
     "q": "Fiscal deficit is defined as:",
     "date_added": "2026-03-28",
     "opts": [
-      "The gap between imports and exports in a country's balance of trade",
-      "The difference between a government's total revenue and total expenditure including borrowings",
-      "The excess of government expenditure over revenue receipts, excluding borrowings",
-      "The total outstanding debt of the government"
+      "The gap between total merchandise and services exports and total merchandise and services imports of a country over a given fiscal year, i.e., the current account balance",
+      "The shortfall in total direct and indirect tax revenue receipts relative to planned government expenditure on social sector and welfare programmes",
+      "The excess of total government expenditure over total revenue receipts (excluding borrowings)",
+      "The difference between a country's total foreign exchange reserves and the outstanding stock of its external commercial borrowings and sovereign debt"
     ],
     "ans": 2
   },
@@ -1674,9 +1674,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Provision of small loans and other financial services to low-income individuals and groups typically excluded from conventional banking",
-      "International financial assistance provided to developing nations for poverty alleviation",
-      "Government-run credit programs for small and medium enterprises",
-      "Financial services provided to large corporations in developing countries"
+      "International financial assistance transferred from multilateral institutions to developing nations for poverty alleviation",
+      "Government-run subsidized credit programmes for registered small and medium enterprises in urban areas",
+      "Specialized financial services provided exclusively to large corporations investing in developing country markets"
     ],
     "ans": 0
   },
@@ -1688,9 +1688,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Costs or benefits of a transaction that fall on third parties not involved in the transaction",
-      "Trade imbalances between export and import dependent economies",
-      "External auditing of government financial accounts",
-      "Foreign investment in a domestic economy"
+      "Structural trade imbalances between export-dependent and import-dependent national economies",
+      "Independent external auditing of government financial accounts and public sector fiscal management",
+      "The economic effects of foreign direct investment on domestic capital formation and employment"
     ],
     "ans": 0
   },
@@ -1702,9 +1702,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Raising capital to finance projects with environmental benefits, such as renewable energy or sustainable infrastructure",
-      "Funding agricultural development in rural areas",
-      "Compensating landowners for maintaining forests and green cover",
-      "Providing low-interest loans to developing nations for poverty reduction"
+      "Funding agricultural input subsidies and rural development programmes in low-income farming communities",
+      "Compensating landowners financially for maintaining forests, wetlands, and biodiversity as ecosystem services",
+      "Providing concessional loans to developing nations for social sector investment and poverty reduction programmes"
     ],
     "ans": 0
   },
@@ -1715,9 +1715,9 @@ const QUESTIONS = [
     "q": "The 'Washington Consensus' refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "International agreements brokered in Washington D.C. on trade liberalization",
-      "The consensus view among Washington-based think tanks on global economic policy",
-      "The geopolitical consensus within Washington D.C. on US foreign policy",
+      "Bilateral and multilateral trade agreements brokered in Washington D.C. on reciprocal tariff liberalization",
+      "The consensus among Washington-based think tanks on prioritizing free markets and deregulation globally",
+      "The geopolitical framework for US foreign policy and diplomatic engagement with developing nations",
       "A set of market-oriented policy prescriptions (privatization, liberalization, fiscal discipline) promoted by the IMF, World Bank, and US Treasury for developing economies"
     ],
     "ans": 3
@@ -1729,10 +1729,10 @@ const QUESTIONS = [
     "q": "'Circular economy' is best described as:",
     "date_added": "2026-03-28",
     "opts": [
-      "An economy that grows in cycles of boom and bust",
-      "GDP that returns to its pre-recession level after recovery",
+      "An economy that oscillates naturally through recurring cycles of expansion, boom, contraction, and recovery",
+      "National income accounting that adjusts GDP upward after each recession to reflect the restoration of prior output",
       "A regenerative model aimed at eliminating waste and keeping materials in use at their highest value, contrasted with the linear 'take-make-dispose' model",
-      "An economic system based on equal distribution of wealth"
+      "An economic system premised on equal redistribution of wealth through collective ownership of productive capital"
     ],
     "ans": 2
   },
@@ -1744,9 +1744,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Wealthy economies should deliberately reduce production and consumption to address ecological limits and improve human well-being beyond GDP",
-      "Environmental protection necessarily slows economic growth in all economies",
-      "Developing nations should slow their economic growth to reduce inequality",
-      "Economic growth is impossible beyond a certain level of development"
+      "Environmental regulations in all economies inherently constrain growth and must be balanced against development needs",
+      "Developing nations should voluntarily restrain economic growth rates to reduce global inequality and resource competition",
+      "GDP growth in all economies inevitably reaches a structural ceiling beyond a certain threshold of industrialization"
     ],
     "ans": 0
   },
@@ -1757,10 +1757,10 @@ const QUESTIONS = [
     "q": "Urban flood risk is worsened by rapid urbanization primarily because:",
     "date_added": "2026-03-28",
     "opts": [
-      "Urban areas attract more cyclones than rural areas",
-      "Urban populations are larger and therefore more people are exposed",
+      "Urban areas generate stronger convective systems that attract more frequent cyclone landfalls than rural coasts",
+      "Urban populations are larger and more densely concentrated, exposing greater numbers to any given flood event",
       "Impervious surfaces increase surface runoff, encroachment of floodplains reduces storage capacity, and informal settlements lack drainage infrastructure",
-      "Urban heat islands increase rainfall intensity everywhere"
+      "Urban heat islands generate localized convective rainfall that is more intense and less predictable than regional patterns"
     ],
     "ans": 2
   },
@@ -1771,10 +1771,10 @@ const QUESTIONS = [
     "q": "Resilience in the context of climate and disaster risk is best described as:",
     "date_added": "2026-03-28",
     "opts": [
-      "Rapid recovery to exactly the same state that existed before a disaster",
-      "The financial capacity of governments to fund post-disaster reconstruction",
+      "Rapid and complete restoration to the exact pre-disaster state as quickly as possible to minimize economic disruption",
+      "The financial capacity of governments and households to fund reconstruction without international humanitarian assistance",
       "The capacity of a system, community, or society to absorb disturbance, adapt, and reorganize while undergoing change so as to retain essentially the same function and identity",
-      "The ability to prevent all natural hazards from becoming disasters"
+      "The technical ability to prevent all natural hazard events from escalating into disasters through early warning systems"
     ],
     "ans": 2
   },
@@ -1785,9 +1785,9 @@ const QUESTIONS = [
     "q": "The social determinants of health include:",
     "date_added": "2026-03-28",
     "opts": [
-      "Genetics, age, and individual lifestyle choices only",
-      "Vaccination coverage and disease surveillance systems",
-      "Access to hospitals and trained medical professionals only",
+      "Inherited genetic traits, biological age, and individual lifestyle behaviours such as diet, exercise, and smoking",
+      "National vaccination coverage rates, disease surveillance systems, and outbreak response capacities",
+      "Physical proximity to hospitals, availability of essential medicines, and density of trained medical professionals",
       "The conditions in which people are born, grow, work, live, and age, including income, education, housing, and social support networks"
     ],
     "ans": 3
@@ -1799,10 +1799,10 @@ const QUESTIONS = [
     "q": "India's Ayushman Bharat – PM-JAY provides:",
     "date_added": "2026-03-28",
     "opts": [
-      "Free medicines to all BPL households through Jan Aushadhi stores",
+      "Free essential medicines to all BPL households through a network of Jan Aushadhi pharmacies at the block level",
       "Health cover of ₹5 lakh per family per year for secondary and tertiary care hospitalization to over 10 crore poor and vulnerable families",
-      "Universal health insurance through a mandatory payroll tax",
-      "Free outpatient care to all Indian citizens"
+      "Universal outpatient health insurance for all Indian citizens funded through a mandatory employer payroll deduction",
+      "Free maternal and child healthcare at all government health facilities through a cashless service guarantee"
     ],
     "ans": 1
   },
@@ -1813,10 +1813,10 @@ const QUESTIONS = [
     "q": "The Global Biodiversity Framework agreed at COP15 (Kunming-Montreal, 2022) includes which major target?",
     "date_added": "2026-03-28",
     "opts": [
-      "Restoring 50% of degraded ecosystems globally by 2040",
+      "Restoring at least 50% of all degraded global ecosystems to near-natural conditions by 2040",
       "Protecting at least 30% of the world's lands, oceans, coastal areas, and inland waters by 2030 (the '30x30' target)",
-      "Ending all wildlife trade by 2025",
-      "Eliminating all invasive species by 2030"
+      "Eliminating all internationally listed invasive alien species from protected areas in signatory nations by 2025",
+      "Halving the global extinction rate of threatened species by reducing land conversion and overexploitation by 2030"
     ],
     "ans": 1
   },
@@ -1828,9 +1828,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "The New Delhi Leaders' Declaration included a call to triple renewable energy capacity globally by 2030",
-      "India announced its own net-zero target of 2060",
-      "A binding treaty on climate finance was finalized for the first time",
-      "India secured commitments to phase out coal by 2025 from all G20 members"
+      "India publicly committed to achieving net-zero emissions by 2050, aligning with the most ambitious G20 pledges",
+      "A legally binding multilateral treaty on climate finance was finalized under India's G20 presidency for the first time",
+      "India secured written G20 commitments to phase out unabated coal-fired power generation by 2025"
     ],
     "ans": 0
   },
@@ -1841,10 +1841,10 @@ const QUESTIONS = [
     "q": "The Global Plastics Treaty, under negotiation since 2022, aims to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Create an international fund to clean up ocean plastic pollution",
+      "Create an international fund to finance the clean-up of ocean plastic pollution in international waters",
       "Address the full lifecycle of plastics - from production to disposal - through a legally binding international agreement",
-      "Ban all single-use plastics globally by 2030",
-      "Regulate only plastic waste trade between developed and developing nations"
+      "Impose an immediate global ban on all single-use plastic production and distribution by 2030",
+      "Regulate only the cross-border trade in plastic waste between developed and developing nations"
     ],
     "ans": 1
   },
@@ -1855,10 +1855,10 @@ const QUESTIONS = [
     "q": "The High Seas Treaty (BBNJ Agreement), finalized in 2023, is designed to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Regulate deep-sea mining on the ocean floor",
+      "Regulate and license commercial deep-sea mining operations on the international ocean floor",
       "Protect biodiversity in international waters beyond national jurisdiction, covering about 64% of the ocean",
-      "Establish a global navy for combating maritime piracy",
-      "Resolve maritime boundary disputes between nations"
+      "Establish a multinational naval coordination framework for combating maritime piracy in international waters",
+      "Provide a binding dispute resolution mechanism for overlapping maritime boundary claims between coastal states"
     ],
     "ans": 1
   },
@@ -1869,9 +1869,9 @@ const QUESTIONS = [
     "q": "The COP27 (Sharm el-Sheikh, 2022) decision on loss and damage resulted in:",
     "date_added": "2026-03-28",
     "opts": [
-      "Creation of a loss and damage insurance mechanism managed by private companies",
-      "Legally binding liability of developed nations for all climate-related damage in developing countries",
-      "Mandatory climate risk disclosure by all member states",
+      "Creation of a loss and damage insurance mechanism administered and managed by private reinsurance companies",
+      "Legally binding financial liability of developed nations for all quantified climate-related damage in developing countries",
+      "Mandatory annual climate risk disclosure by all member states submitted to the UNFCCC secretariat",
       "Agreement to establish a dedicated fund for addressing loss and damage from climate change in vulnerable developing countries"
     ],
     "ans": 3
@@ -1884,9 +1884,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "A global movement to nudge individuals toward environmentally conscious lifestyles as a demand-side approach to addressing climate change",
-      "A programme to replace all fossil fuel vehicles with electric ones in India",
-      "A biodiversity conservation initiative focused on tiger habitats",
-      "India's national climate finance mobilization initiative for green infrastructure"
+      "A government programme to replace all fossil fuel vehicles with electric alternatives across Indian cities by 2030",
+      "A biodiversity conservation initiative focused on expanding protected area coverage for tiger and elephant habitats",
+      "India's national climate finance mobilization framework for channelling private investment into green infrastructure"
     ],
     "ans": 0
   },
@@ -1911,9 +1911,9 @@ const QUESTIONS = [
     "q": "The 'Triple Planetary Crisis' identified by the United Nations refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Deforestation, ocean acidification, and ozone depletion",
-      "Poverty, hunger, and disease",
-      "Energy poverty, water scarcity, and food insecurity",
+      "Accelerating deforestation rates, ocean acidification, and depletion of the stratospheric ozone layer",
+      "The simultaneous global crises of poverty, hunger, and preventable disease in low-income nations",
+      "Energy poverty, freshwater scarcity, and food insecurity as the three linked resource crises",
       "Climate change, nature and biodiversity loss, and pollution and waste"
     ],
     "ans": 3
@@ -1925,10 +1925,10 @@ const QUESTIONS = [
     "q": "India's PM GatiShakti initiative is a national plan for:",
     "date_added": "2026-03-28",
     "opts": [
-      "Improving crop productivity through technology",
+      "Improving crop productivity in smallholder agriculture through digital advisory and precision technology",
       "Integrated multi-modal infrastructure connectivity using GIS mapping across 16 ministries",
-      "Accelerating skill development programs for rural youth",
-      "Digitizing land records across all states"
+      "Accelerating skill development and vocational training programmes for rural and peri-urban youth",
+      "Digitizing land records and providing tamper-proof digital titles to farmers across all Indian states"
     ],
     "ans": 1
   },
@@ -1939,9 +1939,9 @@ const QUESTIONS = [
     "q": "The 'polycrisis' concept refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "The crisis of multilateralism and decline of international institutions",
-      "Economic crises affecting several sectors of an economy simultaneously",
-      "Political crises occurring simultaneously in multiple countries",
+      "The structural crisis of multilateral governance and the decline of international institutions and norms",
+      "Simultaneous economic contractions affecting multiple sectors of a single national economy in a recession",
+      "Coordinated political crises occurring simultaneously in multiple countries, destabilizing democratic governance",
       "Multiple global crises - climate change, geopolitical conflict, food insecurity, and economic instability - interacting and compounding each other's effects"
     ],
     "ans": 3
@@ -2128,10 +2128,10 @@ const QUESTIONS = [
     "q": "A key limitation of the Hyogo Framework for Action (HFA) 2005–2015 that the Sendai Framework sought to address was:",
     "date_added": "2026-03-28",
     "opts": [
-      "Its failure to include developing countries in DRR planning",
-      "Its exclusive focus on rapid-onset natural hazards",
+      "Its failure to meaningfully include developing countries in DRR planning and target-setting processes",
+      "Its exclusive focus on rapid-onset geophysical hazards, neglecting slow-onset and biological disaster risks",
       "The absence of measurable targets and a clear accountability mechanism for tracking progress",
-      "Its over-reliance on military structures for disaster response"
+      "Its over-reliance on military command structures for disaster preparedness and emergency response coordination"
     ],
     "ans": 2
   },
@@ -2171,9 +2171,9 @@ const QUESTIONS = [
     "date_added": "2026-03-28",
     "opts": [
       "Using post-disaster reconstruction as an opportunity to reduce future risk and improve resilience",
-      "Prioritising donor preferences over community needs in reconstruction",
-      "Permanently relocating all affected populations away from hazard zones",
-      "Restoring infrastructure to its exact pre-disaster condition as quickly as possible"
+      "Prioritizing international donor preferences and reporting requirements over local community-defined recovery needs",
+      "Permanently relocating all disaster-affected populations away from hazard-prone zones to safer planned settlements",
+      "Restoring damaged infrastructure to its exact pre-disaster condition as rapidly as possible to minimize disruption"
     ],
     "ans": 0
   },
@@ -2184,9 +2184,9 @@ const QUESTIONS = [
     "q": "The Sendai Framework for Disaster Risk Reduction 2015–2030 identifies four priority areas for action. Which option correctly lists all four?",
     "date_added": "2026-03-28",
     "opts": [
-      "Climate adaptation, biodiversity conservation, financial risk transfer, and governance reform",
-      "Prevention, preparedness, response, and recovery",
-      "Hazard mapping, early warning systems, community training, and insurance",
+      "Climate adaptation, biodiversity conservation, financial risk transfer mechanisms, and disaster risk governance",
+      "Prevention and mitigation, emergency preparedness, disaster response, and post-disaster recovery and reconstruction",
+      "Multi-hazard mapping, community early warning systems, national risk financing, and international cooperation",
       "Understanding disaster risk; strengthening disaster risk governance; investing in DRR for resilience; enhancing disaster preparedness for effective response and to Build Back Better"
     ],
     "ans": 3
@@ -2212,9 +2212,9 @@ const QUESTIONS = [
     "q": "In disaster risk reduction, 'vulnerability' is best defined as:",
     "date_added": "2026-03-28",
     "opts": [
-      "The probability of a hazardous event occurring in a given area within a specified period",
-      "The number of people directly exposed to a natural hazard in a region",
-      "The financial loss caused by a disaster event as a proportion of GDP",
+      "The statistical probability of a hazardous event of given magnitude occurring within a specified area and time period",
+      "The number of people and assets physically located within the potential impact zone of a natural hazard event",
+      "The monetary value of economic losses caused by a disaster event expressed as a proportion of national GDP",
       "Conditions determined by physical, social, economic, and environmental factors that increase a community's susceptibility to disaster impacts"
     ],
     "ans": 3
@@ -2226,10 +2226,10 @@ const QUESTIONS = [
     "q": "Which of the following best describes India's evolving policy approach to heat wave risk management?",
     "date_added": "2026-03-28",
     "opts": [
-      "Heat waves remain excluded from India's State Disaster Response Fund (SDRF) norms",
-      "Heat wave management in India is handled exclusively by the India Meteorological Department without state-level involvement",
+      "Heat waves remain excluded from India's State Disaster Response Fund norms despite increasing frequency",
+      "Heat wave management in India is handled exclusively by the India Meteorological Department without state involvement",
       "India has included heat waves as a state-specific disaster eligible for SDRF assistance and several states have developed Heat Action Plans",
-      "India has banned outdoor work in summer months but has no formal heat action planning framework"
+      "India has banned outdoor construction work in peak summer months but has no formal heat action planning framework"
     ],
     "ans": 2
   },
@@ -2240,10 +2240,10 @@ const QUESTIONS = [
     "q": "The Sendai Framework's priority on 'Strengthening Disaster Risk Governance' primarily involves:",
     "date_added": "2026-03-28",
     "opts": [
-      "Establishing military command structures to coordinate disaster response",
-      "Creating a single global disaster management agency under the United Nations",
+      "Establishing standardized military command structures in each country to coordinate multi-agency disaster response",
+      "Creating a centralized global disaster management authority under direct United Nations operational control",
       "Mainstreaming DRR into sectoral and cross-sectoral policies, plans and programmes with clear institutional roles and responsibilities",
-      "Transferring all DRR responsibilities from national governments to local bodies exclusively"
+      "Transferring all disaster risk reduction responsibilities exclusively from national governments to local elected bodies"
     ],
     "ans": 2
   },
@@ -2436,10 +2436,10 @@ const QUESTIONS = [
     "q": "Forecast-based financing (FbF) in humanitarian and disaster risk management refers to:",
     "date_added": "2026-03-28",
     "opts": [
-      "Compensating disaster-affected communities based on actuarial post-event loss estimates",
+      "Compensating disaster-affected communities based on actuarial post-event damage assessments and loss modelling",
       "The release of pre-agreed funds automatically when forecasts reach a defined risk threshold, enabling anticipatory action before a disaster strikes",
-      "A financial instrument that insures governments against revenue shortfalls during disaster years",
-      "Post-disaster budget allocations informed by scientific damage projections"
+      "A financial instrument that insures government treasuries against revenue shortfalls experienced during major disaster years",
+      "Post-disaster budget reallocations to affected sectors informed by satellite-based damage mapping and scientific projections"
     ],
     "ans": 1
   },
